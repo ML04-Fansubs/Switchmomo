@@ -1,0 +1,25 @@
+Script comparison notes
+========================
+
+Compared:
+- switch_root/script
+- vita_root/script
+
+Method:
+- Compared all 161 files with matching names.
+- Ignored complete text={...} payloads, including ruby data and text line metadata.
+- Compared the remaining event/script structure and non-text fields.
+
+Result:
+- Only one shared file contains a non-text scripting difference:
+  hat540010.ast
+
+Difference:
+- Around source line 1252, the Switch version uses line=932 where the Vita version uses line=933.
+- Switch then contains an extra text block using line=933, with no voice-playback (vo) command.
+- The following line=936 target is present in both versions; it was incorrectly described as missing from Switch in an earlier analysis.
+
+Impact:
+- The Switch script has an extra text block in this local section. The line=936 target itself is present in both versions.
+- No other executable/event differences were found after excluding text and ruby payloads.
+- main.ast exists only in switch_root/script; it has no matching Vita file and was not included in the shared-file comparison.

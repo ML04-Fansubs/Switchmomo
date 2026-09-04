@@ -1,0 +1,1676 @@
+ast = {
+	{
+		{"view", file="view_aka"},
+		{"wmc", no=2},
+		{"bgm", path=":bg/", file="bgm_4032", vol=88},
+		{"msgoff"},
+		{"bg", film=1, del=1, lv=0, id=31, path=":bg/", file="black", time=0, sync=1},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=0},
+		{"cg", id=11, path=":bg/", file="black", ay=3600, lv=10, time=0, sync=1},
+		{"cg", id=2, path=":cg/01/", file="dc00018001", y=360, ay=720, lv=1, time=0, sync=1},
+		{"cgdel", id=31, film=1, sync=1, time=0, lv=0},
+		{"cg", id=2, y=-360, speed=40000, time=0, path=":cg/01/", file="dc00018001", y2=360, a2=255},
+		{"cg", id=11, alpha=0, speed=500, time=0, path=":bg/", file="black", a2=255},
+		{"wa", time=1000},
+		{"se", id=3, file="90046_a", vol=88, loop=1},
+		{"vo", ch="sen01", path=":vo/001/", file="sen010107640"},
+		{"text"},
+		line=29,
+	},
+	{
+		{"text"},
+		line=31,
+	},
+	{
+		{"text"},
+		line=32,
+	},
+	{
+		{"text"},
+		line=33,
+	},
+	{
+		{"text"},
+		line=34,
+	},
+	{
+		{"text"},
+		line=35,
+	},
+	{
+		{"vo", ch="sen01", path=":vo/001/", file="sen010107650"},
+		{"text"},
+		line=38,
+	},
+	{
+		{"bgm", stop=1, [1]="", time=1500},
+		{"sestop", id=3, time=1500},
+		{"text"},
+		line=43,
+	},
+	{
+		{"text"},
+		line=44,
+	},
+	{
+		{"text"},
+		line=45,
+	},
+	{
+		{"text"},
+		line=46,
+	},
+	{
+		{"text"},
+		line=47,
+	},
+	{
+		{"text"},
+		line=48,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"bgm", path=":bg/", file="bgm_4021", vol=88},
+		{"ev", del=1, set="eve_7002", path=":ev/", file="eve_700201", time=900, rule="rand"},
+		{"text"},
+		line=60,
+	},
+	{
+		{"text"},
+		line=61,
+	},
+	{
+		{"text"},
+		line=62,
+	},
+	{
+		{"text"},
+		line=63,
+	},
+	{
+		{"text"},
+		line=64,
+	},
+	{
+		{"text"},
+		line=65,
+	},
+	{
+		{"text"},
+		line=66,
+	},
+	{
+		{"text"},
+		line=67,
+	},
+	{
+		{"text"},
+		line=68,
+	},
+	{
+		{"mwf", path=":fa/019/", file="fac_1901101"},
+		{"vo", ch="sen51", path=":vo/051/", file="sen510100080"},
+		{"text"},
+		line=73,
+	},
+	{
+		{"mwf", path=":fa/019/", file="fac_1901301"},
+		{"vo", ch="sen51", path=":vo/051/", file="sen510100090"},
+		{"text"},
+		line=78,
+	},
+	{
+		{"mwf", path=":fa/019/", file="fac_1901111"},
+		{"vo", ch="sen51", path=":vo/051/", file="sen510100100"},
+		{"text"},
+		line=83,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=88,
+	},
+	{
+		{"text"},
+		line=89,
+	},
+	{
+		{"text"},
+		line=90,
+	},
+	{
+		{"text"},
+		line=91,
+	},
+	{
+		{"vo", ch="sen01", path=":vo/001/", file="sen010107660"},
+		{"text"},
+		line=94,
+	},
+	{
+		{"vo", ch="sen01", path=":vo/001/", file="sen010107670"},
+		{"text"},
+		line=97,
+	},
+	{
+		{"vo", ch="sen01", path=":vo/001/", file="sen010107680"},
+		{"text"},
+		line=100,
+	},
+	{
+		{"text"},
+		line=102,
+	},
+	{
+		{"text"},
+		line=103,
+	},
+	{
+		{"text"},
+		line=104,
+	},
+	{
+		{"text"},
+		line=105,
+	},
+	{
+		{"text"},
+		line=106,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"ev", del=1, set="eve_7003", path=":ev/", file="eve_700301", time=900, rule="rand"},
+		{"text"},
+		line=115,
+	},
+	{
+		{"text"},
+		line=116,
+	},
+	{
+		{"text"},
+		line=117,
+	},
+	{
+		{"text"},
+		line=118,
+	},
+	{
+		{"vo", ch="sen01", path=":vo/001/", file="sen010107690"},
+		{"text"},
+		line=121,
+	},
+	{
+		{"mwf", path=":fa/019/", file="fac_1901111"},
+		{"vo", ch="sen51", path=":vo/051/", file="sen510100110"},
+		{"text"},
+		line=126,
+	},
+	{
+		{"mwf", path=":fa/019/", file="fac_1901101"},
+		{"vo", ch="sen51", path=":vo/051/", file="sen510100120"},
+		{"text"},
+		line=131,
+	},
+	{
+		{"mwf", path=":fa/019/", file="fac_1901101"},
+		{"vo", ch="sen51", path=":vo/051/", file="sen510100130"},
+		{"text"},
+		line=136,
+	},
+	{
+		{"mwf", path=":fa/019/", file="fac_1901111"},
+		{"vo", ch="sen51", path=":vo/051/", file="sen510100140"},
+		{"text"},
+		line=141,
+	},
+	{
+		{"mwf", path=":fa/019/", file="fac_1901201"},
+		{"vo", ch="sen51", path=":vo/051/", file="sen510100150"},
+		{"text"},
+		line=146,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=151,
+	},
+	{
+		{"text"},
+		line=152,
+	},
+	{
+		{"text"},
+		line=153,
+	},
+	{
+		{"vo", ch="sen01", path=":vo/001/", file="sen010107700"},
+		{"text"},
+		line=156,
+	},
+	{
+		{"vo", ch="sen01", path=":vo/001/", file="sen010107710"},
+		{"text"},
+		line=159,
+	},
+	{
+		{"ev", del=1, set="eve_7002", path=":ev/", file="eve_700201", time=900, rule="rand"},
+		{"text"},
+		line=163,
+	},
+	{
+		{"text"},
+		line=164,
+	},
+	{
+		{"text"},
+		line=165,
+	},
+	{
+		{"text"},
+		line=166,
+	},
+	{
+		{"text"},
+		line=167,
+	},
+	{
+		{"text"},
+		line=168,
+	},
+	{
+		{"text"},
+		line=170,
+	},
+	{
+		{"text"},
+		line=171,
+	},
+	{
+		{"text"},
+		line=172,
+	},
+	{
+		{"text"},
+		line=173,
+	},
+	{
+		{"text"},
+		line=174,
+	},
+	{
+		{"text"},
+		line=175,
+	},
+	{
+		{"text"},
+		line=176,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"ev", del=1, set="eve_7003", path=":ev/", file="eve_700301", time=900, rule="rand"},
+		{"text"},
+		line=185,
+	},
+	{
+		{"text"},
+		line=186,
+	},
+	{
+		{"text"},
+		line=187,
+	},
+	{
+		{"mwf", path=":fa/019/", file="fac_1901101"},
+		{"vo", ch="sen51", path=":vo/051/", file="sen510100160"},
+		{"text"},
+		line=192,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=197,
+	},
+	{
+		{"text"},
+		line=198,
+	},
+	{
+		{"text"},
+		line=199,
+	},
+	{
+		{"text"},
+		line=200,
+	},
+	{
+		{"text"},
+		line=201,
+	},
+	{
+		{"text"},
+		line=202,
+	},
+	{
+		{"text"},
+		line=203,
+	},
+	{
+		{"text"},
+		line=204,
+	},
+	{
+		{"text"},
+		line=205,
+	},
+	{
+		{"text"},
+		line=206,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"ev", del=1, set="eve_7004", path=":ev/", file="eve_700401", time=900, rule="rand"},
+		{"vo", ch="sen03", path=":vo/003/", file="sen030103330"},
+		{"text"},
+		line=216,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=221,
+	},
+	{
+		{"vo", ch="sen03", path=":vo/003/", file="sen030103340"},
+		{"text"},
+		line=224,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=229,
+	},
+	{
+		{"vo", ch="sen01", path=":vo/001/", file="sen010107720"},
+		{"text"},
+		line=232,
+	},
+	{
+		{"text"},
+		line=235,
+	},
+	{
+		{"text"},
+		line=236,
+	},
+	{
+		{"vo", ch="sen01", path=":vo/001/", file="sen010107730"},
+		{"text"},
+		line=239,
+	},
+	{
+		{"text"},
+		line=241,
+	},
+	{
+		{"text"},
+		line=242,
+	},
+	{
+		{"vo", ch="sen03", path=":vo/003/", file="sen030103350"},
+		{"text"},
+		line=245,
+	},
+	{
+		{"vo", ch="sen03", path=":vo/003/", file="sen030103360"},
+		{"text"},
+		line=248,
+	},
+	{
+		{"vo", ch="sen01", path=":vo/001/", file="sen010107745"},
+		{"text"},
+		line=251,
+	},
+	{
+		{"vo", ch="sen03", path=":vo/003/", file="sen030103370"},
+		{"text"},
+		line=254,
+	},
+	{
+		{"vo", ch="sen03", path=":vo/003/", file="sen030103380"},
+		{"text"},
+		line=257,
+	},
+	{
+		{"text"},
+		line=259,
+	},
+	{
+		{"text"},
+		line=260,
+	},
+	{
+		{"text"},
+		line=261,
+	},
+	{
+		{"text"},
+		line=262,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"ev", del=1, set="eve_7002", path=":ev/", file="eve_700201", time=900, rule="rand"},
+		{"text"},
+		line=272,
+	},
+	{
+		{"text"},
+		line=273,
+	},
+	{
+		{"vo", ch="sen03", path=":vo/003/", file="sen030103390"},
+		{"text"},
+		line=276,
+	},
+	{
+		{"vo", ch="sen01", path=":vo/001/", file="sen010107750"},
+		{"text"},
+		line=279,
+	},
+	{
+		{"vo", ch="sen03", path=":vo/003/", file="sen030103400"},
+		{"text"},
+		line=282,
+	},
+	{
+		{"text"},
+		line=284,
+	},
+	{
+		{"text"},
+		line=285,
+	},
+	{
+		{"text"},
+		line=286,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"ev", del=1, set="eve_7004", path=":ev/", file="eve_700401", time=900, rule="rand"},
+		{"vo", ch="sen03", path=":vo/003/", file="sen030103410"},
+		{"text"},
+		line=296,
+	},
+	{
+		{"vo", ch="sen03", path=":vo/003/", file="sen030103420"},
+		{"text"},
+		line=299,
+	},
+	{
+		{"vo", ch="sen03", path=":vo/003/", file="sen030103430"},
+		{"text"},
+		line=302,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=307,
+	},
+	{
+		{"vo", ch="sen03", path=":vo/003/", file="sen030103440"},
+		{"text"},
+		line=310,
+	},
+	{
+		{"vo", ch="sen03", path=":vo/003/", file="sen030103450"},
+		{"text"},
+		line=313,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=318,
+	},
+	{
+		{"text"},
+		line=319,
+	},
+	{
+		{"vo", ch="sen01", path=":vo/001/", file="sen010107760"},
+		{"text"},
+		line=322,
+	},
+	{
+		{"vo", ch="sen03", path=":vo/003/", file="sen030103460"},
+		{"text"},
+		line=325,
+	},
+	{
+		{"text"},
+		line=327,
+	},
+	{
+		{"text"},
+		line=328,
+	},
+	{
+		{"text"},
+		line=329,
+	},
+	{
+		{"text"},
+		line=330,
+	},
+	{
+		{"text"},
+		line=331,
+	},
+	{
+		{"text"},
+		line=332,
+	},
+	{
+		{"text"},
+		line=333,
+	},
+	{
+		{"text"},
+		line=334,
+	},
+	{
+		{"text"},
+		line=335,
+	},
+	{
+		{"vo", ch="sen01", path=":vo/001/", file="sen010107770"},
+		{"text"},
+		line=338,
+	},
+	{
+		{"vo", ch="sen03", path=":vo/003/", file="sen030103470"},
+		{"text"},
+		line=341,
+	},
+	{
+		{"text"},
+		line=343,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"bgm", stop=1, [1]="", time=1500},
+		{"sestop", id=1, time=1500},
+		{"ev", del=1, set="eve_7005", path=":ev/", file="eve_700501", time=900, rule="rand"},
+		{"bgm", path=":bg/", file="bgm_4022", vol=88},
+		{"text"},
+		line=357,
+	},
+	{
+		{"text"},
+		line=358,
+	},
+	{
+		{"text"},
+		line=359,
+	},
+	{
+		{"text"},
+		line=360,
+	},
+	{
+		{"text"},
+		line=361,
+	},
+	{
+		{"text"},
+		line=362,
+	},
+	{
+		{"text"},
+		line=363,
+	},
+	{
+		{"text"},
+		line=364,
+	},
+	{
+		{"text"},
+		line=365,
+	},
+	{
+		{"mwf", path=":fa/019/", file="fac_1901101"},
+		{"vo", ch="sen51", path=":vo/051/", file="sen510100170"},
+		{"text"},
+		line=370,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=375,
+	},
+	{
+		{"vo", ch="sen01", path=":vo/001/", file="sen010107780"},
+		{"text"},
+		line=378,
+	},
+	{
+		{"mwf", path=":fa/019/", file="fac_1901201"},
+		{"vo", ch="sen51", path=":vo/051/", file="sen510100180"},
+		{"text"},
+		line=383,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=388,
+	},
+	{
+		{"mwf", path=":fa/019/", file="fac_1901111"},
+		{"vo", ch="sen51", path=":vo/051/", file="sen510100190"},
+		{"text"},
+		line=393,
+	},
+	{
+		{"mwf", path=":fa/019/", file="fac_1901101"},
+		{"vo", ch="sen51", path=":vo/051/", file="sen510100200"},
+		{"text"},
+		line=399,
+	},
+	{
+		{"mwf", path=":fa/019/", file="fac_1901101"},
+		{"vo", ch="sen51", path=":vo/051/", file="sen510100210"},
+		{"text"},
+		line=404,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=409,
+	},
+	{
+		{"mwf", path=":fa/019/", file="fac_1901111"},
+		{"vo", ch="sen51", path=":vo/051/", file="sen510100220"},
+		{"text"},
+		line=414,
+	},
+	{
+		{"mwf", path=":fa/019/", file="fac_1901201"},
+		{"vo", ch="sen51", path=":vo/051/", file="sen510100230"},
+		{"text"},
+		line=419,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen01", path=":vo/001/", file="sen010107790"},
+		{"text"},
+		line=425,
+	},
+	{
+		{"vo", ch="sen01", path=":vo/001/", file="sen010107800"},
+		{"text"},
+		line=428,
+	},
+	{
+		{"mwf", path=":fa/019/", file="fac_1901401"},
+		{"vo", ch="sen51", path=":vo/051/", file="sen510100240"},
+		{"text"},
+		line=433,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=438,
+	},
+	{
+		{"vo", ch="sen01", path=":vo/001/", file="sen010107810"},
+		{"text"},
+		line=441,
+	},
+	{
+		{"mwf", path=":fa/019/", file="fac_1901101"},
+		{"vo", ch="sen51", path=":vo/051/", file="sen510100250"},
+		{"text"},
+		line=446,
+	},
+	{
+		{"mwf", path=":fa/019/", file="fac_1901201"},
+		{"vo", ch="sen51", path=":vo/051/", file="sen510100260"},
+		{"text"},
+		line=451,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=456,
+	},
+	{
+		{"text"},
+		line=457,
+	},
+	{
+		{"text"},
+		line=458,
+	},
+	{
+		{"text"},
+		line=459,
+	},
+	{
+		{"text"},
+		line=460,
+	},
+	{
+		{"mwf", path=":fa/019/", file="fac_1901101"},
+		{"vo", ch="sen51", path=":vo/051/", file="sen510100270"},
+		{"text"},
+		line=465,
+	},
+	{
+		{"mwf", path=":fa/019/", file="fac_1901401"},
+		{"vo", ch="sen51", path=":vo/051/", file="sen510100280"},
+		{"text"},
+		line=470,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen01", path=":vo/001/", file="sen010107820"},
+		{"text"},
+		line=476,
+	},
+	{
+		{"bgm", stop=1, [1]="", time=1500},
+		{"sestop", id=1, time=1500},
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"viewend", mode="off"},
+		{"excall", call=0, file="hat010040"},
+		line=476,
+	},
+	text={
+		[1]={
+			name={"name", name="Akari"},
+			{
+"“Where... am I?”",
+			},
+		},
+		[2]={
+			{
+"A comfortable floating sensation envelops my body.",
+			},
+		},
+		[3]={
+			{
+"Ahh, that's right. I sank into the river.",
+			},
+		},
+		[4]={
+			{
+"...",
+			},
+		},
+		[5]={
+			{
+"Huh? I can still breathe.",
+			},
+		},
+		[6]={
+			{
+"How?",
+			},
+		},
+		[7]={
+			name={"name", name="Akari"},
+			{
+"“Right...”",
+			},
+		},
+		[8]={
+			{
+"I must have died.",
+			},
+		},
+		[9]={
+			{
+"Unable to avenge Mother, I sank to the depths of that river.",
+			},
+		},
+		[10]={
+			{
+"It's all finally over now.",
+			},
+		},
+		[11]={
+			{
+"When I realize that, all the pent-up exhaustion leaves my body.",
+			},
+		},
+		[12]={
+			{
+"Ahh, what a wonderful feeling...",
+			},
+		},
+		[13]={
+			{
+"A fond and familiar sight plays across the back of my eyelids.",
+			},
+		},
+		[14]={
+			{
+"A remote villa deep in the mountains with a large persimmon tree.",
+			},
+		},
+		[15]={
+			{
+"Whether rain or snow or billowing winds─",
+			},
+		},
+		[16]={
+			{
+"There, I find myself swinging my wooden blade day after day.",
+			},
+		},
+		[17]={
+			{
+"Continuing my unrelenting training, that I might someday strike down Mother's killer.",
+			},
+		},
+		[18]={
+			{
+"I'd never even held a blade before this.",
+			},
+		},
+		[19]={
+			{
+"My hands are soon covered with blisters, and the searing pain causes me to lose strength in my grip.",
+			},
+		},
+		[20]={
+			{
+"Still, I don't rest my hands for even a second.",
+			},
+		},
+		[21]={
+			{
+"I continue tirelessly swinging my blade, waiting for the time to come.",
+			},
+		},
+		[22]={
+			{
+"Whenever I drop my blade, I am harshly rebuked.",
+			},
+		},
+		[23]={
+			name={"name", name="Satonaka"},
+			{
+"“Your Highness's resolve is weak!”",
+			},
+		},
+		[24]={
+			name={"name", name="Satonaka"},
+			{
+"“Thinkest that to be enough to avenge Her Majesty!?”",
+			},
+		},
+		[25]={
+			name={"name", name="Satonaka"},
+			{
+"“Your Highness is to reaffirm her duty as the Imperial Princess here and now!”",
+			},
+		},
+		[26]={
+			{
+"I've always thought of Satonaka as more of a second mother than the Imperial Chamberlain.",
+			},
+		},
+		[27]={
+			{
+"Ever since I was young, she had hardened her heart to scold me for my childish folly.",
+			},
+		},
+		[28]={
+			{
+"As luck would have it, Satonaka knows her way around a blade.",
+			},
+		},
+		[29]={
+			{
+"Once I become skilled enough to receive her blessing, I will surely be able to strike Okonogi down.",
+			},
+		},
+		[30]={
+			name={"name", name="Akari"},
+			{
+"“(I won't run anymore.)”",
+			},
+		},
+		[31]={
+			name={"name", name="Akari"},
+			{
+"“(I'll overcome whatever harsh training she throws at me.)”",
+			},
+		},
+		[32]={
+			name={"name", name="Akari"},
+			{
+"“(And no matter how difficult the journey, I shall avenge Mother.)”",
+			},
+		},
+		[33]={
+			{
+"Satonaka and I vowed to each other to cast aside all common comforts until the day we avenged Mother's death.",
+			},
+		},
+		[34]={
+			{
+"We keep our meals simple and our resting time to the bare minimum.",
+			},
+		},
+		[35]={
+			{
+"I refrain from leaving the manor in order to dedicate every waking moment to my training and studies.",
+			},
+		},
+		[36]={
+			{
+"Otherwise, I'll never be able to slay Okonogi.",
+			},
+		},
+		[37]={
+			{
+"He who, at this very moment, sits in the Imperial Palace, reigning over the Empire as its tyrant.",
+			},
+		},
+		[38]={
+			{
+"After six months of living in Iseya, I receive a letter.",
+			},
+		},
+		[39]={
+			{
+"It states that Okonogi has arrested every last person who once served in the Imperial Palace.",
+			},
+		},
+		[40]={
+			{
+"The Satonakas have served the Imperial Family for hundreds of years.",
+			},
+		},
+		[41]={
+			{
+"Among those arrested are not only Satonaka's spouse and children, but even their distant relatives.",
+			},
+		},
+		[42]={
+			name={"name", name="Akari"},
+			{
+"“I'm sorry, Satonaka! This is all because he stole our country out from under us!”",
+			},
+		},
+		[43]={
+			name={"name", name="Satonaka"},
+			{
+"“Your Highness needn't concern herself with us.”",
+			},
+		},
+		[44]={
+			name={"name", name="Satonaka"},
+			{
+"“We have proudly served the Imperial Family for generations. We have been prepared for this eventuality ever since our defeat.”",
+			},
+		},
+		[45]={
+			name={"name", name="Satonaka"},
+			{
+"“Your Highness needs only to preoccupy herself with striking Okonogi down.”",
+			},
+		},
+		[46]={
+			name={"name", name="Satonaka"},
+			{
+"“Following that...”",
+			},
+		},
+		[47]={
+			name={"name", name="Satonaka"},
+			{
+"“Your Highness ought demonstrate her splendid resolve, as to not sully the names of Emperors past.”",
+			},
+		},
+		[48]={
+			{
+"Since time immemorial, Emperors who fail to prevent disasters have given their lives to beg Oomikami's forgiveness.",
+			},
+		},
+		[49]={
+			{
+"That is our pride and purpose as sovereigns of this land.",
+			},
+		},
+		[50]={
+			{
+"I've had this creed drilled into me from the day I was born.",
+			},
+		},
+		[51]={
+			name={"name", name="Akari"},
+			{
+"“I shall not sully the name of the Imperial Family.”",
+			},
+		},
+		[52]={
+			name={"name", name="Akari"},
+			{
+"“Satonaka, let us train even harder.”",
+			},
+		},
+		[53]={
+			{
+"From that day forward, I redouble my efforts in training.",
+			},
+		},
+		[54]={
+			{
+"I cut down on my sleeping time and continue training until the dead of night.",
+			},
+		},
+		[55]={
+			{
+"Whenever she notices my heart begin to waver, Satonaka strikes me without mercy.",
+			},
+		},
+		[56]={
+			{
+"It is unthinkable that a court lady should raise her hand against the Imperial Princess.",
+			},
+		},
+		[57]={
+			{
+"But I welcome it.",
+			},
+		},
+		[58]={
+			{
+"Satonaka cannot hold back her tears as she beats me.",
+			},
+		},
+		[59]={
+			{
+"My body quickly becomes covered in bruises.",
+			},
+		},
+		[60]={
+			{
+"It hurts.",
+			},
+		},
+		[61]={
+			{
+"It hurts so much I lose track of how many times I nearly break down in tears.",
+			},
+		},
+		[62]={
+			{
+"Even so, I continue with my daily training.",
+			},
+		},
+		[63]={
+			{
+"The one thing that brings me succor is the persimmon tree in the courtyard.",
+			},
+		},
+		[64]={
+			{
+"The persimmons I eat during my short breaks between training have a deliciousness to them I've never tasted elsewhere.",
+			},
+		},
+		[65]={
+			{
+"The sweetness that envelops my tongue serves to remind me that I'm still alive.",
+			},
+		},
+		[66]={
+			{
+"Another year passes, and I receive another letter.",
+			},
+		},
+		[67]={
+			{
+"It states that all those arrested by Okonogi have returned to the darkness from whence they came.",
+			},
+		},
+		[68]={
+			{
+"Satonaka simply closes her eyes for a brief moment before regarding me with a kindly gaze containing not one hint of reproach.",
+			},
+		},
+		[69]={
+			name={"name", name="Satonaka"},
+			{
+"“Your Highness, let us proceed with training.”",
+			},
+		},
+		[70]={
+			{
+"─Strike Okonogi down.",
+			},
+		},
+		[71]={
+			{
+"─Then, atone for the mistakes of the Imperial Family.",
+			},
+		},
+		[72]={
+			{
+"Satonaka's silence conveys those sentiments louder than any words.",
+			},
+		},
+		[73]={
+			{
+"Training.",
+			},
+		},
+		[74]={
+			{
+"Ever harsher training.",
+			},
+		},
+		[75]={
+			{
+"That is all I am able to do.",
+			},
+		},
+		[76]={
+			{
+"That I might avenge Mother.",
+			},
+		},
+		[77]={
+			{
+"That I might redeem the sacrifices of the fallen.",
+			},
+		},
+		[78]={
+			{
+"For all this, I must become stronger.",
+			},
+		},
+		[79]={
+			{
+"─I don't remember if the persimmon trees bore fruit that autumn.",
+			},
+		},
+		[80]={
+			name={"name", name="Kotone"},
+			{
+"“Those persimmons look most delicious.”",
+			},
+		},
+		[81]={
+			{
+"A bright voice rings out from nowhere.",
+			},
+		},
+		[82]={
+			name={"name", name="Kotone"},
+			{
+"“They have already ripened. Are you not going to eat them?”",
+			},
+		},
+		[83]={
+			{
+"I look up to find the branches sagging with ripe fruits.",
+			},
+		},
+		[84]={
+			name={"name", name="Akari"},
+			{
+"“...”",
+			},
+		},
+		[85]={
+			{
+"I couldn't form the words.",
+			},
+		},
+		[86]={
+			{
+"All the days of intense training have dispossessed my body of the superfluous skill of speech.",
+			},
+		},
+		[87]={
+			name={"name", name="Akari"},
+			{
+"“I'll pass. You can have them.”",
+			},
+		},
+		[88]={
+			{
+"When I finally squeeze out the words, the girl wipes a persimmon with the edge of her sleeve and begins happily munching on it.",
+			},
+		},
+		[89]={
+			{
+"Seeing her innocent smile, my spirits brighten for some strange reason.",
+			},
+		},
+		[90]={
+			name={"name", name="Kotone"},
+			{
+"“The earth's bounty is a blessing from Oomikami.”",
+			},
+		},
+		[91]={
+			name={"name", name="Kotone"},
+			{
+"“It is hardly forgivable to leave them to wither on the vine.”",
+			},
+		},
+		[92]={
+			name={"name", name="Akari"},
+			{
+"“Then take as many as you want.”",
+			},
+		},
+		[93]={
+			name={"name", name="Kotone"},
+			{
+"“Really?!”",
+			},
+		},
+		[94]={
+			name={"name", name="Kotone"},
+			{
+"“Ah, I mean... I suppose only if I must... I'll be back!”",
+			},
+		},
+		[95]={
+			{
+"The girl bobs her head at me and gaily skips away.",
+			},
+		},
+		[96]={
+			{
+"Watching her profile recede into the distance, I tighten my grip on my blade.",
+			},
+		},
+		[97]={
+			{
+"It somehow feels lighter all of a sudden.",
+			},
+		},
+		[98]={
+			{
+"Perhaps the sweetness that the girl tasted energized my own body as well.",
+			},
+		},
+		[99]={
+			{
+"True to her word, the girl comes again the next day, and the day after that.",
+			},
+		},
+		[100]={
+			{
+"It seems she's taken quite a liking to the persimmons.",
+			},
+		},
+		[101]={
+			name={"name", name="Kotone"},
+			{
+"“Akari-sama, persimmons make for much better snacks than training dummies.”",
+			},
+		},
+		[102]={
+			name={"name", name="Akari"},
+			{
+"“No need for that.”",
+			},
+		},
+		[103]={
+			name={"name", name="Kotone"},
+			{
+"“Are you not fond of them? They taste so wonderful and all...”",
+			},
+		},
+		[104]={
+			{
+"The girl's face is as charmingly plump as the persimmons she eats day in and day out.",
+			},
+		},
+		[105]={
+			{
+"And as thanks for them, she heals my injuries with her magicks.",
+			},
+		},
+		[106]={
+			{
+"My hands with calluses thick as gloves and my battered and bruised body all return to being as unblemished as the day I was born.",
+			},
+		},
+		[107]={
+			name={"name", name="Kotone"},
+			{
+"“Akari-sama, I come bearing a paring knife today!”",
+			},
+		},
+		[108]={
+			name={"name", name="Kotone"},
+			{
+"“You do not enjoy eating the skin as I do, is that so?”",
+			},
+		},
+		[109]={
+			name={"name", name="Kotone"},
+			{
+"“If a whole fruit is too much, please at least partake of a single bite or two.”",
+			},
+		},
+		[110]={
+			{
+"The girl peels a persimmon and insistently offers it to me.",
+			},
+		},
+		[111]={
+			name={"name", name="Kotone"},
+			{
+"“Look at this! It's so ripe that the skewer goes right through it. I'm sure it will be delicious.”",
+			},
+		},
+		[112]={
+			name={"name", name="Kotone"},
+			{
+"“Ah, ahhh?!”",
+			},
+		},
+		[113]={
+			{
+"The persimmon tumbles out of the overeager girl's hand.",
+			},
+		},
+		[114]={
+			{
+"I catch it and slowly bring it to my mouth.",
+			},
+		},
+		[115]={
+			name={"name", name="Akari"},
+			{
+"“Very ripe.”",
+			},
+		},
+		[116]={
+			name={"name", name="Kotone"},
+			{
+"“Indeed, is it not?”",
+			},
+		},
+		[117]={
+			{
+"The girl smiles radiantly from ear to ear.",
+			},
+		},
+		[118]={
+			{
+"The sight of it warms my heart much more than the fruit abates my hunger.",
+			},
+		},
+		[119]={
+			{
+"But at the same time, it only serves to remind me of my guilt.",
+			},
+		},
+		[120]={
+			{
+"Her presence is a balm for my weary body and spirit.",
+			},
+		},
+		[121]={
+			{
+"That which I am entirely unworthy of, not while Mother's killer still draws breath.",
+			},
+		},
+		[122]={
+			{
+"I'm sure that Satonaka would feel the same way.",
+			},
+		},
+		[123]={
+			{
+"Recently, Satonaka has been bedridden with sickness.",
+			},
+		},
+		[124]={
+			{
+"She has trouble even getting up, yet she obstinately refuses to let me take care of her.",
+			},
+		},
+		[125]={
+			{
+"She says that if I have the time to attend to her, I have the time to be training harder.",
+			},
+		},
+		[126]={
+			name={"name", name="Akari"},
+			{
+"“I want this to be the last time you come around here.”",
+			},
+		},
+		[127]={
+			name={"name", name="Kotone"},
+			{
+"“Huh? Whyever might that be?”",
+			},
+		},
+		[128]={
+			{
+"I say nothing and return to my training.",
+			},
+		},
+		[129]={
+			{
+"─Strike Okonogi down.",
+			},
+		},
+		[130]={
+			{
+"─Then, atone for the mistakes of the Imperial Family.",
+			},
+		},
+		[131]={
+			{
+"My interminable days of training continue once again.",
+			},
+		},
+		[132]={
+			{
+"This is for the best.",
+			},
+		},
+		[133]={
+			{
+"I have no need of an ordinary life.",
+			},
+		},
+		[134]={
+			{
+"With nobody to eat them anymore, the persimmons eventually fall to the ground.",
+			},
+		},
+		[135]={
+			{
+"White snow eventually buries the ground stained with overripe persimmons.",
+			},
+		},
+		[136]={
+			{
+"As the temperature descends, Satonaka's end draws near.",
+			},
+		},
+		[137]={
+			{
+"The day after a heavy snowstorm, she beckons me to her bedside.",
+			},
+		},
+		[138]={
+			name={"name", name="Satonaka"},
+			{
+"“I have been watching Your Highness every day from here, and I believe Your Highness now possesses the strength for the task at hand.”",
+			},
+		},
+		[139]={
+			{
+"Perhaps she senses her impending death, as Satonaka's words are unusually kind today.",
+			},
+		},
+		[140]={
+			name={"name", name="Akari"},
+			{
+"“Satonaka, I still have so much to learn from you...”",
+			},
+		},
+		[141]={
+			name={"name", name="Satonaka"},
+			{
+"“My affliction-ridden state is now little more than a hindrance to Your Highness.”",
+			},
+		},
+		[142]={
+			{
+"Satonaka smiles peacefully up at me.",
+			},
+		},
+		[143]={
+			name={"name", name="Satonaka"},
+			{
+"“The Master of the Myougikan, Inou Kokuan-sama, once said the following.”",
+			},
+		},
+		[144]={
+			name={"name", name="Satonaka"},
+			{
+"“One who has killed and one who has not. When the fatal moment comes, a world of difference separates the two.”",
+			},
+		},
+		[145]={
+			name={"name", name="Satonaka"},
+			{
+"“'Tis a vast chasm that cannot be spanned by means of mere training.”",
+			},
+		},
+		[146]={
+			{
+"Sensing her intentions, my hand begins to tremble.",
+			},
+		},
+		[147]={
+			name={"name", name="Satonaka"},
+			{
+"“If Your Highness trembles so when the time comes, that lack of resolve might stay Your Highness's hand.”",
+			},
+		},
+		[148]={
+			name={"name", name="Satonaka"},
+			{
+"“Your Highness's humble servant would be honored to perform one final service.”",
+			},
+		},
+		[149]={
+			name={"name", name="Akari"},
+			{
+"“Don't be ridiculous!”",
+			},
+		},
+		[150]={
+			name={"name", name="Akari"},
+			{
+"“You just have a cold... You'll be right as rain with a little more rest...”",
+			},
+		},
+		[151]={
+			name={"name", name="Satonaka"},
+			{
+"“Your Highness.”",
+			},
+		},
+		[152]={
+			{
+"Satonaka turns to face me, her eyes cloudy with sickness.",
+			},
+		},
+		[153]={
+			name={"name", name="Akari"},
+			{
+"“I can't, Satonaka!”",
+			},
+		},
+		[154]={
+			name={"name", name="Satonaka"},
+			{
+"“Please, be brave.”",
+			},
+		},
+		[155]={
+			name={"name", name="Satonaka"},
+			{
+"“There could be no greater honor than to offer my life to Your Highness.”",
+			},
+		},
+		[156]={
+			{
+"Her gentle smile threatens to suffocate me.",
+			},
+		},
+		[157]={
+			{
+"For the past three years, Satonaka has always ruthlessly loomed over me as an iron-fisted overlord.",
+			},
+		},
+		[158]={
+			{
+"She treated me so strictly that I thought many times of killing her.",
+			},
+		},
+		[159]={
+			{
+"And so, why?",
+			},
+		},
+		[160]={
+			{
+"Why, in her final moments, must she look at me like this?",
+			},
+		},
+		[161]={
+			name={"name", name="Satonaka"},
+			{
+"“Your Highness, the meaning will be lost if I expire first.”",
+			},
+		},
+		[162]={
+			name={"name", name="Satonaka"},
+			{
+"“Before my life burns out... Make haste...”",
+			},
+		},
+		[163]={
+			name={"name", name="Akari"},
+			{
+"“...Satonaka!”",
+			},
+		},
+	},
+	label={
+	},
+}

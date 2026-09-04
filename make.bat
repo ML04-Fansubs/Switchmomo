@@ -1,0 +1,1 @@
+pfs-rs create ./root -o root.pfs.007

@@ -1,0 +1,1186 @@
+ast = {
+	{
+		{"exfont", size="NORM"},
+		{"bg", del=1, path=":bg/", file="bg_1051", time=900, rule="rand"},
+		{"bgm", path=":bg/", file="bgm_2050", vol=88},
+		{"text"},
+		line=23,
+	},
+	{
+		{"text"},
+		line=24,
+	},
+	{
+		{"text"},
+		line=25,
+	},
+	{
+		{"text"},
+		line=26,
+	},
+	{
+		{"ev", del=1, set="eve_0506", path=":ev/", file="eve_050601", time=900, rule="rand"},
+		{"mwf", path=":fa/005/", file="fac_0501211"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050312200"},
+		{"text"},
+		line=34,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=40,
+	},
+	{
+		{"text"},
+		line=41,
+	},
+	{
+		{"text"},
+		line=42,
+	},
+	{
+		{"text"},
+		line=43,
+	},
+	{
+		{"text"},
+		line=44,
+	},
+	{
+		{"text"},
+		line=45,
+	},
+	{
+		{"text"},
+		line=46,
+	},
+	{
+		{"text"},
+		line=47,
+	},
+	{
+		{"text"},
+		line=48,
+	},
+	{
+		{"text"},
+		line=49,
+	},
+	{
+		{"text"},
+		line=50,
+	},
+	{
+		{"text"},
+		line=51,
+	},
+	{
+		{"bg", film=1, del=1, lv=0, id=31, path=":bg/", file="black", time=250, sync=1},
+		{"bg", del=1, path=":bg/", file="bg_2123", time=0},
+		{"cg", id=12, path=":cg/99/", file="re_cloud", lv=11, time=0, sync=1},
+		{"cgdel", id=31, film=1, sync=1, time=250, lv=0},
+		{"text"},
+		line=58,
+	},
+	{
+		{"text"},
+		line=59,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05201", face="tat_z0501102", x=0},
+		{"mwf", path=":fa/005/", file="fac_0501102"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050312210"},
+		{"text"},
+		line=64,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110310150"},
+		{"text"},
+		line=70,
+	},
+	{
+		{"text"},
+		line=72,
+	},
+	{
+		{"text"},
+		line=73,
+	},
+	{
+		{"text"},
+		line=74,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05301", face="tat_z0501123", x=0},
+		{"mwf", path=":fa/005/", file="fac_0501123"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050312220"},
+		{"text"},
+		line=79,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05301", face="tat_z0501103", x=0},
+		{"mwf", path=":fa/005/", file="fac_0501103"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050312230"},
+		{"text"},
+		line=84,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05201", face="tat_z0501102", x=0},
+		{"mwf", path=":fa/005/", file="fac_0501102"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050312240"},
+		{"text"},
+		line=89,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110310160"},
+		{"text"},
+		line=95,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05101", face="tat_z0501101", x=0},
+		{"mwf", path=":fa/005/", file="fac_0501101"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050312250"},
+		{"text"},
+		line=100,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=105,
+	},
+	{
+		{"text"},
+		line=106,
+	},
+	{
+		{"text"},
+		line=107,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110310170"},
+		{"text"},
+		line=110,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05101", face="tat_z0501201", x=0},
+		{"mwf", path=":fa/005/", file="fac_0501201"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050312260"},
+		{"text"},
+		line=115,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05201", face="tat_z0501202", x=0},
+		{"mwf", path=":fa/005/", file="fac_0501202"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050312270"},
+		{"text"},
+		line=120,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110310180"},
+		{"text"},
+		line=126,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05301", face="tat_z0501203", x=0},
+		{"mwf", path=":fa/005/", file="fac_0501203"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050312280"},
+		{"text"},
+		line=131,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05301", face="tat_z0501123", x=0},
+		{"mwf", path=":fa/005/", file="fac_0501123"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050312290"},
+		{"text"},
+		line=136,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05301", face="tat_z0501103", x=0},
+		{"mwf", path=":fa/005/", file="fac_0501103"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050312300"},
+		{"text"},
+		line=141,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=146,
+	},
+	{
+		{"text"},
+		line=147,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05201", face="tat_z0501202", x=0},
+		{"mwf", path=":fa/005/", file="fac_0501202"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050312310"},
+		{"text"},
+		line=152,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05101", face="tat_z0501201", x=0},
+		{"mwf", path=":fa/005/", file="fac_0501201"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050312320"},
+		{"text"},
+		line=157,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110310190"},
+		{"text"},
+		line=163,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110310200"},
+		{"text"},
+		line=166,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05201", face="tat_z0501242", x=0},
+		{"mwf", path=":fa/005/", file="fac_0501242"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050312330"},
+		{"text"},
+		line=171,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05201", face="tat_z0501202", x=0},
+		{"mwf", path=":fa/005/", file="fac_0501202"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050312340"},
+		{"text"},
+		line=176,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=181,
+	},
+	{
+		{"text"},
+		line=182,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110310210"},
+		{"text"},
+		line=185,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110310220"},
+		{"text"},
+		line=188,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05101", face="tat_z0501921", x=0},
+		{"mwf", path=":fa/005/", file="fac_0501921"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050312350"},
+		{"text"},
+		line=193,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=198,
+	},
+	{
+		{"text"},
+		line=199,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05101", face="tat_z0501231", x=0},
+		{"mwf", path=":fa/005/", file="fac_0501231"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050312360"},
+		{"text"},
+		line=204,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110310230"},
+		{"text"},
+		line=210,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05101", face="tat_z0501201", x=0},
+		{"mwf", path=":fa/005/", file="fac_0501201"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050312370"},
+		{"text"},
+		line=215,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05201", face="tat_z0501202", x=0},
+		{"mwf", path=":fa/005/", file="fac_0501202"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050312380"},
+		{"text"},
+		line=220,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110310240"},
+		{"text"},
+		line=226,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110310250"},
+		{"text"},
+		line=229,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05201", face="tat_z0501702", x=0},
+		{"mwf", path=":fa/005/", file="fac_0501702"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050312390"},
+		{"text"},
+		line=234,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=239,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bzz05201", face="tat_zz0501242", x=0},
+		{"mwf", path=":fa/005/", file="fac_0501242"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050312400"},
+		{"text"},
+		line=244,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110310260"},
+		{"text"},
+		line=250,
+	},
+	{
+		{"text"},
+		line=252,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110310270"},
+		{"text"},
+		line=255,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bzz05101", face="tat_zz0501871", x=0},
+		{"mwf", path=":fa/005/", file="fac_0501871"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050312410"},
+		{"text"},
+		line=260,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=265,
+	},
+	{
+		{"text"},
+		line=266,
+	},
+	{
+		{"text"},
+		line=267,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"ev", del=1, set="eve_0506", path=":ev/", file="eve_050601", time=900, rule="rand"},
+		{"text"},
+		line=277,
+	},
+	{
+		{"text"},
+		line=278,
+	},
+	{
+		{"mwf", path=":fa/005/", file="fac_0501202"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050312420"},
+		{"text"},
+		line=283,
+	},
+	{
+		{"mwf", path=":fa/005/", file="fac_0501222"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050312430"},
+		{"text"},
+		line=288,
+	},
+	{
+		{"fg", mode=-1, id=1, lv=""},
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110310280"},
+		{"text"},
+		line=295,
+	},
+	{
+		{"bg", film=1, del=1, lv=0, id=31, path=":bg/", file="black", time=250, sync=1},
+		{"fg", id=1, path=":fg/001/", file="bz01301", face="tat_z0101103", x=0},
+		{"bg", del=1, path=":bg/", file="bg_3321", time=0},
+		{"cg", id=12, path=":cg/99/", file="re_cloud", lv=11, time=0, sync=1},
+		{"cgdel", id=31, film=1, sync=1, time=250, lv=0},
+		{"text"},
+		line=303,
+	},
+	{
+		{"text"},
+		line=304,
+	},
+	{
+		{"text"},
+		line=305,
+	},
+	{
+		{"text"},
+		line=306,
+	},
+	{
+		{"text"},
+		line=307,
+	},
+	{
+		{"text"},
+		line=308,
+	},
+	{
+		{"bg", film=1, del=1, lv=0, id=31, path=":bg/", file="black", time=250, sync=1},
+		{"fg", id=1, path=":fg/002/", file="bz02201", face="tat_z0201102", x=0},
+		{"bg", del=1, path=":bg/", file="bg_1101", time=0},
+		{"cg", id=12, path=":cg/99/", file="re_cloud", lv=11, time=0, sync=1},
+		{"cgdel", id=31, film=1, sync=1, time=250, lv=0},
+		{"text"},
+		line=316,
+	},
+	{
+		{"text"},
+		line=317,
+	},
+	{
+		{"text"},
+		line=318,
+	},
+	{
+		{"text"},
+		line=319,
+	},
+	{
+		{"bg", film=1, del=1, lv=0, id=31, path=":bg/", file="black", time=250, sync=1},
+		{"fg", id=1, path=":fg/004/", file="bz04301", face="tat_z0401103", x=0},
+		{"bg", del=1, path=":bg/", file="bg_1021", time=0},
+		{"cg", id=12, path=":cg/99/", file="re_cloud", lv=11, time=0, sync=1},
+		{"cgdel", id=31, film=1, sync=1, time=250, lv=0},
+		{"text"},
+		line=327,
+	},
+	{
+		{"text"},
+		line=328,
+	},
+	{
+		{"text"},
+		line=329,
+	},
+	{
+		{"text"},
+		line=330,
+	},
+	{
+		{"bg", film=1, del=1, lv=0, id=31, path=":bg/", file="black", time=250, sync=1},
+		{"fg", id=1, path=":fg/003/", file="bz03101", face="tat_z0301201", x=0},
+		{"bg", del=1, path=":bg/", file="bg_1121", time=0},
+		{"cg", id=12, path=":cg/99/", file="re_cloud", lv=11, time=0, sync=1},
+		{"cgdel", id=31, film=1, sync=1, time=250, lv=0},
+		{"text"},
+		line=338,
+	},
+	{
+		{"text"},
+		line=339,
+	},
+	{
+		{"text"},
+		line=340,
+	},
+	{
+		{"ev", del=1, set="eve_0506", path=":ev/", file="eve_050601", time=900, rule="rand"},
+		{"mwf", path=":fa/005/", file="fac_0501201"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050312440"},
+		{"text"},
+		line=347,
+	},
+	{
+		{"mwf", path=":fa/005/", file="fac_0501231"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050312450"},
+		{"text"},
+		line=352,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110310290"},
+		{"text"},
+		line=358,
+	},
+	{
+		{"text"},
+		line=360,
+	},
+	{
+		{"text"},
+		line=361,
+	},
+	{
+		{"text"},
+		line=362,
+	},
+	{
+		{"text"},
+		line=363,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110310300"},
+		{"text"},
+		line=366,
+	},
+	{
+		{"mwf", path=":fa/005/", file="fac_0501211"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050312460"},
+		{"text"},
+		line=371,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=376,
+	},
+	{
+		{"se", id=3, file="90040_a", vol=88, loop=1},
+		{"text"},
+		line=380,
+	},
+	{
+		{"text"},
+		line=381,
+	},
+	{
+		{"text"},
+		line=382,
+	},
+	{
+		{"text"},
+		line=383,
+	},
+	{
+		{"text"},
+		line=384,
+	},
+	{
+		{"msgoff"},
+		{"skipstop"},
+		{"skipstop"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=3000, wait=1500, sync=1},
+		{"bgm", stop=1, [1]="", time=1500},
+		{"sestop", id=1, time=1500},
+		{"sestop", id=2, time=1500},
+		{"sestop", id=3, time=1500},
+		{"vo", id=1, stop=1},
+		{"wa", time=1000},
+		{"mv", file="endroll04", mode=2},
+		{"wa", time=2000},
+		{"ev", del=1, set="eve_0506", path=":ev/", file="eve_050601", time=3000},
+		{"exclick"},
+		line=384,
+	},
+	{
+		{"ev", del=1, set="eve_0506", path=":ev/", file="eve_050602", time=3000},
+		{"wa", time=3000},
+		{"ev", del=1, set="eve_0506", path=":ev/", file="eve_050603", time=3000},
+		{"wa", time=5000},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=3000},
+		{"setTrophy", name="TR005"},
+		{"skipstop"},
+		{"eval", exp="g.no105=1"},
+		{"eval", exp="g.no100=1"},
+		{"exflgchk", no=105},
+		{"tl"},
+		line=410,
+	},
+	text={
+		[1]={
+			{
+"Two years since our fateful August uprising─",
+			},
+		},
+		[2]={
+			{
+"Today is a day that will go down in the Empire's history.",
+			},
+		},
+		[3]={
+			{
+"The inauguration of its first president, Elsa Valentine.",
+			},
+		},
+		[4]={
+			{
+"The ceremony is being conducted with all the pomp and circumstance befitting the momentous occasion.",
+			},
+		},
+		[5]={
+			name={"name", name="Elsa"},
+			{
+"“My fellow Imperials. I stand before you honored and humbled by the trust you've bestowed upon me in electing me as your president.”",
+			},
+		},
+		[6]={
+			{
+"All eyes on her at the podium, Elsa delivers her speech.",
+			},
+		},
+		[7]={
+			{
+"She is forced to pause regularly by outpours of applause and praise from the audience.",
+			},
+		},
+		[8]={
+			{
+"Ever since Warren's repatriation, Elsa has worked tirelessly as Empress Hisui's political advisor to introduce democracy to the Empire.",
+			},
+		},
+		[9]={
+			{
+"Her sudden reforms were met with no small amount of skepticism and opposition.",
+			},
+		},
+		[10]={
+			{
+"But at every step along the way, Kanami and Kotone offered their support in winning over the Imperials who were still distrustful of her.",
+			},
+		},
+		[11]={
+			{
+"With the Empress and the Exalt-Priestess at her back, little by little, the Imperial people began to accept Elsa's new system.",
+			},
+		},
+		[12]={
+			{
+"Of course, it goes without saying that she herself worked hardest of all to turn her vision into reality.",
+			},
+		},
+		[13]={
+			{
+"She tirelessly traveled all across the country to extol the value and significance of democracy, hardly ever getting a full night's sleep.",
+			},
+		},
+		[14]={
+			{
+"At the same time, she devoted every spare moment to studying Imperial history and culture, seeking to integrate herself fully into her new nationality.",
+			},
+		},
+		[15]={
+			{
+"All of her earnest efforts were what led Elsa to stand at this podium today.",
+			},
+		},
+		[16]={
+			{
+"However, it's safe to say that her real battle has only just begun.",
+			},
+		},
+		[17]={
+			{
+"The introduction of democracy was never her ultimate objective...",
+			},
+		},
+		[18]={
+			{
+"About three months ago─",
+			},
+		},
+		[19]={
+			{
+"The prospects for our reforms looking brighter than ever, Elsa and I allow ourselves to indulge in a brief sigh of relief.",
+			},
+		},
+		[20]={
+			name={"name", name="Elsa"},
+			{
+"“Hey, Soujin? What would you say if I told you I wanted to run for president?”",
+			},
+		},
+		[21]={
+			name={"name", name="Soujin"},
+			{
+"“Let's see... I think I'd ask your reasons why over a cup of tea.”",
+			},
+		},
+		[22]={
+			{
+"True to my word, I brew a cup of tea and set it down in in front of her.",
+			},
+		},
+		[23]={
+			{
+"Elsa only started drinking green tea because it was “the Imperial way,” but as of late, she's come around to liking it more than the black tea she's accustomed to.",
+			},
+		},
+		[24]={
+			{
+"After taking a sip of her tea, she turns to face me.",
+			},
+		},
+		[25]={
+			name={"name", name="Elsa"},
+			{
+"“I was planning to retire from politics after the election was held, but I've started to realize that I'm a lot more ambitious than I once thought.”",
+			},
+		},
+		[26]={
+			name={"name", name="Elsa"},
+			{
+"“It's not the nicest way of putting it, but as of now, the Empire only has its independence because the Republic is choosing to letting it slide.”",
+			},
+		},
+		[27]={
+			name={"name", name="Elsa"},
+			{
+"“And there's no guarantee that they won't change their minds in the future.”",
+			},
+		},
+		[28]={
+			name={"name", name="Soujin"},
+			{
+"“I hear the Republic hasn't changed its expansionist ways.”",
+			},
+		},
+		[29]={
+			name={"name", name="Elsa"},
+			{
+"“Right. If we want the Empire to have a long future, we'll need some way to stand up to them.”",
+			},
+		},
+		[30]={
+			{
+"─But how?",
+			},
+		},
+		[31]={
+			{
+"Such a question must have passed through the lips of many across the world trampled beneath the Republic's boot.",
+			},
+		},
+		[32]={
+			{
+"Yet Elsa merely continues sipping her tea with a calm expression on her face.",
+			},
+		},
+		[33]={
+			name={"name", name="Soujin"},
+			{
+"“Sounds like you have a concrete plan in mind.”",
+			},
+		},
+		[34]={
+			name={"name", name="Elsa"},
+			{
+"“But of course.”",
+			},
+		},
+		[35]={
+			name={"name", name="Elsa"},
+			{
+"“Hard power can only be opposed by hard power.”",
+			},
+		},
+		[36]={
+			name={"name", name="Soujin"},
+			{
+"“We stand no chance against the Republic if it comes down to war.”",
+			},
+		},
+		[37]={
+			name={"name", name="Elsa"},
+			{
+"“Oh, but we have magicks.”",
+			},
+		},
+		[38]={
+			name={"name", name="Elsa"},
+			{
+"“If we fuse our magicks with Republican technologies, we can create powerful weapons indeed.”",
+			},
+		},
+		[39]={
+			name={"name", name="Elsa"},
+			{
+"“Remember the gun I used to shoot down those bombs in Yogarasu District?”",
+			},
+		},
+		[40]={
+			{
+"The day Yogarasu District was bombed, Elsa's gun allowed her to intercept the falling bombs with ease.",
+			},
+		},
+		[41]={
+			{
+"The bullets she fired seemed to have a will of their own, taking wildly impossible trajectories to search out and destroy their targets.",
+			},
+		},
+		[42]={
+			name={"name", name="Elsa"},
+			{
+"“We can apply that same technology in order to build a bomb.”",
+			},
+		},
+		[43]={
+			name={"name", name="Elsa"},
+			{
+"“If we can build a bomb like that which leaves nothing to chance, the Republic will have a hard time ever laying their hands on the Empire.”",
+			},
+		},
+		[44]={
+			name={"name", name="Soujin"},
+			{
+"“From their point of view, it'll be like having a blade at your neck at every moment.”",
+			},
+		},
+		[45]={
+			name={"name", name="Soujin"},
+			{
+"“So you intend to stand up to the Republic not with the quantity of our weapons, but their quality?”",
+			},
+		},
+		[46]={
+			name={"name", name="Elsa"},
+			{
+"“Exactly.”",
+			},
+		},
+		[47]={
+			name={"name", name="Elsa"},
+			{
+"“I want to become president in order to make this idea a reality.”",
+			},
+		},
+		[48]={
+			{
+"Hers is a grand project, one that can't be realized without all the resources of the Empire at her disposal.",
+			},
+		},
+		[49]={
+			{
+"And for that, she needs to become a leader capable of rallying all the Imperial people behind her banner.",
+			},
+		},
+		[50]={
+			name={"name", name="Soujin"},
+			{
+"“In that case, you should absolutely run for president.”",
+			},
+		},
+		[51]={
+			name={"name", name="Soujin"},
+			{
+"“You're the only one who could pull it off.”",
+			},
+		},
+		[52]={
+			name={"name", name="Elsa"},
+			{
+"“Why, thank you. That's my fiancé for you.”",
+			},
+		},
+		[53]={
+			{
+"Elsa snaps one eye playfully shut.",
+			},
+		},
+		[54]={
+			{
+"I only learned this recently, but apparently what she's doing is called a ≪wink.≫",
+			},
+		},
+		[55]={
+			name={"name", name="Elsa"},
+			{
+"“Now I know I can run for president without any reservations.”",
+			},
+		},
+		[56]={
+			name={"name", name="Soujin"},
+			{
+"“Think you can win?”",
+			},
+		},
+		[57]={
+			name={"name", name="Elsa"},
+			{
+"“No matter how much the odds are stacked against me, my mind is already made up.”",
+			},
+		},
+		[58]={
+			name={"name", name="Elsa"},
+			{
+"“If I happen to lose, I'll just run again.”",
+			},
+		},
+		[59]={
+			name={"name", name="Soujin"},
+			{
+"“What a lovely fiancée I have.”",
+			},
+		},
+		[60]={
+			name={"name", name="Soujin"},
+			{
+"“She's practically wasted on someone like me.”",
+			},
+		},
+		[61]={
+			name={"name", name="Elsa"},
+			{
+"“Gosh, why do you always have to say stuff like that?”",
+			},
+		},
+		[62]={
+			{
+"Elsa sets down her teacup and plops down into my lap.",
+			},
+		},
+		[63]={
+			name={"name", name="Elsa"},
+			{
+"“Are you worried about me running for president?”",
+			},
+		},
+		[64]={
+			name={"name", name="Soujin"},
+			{
+"“Not in the slightest.”",
+			},
+		},
+		[65]={
+			{
+"I wrap an arm around her waist.",
+			},
+		},
+		[66]={
+			name={"name", name="Soujin"},
+			{
+"“If anything, it makes me all the more excited for what the future has in store.”",
+			},
+		},
+		[67]={
+			name={"name", name="Elsa"},
+			{
+"“Ehehee, that's more like it.”",
+			},
+		},
+		[68]={
+			{
+"Her tender lips grace my own with a kiss.",
+			},
+		},
+		[69]={
+			{
+"Two months later, millions of Imperial citizens made their way to the ballot box for the very first time.",
+			},
+		},
+		[70]={
+			{
+"Elsa was elected to the presidency in a landslide victory.",
+			},
+		},
+		[71]={
+			{
+"After finishing her inaugural address, I step onto the stage by her side.",
+			},
+		},
+		[72]={
+			{
+"In the Republic, it's apparently not just commonplace, but expected for family members of politicians to make public appearances like this.",
+			},
+		},
+		[73]={
+			name={"name", name="Elsa"},
+			{
+"“Don't be shy, now.”",
+			},
+		},
+		[74]={
+			name={"name", name="Elsa"},
+			{
+"“If you embarrass yourself here, Miyaguni-san will definitely let you hear about it afterwards!”",
+			},
+		},
+		[75]={
+			name={"name", name="Soujin"},
+			{
+"“Yeah, don't I know it.”",
+			},
+		},
+		[76]={
+			{
+"Akari has already given our engagement her blessing.",
+			},
+		},
+		[77]={
+			{
+"Of course, I haven't stopped being Akari's vassal even if I'm going to be marrying Elsa.",
+			},
+		},
+		[78]={
+			{
+"I will continue to serve as my lord's blade.",
+			},
+		},
+		[79]={
+			{
+"Incidentally, Akari expressed great interest in running for the upcoming parliamentary election.",
+			},
+		},
+		[80]={
+			{
+"She did say that she wasn't particularly attached to the throne.",
+			},
+		},
+		[81]={
+			{
+"It seems she is content to lead the country towards a brighter future as a citizen of the Empire like any other.",
+			},
+		},
+		[82]={
+			{
+"Kanami has already relinquished almost all of her political powers and currently lives a modest life in the Imperial Palace.",
+			},
+		},
+		[83]={
+			{
+"Even so, her popularity among the people hasn't waned in the slightest.",
+			},
+		},
+		[84]={
+			{
+"She still makes regular public appearances, such as during New Year's celebrations or the Armistice Day ceremony, and is met with raucous cheers each time.",
+			},
+		},
+		[85]={
+			{
+"The Empress really is just that revered by the people.",
+			},
+		},
+		[86]={
+			{
+"Under the new political order, the warriors have been assigned the task of maintaining public order as a special division of the Imperial Police.",
+			},
+		},
+		[87]={
+			{
+"Naturally, Hotori serves as their captain.",
+			},
+		},
+		[88]={
+			{
+"As Hotori's lieutenant, I spend my days and nights running all around Tenkyo alongside her.",
+			},
+		},
+		[89]={
+			{
+"No matter how the Empire changes, our duty to protect these lands is unyielding.",
+			},
+		},
+		[90]={
+			{
+"Kotone continues to administer the Tento faith as its Exalt-Priestess.",
+			},
+		},
+		[91]={
+			{
+"For the past two years, she's worked to restore the Barrier in preparation for a potential Republican invasion.",
+			},
+		},
+		[92]={
+			{
+"With Elsa as president, they will be working closely together to develop weapons capable of combining Imperial magicks with Republican technologies.",
+			},
+		},
+		[93]={
+			name={"name", name="Elsa"},
+			{
+"“Hey, Soujin.”",
+			},
+		},
+		[94]={
+			name={"name", name="Elsa"},
+			{
+"“Will you always stay by my side?”",
+			},
+		},
+		[95]={
+			name={"name", name="Soujin"},
+			{
+"“Yeah, of course I will.”",
+			},
+		},
+		[96]={
+			{
+"From this day forward, Elsa will stand at the vanguard as she leads the Empire towards a new age of peace.",
+			},
+		},
+		[97]={
+			{
+"There are sure to be many trials and tribulations lying in store for her.",
+			},
+		},
+		[98]={
+			{
+"Even the ever-dependable Elsa is sure to have times when she feels faint of heart.",
+			},
+		},
+		[99]={
+			{
+"But when those times come, I'll be there for her.",
+			},
+		},
+		[100]={
+			name={"name", name="Soujin"},
+			{
+"“Let's walk this path together. Forevermore.”",
+			},
+		},
+		[101]={
+			name={"name", name="Elsa"},
+			{
+"“Yes, let's.”",
+			},
+		},
+		[102]={
+			{
+"Following Elsa's lead, I raise my hand and wave to the people.",
+			},
+		},
+		[103]={
+			{
+"A deafening cheer rises up from the crowd.",
+			},
+		},
+		[104]={
+			{
+"With the people's blessing, we take our very first steps on this new journey.",
+			},
+		},
+		[105]={
+			{
+"May we protect this Empire of ours.",
+			},
+		},
+		[106]={
+			{
+"Today, and tomorrow─",
+			},
+		},
+		[107]={
+			{
+"─and for ages more.",
+			},
+		},
+	},
+	label={
+	},
+}

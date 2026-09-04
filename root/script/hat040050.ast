@@ -1,0 +1,2234 @@
+ast = {
+	{
+		{"exfont", size="NORM"},
+		{"viewend", mode="eyec"},
+		{"bg", del=1, path=":cg/04/", file="dc040050005", time=500},
+		{"se", id=1, file=09236, vol=88},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401390"},
+		{"text"},
+		line=26,
+	},
+	{
+		{"text"},
+		line=28,
+	},
+	{
+		{"text"},
+		line=29,
+	},
+	{
+		{"text"},
+		line=30,
+	},
+	{
+		{"sestop", id=1, time=1500},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401400"},
+		{"text"},
+		line=35,
+	},
+	{
+		{"se", id=1, file=09237, vol=88},
+		{"bg", del=1, path=":bg/", file="bg_5041", time=900, rule="rand"},
+		{"text"},
+		line=40,
+	},
+	{
+		{"text"},
+		line=41,
+	},
+	{
+		{"text"},
+		line=42,
+	},
+	{
+		{"sestop", id=1, time=1500},
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"bg", del=1, path=":bg/", file="bg_6021", time=900, rule="rand"},
+		{"bgm", path=":bg/", file="bgm_3042", vol=88},
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101101", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101101"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400830"},
+		{"text"},
+		line=60,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=65,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101101", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101101"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400840"},
+		{"text"},
+		line=70,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401410"},
+		{"text"},
+		line=75,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101111", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101111"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400850"},
+		{"text"},
+		line=80,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101311", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101311"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400860"},
+		{"text"},
+		line=85,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=90,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101101", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101101"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400870"},
+		{"text"},
+		line=95,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401420"},
+		{"text"},
+		line=100,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=105,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101311", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101311"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400880"},
+		{"text"},
+		line=110,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401435"},
+		{"text"},
+		line=115,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101201", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101201"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400890"},
+		{"text"},
+		line=120,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101101", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101101"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400900"},
+		{"text"},
+		line=125,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101111", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101111"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400910"},
+		{"text"},
+		line=130,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101101", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101101"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400920"},
+		{"text"},
+		line=135,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101201", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101201"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400930"},
+		{"text"},
+		line=140,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101201", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101201"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400940"},
+		{"text"},
+		line=145,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=150,
+	},
+	{
+		{"text"},
+		line=151,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401450"},
+		{"text"},
+		line=154,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101111", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101111"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400950"},
+		{"text"},
+		line=159,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101201", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101201"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400960"},
+		{"text"},
+		line=164,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=169,
+	},
+	{
+		{"text"},
+		line=170,
+	},
+	{
+		{"text"},
+		line=171,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101101", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101101"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400970"},
+		{"text"},
+		line=176,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101101", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101101"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400980"},
+		{"text"},
+		line=181,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401470"},
+		{"text"},
+		line=186,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401480"},
+		{"text"},
+		line=189,
+	},
+	{
+		{"text"},
+		line=191,
+	},
+	{
+		{"text"},
+		line=192,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101301", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101301"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400990"},
+		{"text"},
+		line=197,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401490"},
+		{"text"},
+		line=202,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101321", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101321"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210401000"},
+		{"text"},
+		line=207,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=212,
+	},
+	{
+		{"text"},
+		line=213,
+	},
+	{
+		{"text"},
+		line=214,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401500"},
+		{"text"},
+		line=217,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101501", x=0},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401510"},
+		{"text"},
+		line=223,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101101", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101101"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210401010"},
+		{"text"},
+		line=228,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401520"},
+		{"text"},
+		line=233,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101401", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101401"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210401020"},
+		{"text"},
+		line=238,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401530"},
+		{"text"},
+		line=243,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101101", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101101"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210401030"},
+		{"text"},
+		line=248,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101101", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101101"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210401040"},
+		{"text"},
+		line=253,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401540"},
+		{"text"},
+		line=258,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"bg", del=1, path=":bg/", file="bg_6021", time=900, rule="rand"},
+		{"text"},
+		line=268,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20201", face="tat_z2001102", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001102"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200402110"},
+		{"text"},
+		line=273,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20101", face="tat_z2001101", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001101"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200402120"},
+		{"text"},
+		line=278,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=283,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401550"},
+		{"text"},
+		line=286,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401560"},
+		{"text"},
+		line=289,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20101", face="tat_z2001301", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001301"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200402130"},
+		{"text"},
+		line=294,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401570"},
+		{"text"},
+		line=299,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20201", face="tat_z2001502", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001502"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200402133"},
+		{"text"},
+		line=304,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401573"},
+		{"text"},
+		line=309,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20101", face="tat_z2001371", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001371"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200402137"},
+		{"text"},
+		line=314,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=319,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401580"},
+		{"text"},
+		line=323,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401590"},
+		{"text"},
+		line=326,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401600"},
+		{"text"},
+		line=329,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20201", face="tat_z2001002", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001002"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200402150"},
+		{"text"},
+		line=334,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401610"},
+		{"text"},
+		line=339,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20101", face="tat_z2001101", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001101"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200402160"},
+		{"text"},
+		line=344,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20101", face="tat_z2001701", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001701"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200402165"},
+		{"text"},
+		line=349,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=354,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20101", face="tat_z2001101", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001101"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200402170"},
+		{"text"},
+		line=359,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401620"},
+		{"text"},
+		line=364,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401630"},
+		{"text"},
+		line=367,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401640"},
+		{"text"},
+		line=370,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20201", face="tat_z2001002", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001002"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200402180"},
+		{"text"},
+		line=375,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=380,
+	},
+	{
+		{"text"},
+		line=381,
+	},
+	{
+		{"text"},
+		line=382,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20101", face="tat_z2001301", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001301"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200402190"},
+		{"text"},
+		line=387,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20301", face="tat_z2001303", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001303"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200402200"},
+		{"text"},
+		line=392,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=397,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401650"},
+		{"text"},
+		line=400,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20301", face="tat_z2001103", x=0},
+		{"text"},
+		line=404,
+	},
+	{
+		{"text"},
+		line=405,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"bgm", stop=1, [1]="", time=1500},
+		{"bg", del=1, path=":bg/", file="bg_6011", time=900, rule="rand"},
+		{"text"},
+		line=425,
+	},
+	{
+		{"text"},
+		line=426,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401660"},
+		{"text"},
+		line=429,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=434,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201211", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201211"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220400980"},
+		{"text"},
+		line=439,
+	},
+	{
+		{"mwf"},
+		{"bgm", path=":bg/", file="bgm_2030", vol=88},
+		{"text"},
+		line=446,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201501", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201501"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220400990"},
+		{"text"},
+		line=451,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401670"},
+		{"text"},
+		line=456,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201201", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201201"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401000"},
+		{"text"},
+		line=461,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201271", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201271"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401010"},
+		{"text"},
+		line=466,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401680"},
+		{"text"},
+		line=471,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201221", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201221"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401020"},
+		{"text"},
+		line=476,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=481,
+	},
+	{
+		{"text"},
+		line=482,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201501", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201501"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401030"},
+		{"text"},
+		line=487,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401690"},
+		{"text"},
+		line=492,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201211", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201211"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401040"},
+		{"text"},
+		line=497,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=502,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201501", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201501"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401050"},
+		{"text"},
+		line=507,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401700"},
+		{"text"},
+		line=512,
+	},
+	{
+		{"text"},
+		line=514,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201101", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201101"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401060"},
+		{"text"},
+		line=519,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201101", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201101"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401070"},
+		{"text"},
+		line=524,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401710"},
+		{"text"},
+		line=529,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201201", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201201"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401080"},
+		{"text"},
+		line=534,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201201", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201201"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401090"},
+		{"text"},
+		line=539,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401720"},
+		{"text"},
+		line=544,
+	},
+	{
+		{"text"},
+		line=546,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201701", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201701"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401100"},
+		{"text"},
+		line=551,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401730"},
+		{"text"},
+		line=556,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201401", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201401"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401110"},
+		{"text"},
+		line=561,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201401", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201401"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401120"},
+		{"text"},
+		line=566,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401740"},
+		{"text"},
+		line=571,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201701", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201701"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401130"},
+		{"text"},
+		line=576,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201401", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201401"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401140"},
+		{"text"},
+		line=581,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=586,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401750"},
+		{"text"},
+		line=589,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201211", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201211"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401150"},
+		{"text"},
+		line=594,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201821", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201821"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401160"},
+		{"text"},
+		line=599,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401760"},
+		{"text"},
+		line=604,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201701", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201701"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401170"},
+		{"text"},
+		line=609,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=614,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201201", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201201"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401180"},
+		{"text"},
+		line=619,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401770"},
+		{"text"},
+		line=624,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201211", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201211"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401190"},
+		{"text"},
+		line=629,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201201", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201201"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401200"},
+		{"text"},
+		line=634,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201201", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201201"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401210"},
+		{"text"},
+		line=639,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201231", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201231"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401220"},
+		{"text"},
+		line=644,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401780"},
+		{"text"},
+		line=649,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401790"},
+		{"text"},
+		line=652,
+	},
+	{
+		{"text"},
+		line=654,
+	},
+	{
+		{"text"},
+		line=655,
+	},
+	{
+		{"text"},
+		line=656,
+	},
+	{
+		{"text"},
+		line=657,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201701", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201701"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401230"},
+		{"text"},
+		line=662,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401800"},
+		{"text"},
+		line=667,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201201", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201201"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401240"},
+		{"text"},
+		line=672,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201221", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201221"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401250"},
+		{"text"},
+		line=677,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=682,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201501", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201501"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401260"},
+		{"text"},
+		line=687,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401810"},
+		{"text"},
+		line=692,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401820"},
+		{"text"},
+		line=695,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201701", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201701"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401270"},
+		{"text"},
+		line=700,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401830"},
+		{"text"},
+		line=705,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201301", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201301"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401280"},
+		{"text"},
+		line=710,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201401", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201401"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401290_a"},
+		{"text"},
+		line=715,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=720,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201101", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201101"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401300"},
+		{"text"},
+		line=725,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401840"},
+		{"text"},
+		line=730,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201701", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201701"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401310"},
+		{"text"},
+		line=735,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201101", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201101"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401320"},
+		{"text"},
+		line=740,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401850"},
+		{"text"},
+		line=745,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201501", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201501"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401330"},
+		{"text"},
+		line=750,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201231", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201231"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401340"},
+		{"text"},
+		line=755,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401860"},
+		{"text"},
+		line=760,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401870"},
+		{"text"},
+		line=763,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401880"},
+		{"text"},
+		line=766,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201111", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201111"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401350"},
+		{"text"},
+		line=771,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201101", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201101"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401360"},
+		{"text"},
+		line=776,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401890"},
+		{"text"},
+		line=781,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201301", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201301"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401370"},
+		{"text"},
+		line=786,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=791,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201101", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201101"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401380"},
+		{"text"},
+		line=796,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401900"},
+		{"text"},
+		line=801,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201311", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201311"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401390"},
+		{"text"},
+		line=806,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401910"},
+		{"text"},
+		line=811,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201111", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201111"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401400"},
+		{"text"},
+		line=816,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201101", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201101"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401410"},
+		{"text"},
+		line=821,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201401", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201401"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401420"},
+		{"text"},
+		line=826,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201101", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201101"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401430"},
+		{"text"},
+		line=831,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401920"},
+		{"text"},
+		line=836,
+	},
+	{
+		{"text"},
+		line=838,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401930"},
+		{"text"},
+		line=841,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201231", x=0},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401940"},
+		{"text"},
+		line=847,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201201", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201201"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401440"},
+		{"text"},
+		line=852,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110401950"},
+		{"text"},
+		line=857,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201211", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201211"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401450"},
+		{"text"},
+		line=862,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=867,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201701", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201701"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220401460"},
+		{"text"},
+		line=872,
+	},
+	{
+		{"bgm", stop=1, [1]="", time=1500},
+		{"sestop", id=1, time=1500},
+		{"sestop", id=2, time=1500},
+		{"sestop", id=3, time=1500},
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"excall", call=0, file="hat040060"},
+		line=872,
+	},
+	text={
+		[1]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Hmm?”",
+			},
+		},
+		[2]={
+			{
+"A raven's caw greets me as I ascend the steps to the Imperial Palace.",
+			},
+		},
+		[3]={
+			{
+"I turn to find close to twenty such grim and ghastly birds perched atop the palace walls.",
+			},
+		},
+		[4]={
+			{
+"The fowls' fiery eyes blaze with anticipation, as though hungrily awaiting the spilling of blood at a scaffold.",
+			},
+		},
+		[5]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Get thee hence, blackbirds. You'll find no sustenance here.”",
+			},
+		},
+		[6]={
+			{
+"As though comprehending mine words, the birds scatter at once.",
+			},
+		},
+		[7]={
+			{
+"The sight of ravens is said to be an ill portent, but there is nothing which threatens to darken the skies over\nHimi-no-Mikoto's reign.",
+			},
+		},
+		[8]={
+			{
+"All should yet be well.",
+			},
+		},
+		[9]={
+			name={"name", name="Tooru"},
+			{
+"“Mitsurugi, got a minute?”",
+			},
+		},
+		[10]={
+			{
+"Later that afternoon, Tooru comes to pay me a visit.",
+			},
+		},
+		[11]={
+			name={"name", name="Tooru"},
+			{
+"“I've got a favor to ask of you.”",
+			},
+		},
+		[12]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Another criminal on the loose?”",
+			},
+		},
+		[13]={
+			name={"name", name="Tooru"},
+			{
+"“Even more important than that, old chap.”",
+			},
+		},
+		[14]={
+			name={"name", name="Tooru"},
+			{
+"“You see...”",
+			},
+		},
+		[15]={
+			{
+"Tooru meets mine gaze with a rarely-seen intensity.",
+			},
+		},
+		[16]={
+			name={"name", name="Tooru"},
+			{
+"“I would like to arrange a marriage interview with Himi-no-Mikoto-sama.”",
+			},
+		},
+		[17]={
+			name={"name", name="Mitsurugi"},
+			{
+"“What?”",
+			},
+		},
+		[18]={
+			{
+"That's the last thing I would have imagined.",
+			},
+		},
+		[19]={
+			name={"name", name="Tooru"},
+			{
+"“Is that really so strange?”",
+			},
+		},
+		[20]={
+			name={"name", name="Mitsurugi"},
+			{
+"“You can say that again. Do you not already have a wife and child?”",
+			},
+		},
+		[21]={
+			name={"name", name="Tooru"},
+			{
+"“Well... feelings can change, y'know?”",
+			},
+		},
+		[22]={
+			name={"name", name="Tooru"},
+			{
+"“After thinking it over, I realized that I will have none other besides Himi-no-Mikoto-sama.”",
+			},
+		},
+		[23]={
+			name={"name", name="Tooru"},
+			{
+"“Her fair features, her dignified voice, and above all else, that inviolable grace!”",
+			},
+		},
+		[24]={
+			name={"name", name="Tooru"},
+			{
+"“Is there any other of her stature in all the realm?”",
+			},
+		},
+		[25]={
+			name={"name", name="Tooru"},
+			{
+"“Having had the fortune to lay eyes upon her, I've come to realize now that I must make her mine.”",
+			},
+		},
+		[26]={
+			name={"name", name="Tooru"},
+			{
+"“Why, I would go as far as to call it my destiny.”",
+			},
+		},
+		[27]={
+			{
+"He passionately lays bare all his feelings.",
+			},
+		},
+		[28]={
+			{
+"But still, to abandon his family...",
+			},
+		},
+		[29]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Have you yet to sober from last night? You're acting unlike your usual self.”",
+			},
+		},
+		[30]={
+			name={"name", name="Tooru"},
+			{
+"“Anyone can change. Especially out of love.”",
+			},
+		},
+		[31]={
+			name={"name", name="Tooru"},
+			{
+"“As soon as you awaken to such passions, you'll find yourself to be the same man no longer.”",
+			},
+		},
+		[32]={
+			{
+"Tooru's words contain not a single trace of jest.",
+			},
+		},
+		[33]={
+			{
+"...Is love truly capable of changing a man so?",
+			},
+		},
+		[34]={
+			{
+"Perhaps this is an occasion I ought to hold mine tongue, lest Tooru tell me off once again for mine “uncouth” ignorance of human emotions.",
+			},
+		},
+		[35]={
+			name={"name", name="Tooru"},
+			{
+"“I do not make this request lightly.”",
+			},
+		},
+		[36]={
+			name={"name", name="Tooru"},
+			{
+"“Mitsurugi, would you serve as a liaison between me and Himi-no-Mikoto?”",
+			},
+		},
+		[37]={
+			name={"name", name="Mitsurugi"},
+			{
+"“I cannot.”",
+			},
+		},
+		[38]={
+			name={"name", name="Mitsurugi"},
+			{
+"“I know nothing of the subtleties of the human heart.”",
+			},
+		},
+		[39]={
+			{
+"On top of which, Himi-no-Mikoto is easily stirred to emotion whenever the subject of her marriage comes up.",
+			},
+		},
+		[40]={
+			{
+"I have no confidence in mine ability to convey Tooru's intentions.",
+			},
+		},
+		[41]={
+			name={"name", name="Tooru"},
+			{
+"“Never again will Inou Tooru ask anything of you! Please, I beg!”",
+			},
+		},
+		[42]={
+			name={"name", name="Mitsurugi"},
+			{
+"“But─”",
+			},
+		},
+		[43]={
+			name={"name", name="Tooru"},
+			{
+"“Please, Mitsurugi! Make a man of me!”",
+			},
+		},
+		[44]={
+			{
+"He forcefully lowers his head to me.",
+			},
+		},
+		[45]={
+			{
+"Ahh... I cannot possibly spurn such an earnest request from Tooru.",
+			},
+		},
+		[46]={
+			{
+"Plus, I can be assured that he is a man of exceptional character.",
+			},
+		},
+		[47]={
+			name={"name", name="Mitsurugi"},
+			{
+"“All right.”",
+			},
+		},
+		[48]={
+			name={"name", name="Mitsurugi"},
+			{
+"“But you know how bad I am with words. Do not expect too much out of me.”",
+			},
+		},
+		[49]={
+			name={"name", name="Tooru"},
+			{
+"“Could you arrange a private meeting between me and Himi-no-Mikoto-sama?”",
+			},
+		},
+		[50]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Marriage interviews have their own decorum to be upheld. I am powerless to change that.”",
+			},
+		},
+		[51]={
+			name={"name", name="Tooru"},
+			{
+"“Right... Sorry for asking the impossible.”",
+			},
+		},
+		[52]={
+			name={"name", name="Mitsurugi"},
+			{
+"“No, I should be the one to apologize.”",
+			},
+		},
+		[53]={
+			name={"name", name="Tooru"},
+			{
+"“It would be more than enough if you'd put in a good word for me to Himi-no-Mikoto-sama.”",
+			},
+		},
+		[54]={
+			name={"name", name="Tooru"},
+			{
+"“Please. Consider it a favor to an old friend.”",
+			},
+		},
+		[55]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Yeah, I got it. You can count on me.”",
+			},
+		},
+		[56]={
+			{
+"I find Himi-no-Mikoto as she makes preparations to go on an outing.",
+			},
+		},
+		[57]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“I've been looking for you. Where might you have been?”",
+			},
+		},
+		[58]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“Attend me. We go to that hill.”",
+			},
+		},
+		[59]={
+			{
+"Once again, she wants to go to our usual spot.",
+			},
+		},
+		[60]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Before that, I have a matter to discuss.”",
+			},
+		},
+		[61]={
+			name={"name", name="Mitsurugi"},
+			{
+"“It's about Inou Tooru.”",
+			},
+		},
+		[62]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“What is it? Make it brief.”",
+			},
+		},
+		[63]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Inou Tooru says he wishes to arrange a marriage interview with you.”",
+			},
+		},
+		[64]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“Huh? Is that man not trothed to another?”",
+			},
+		},
+		[65]={
+			name={"name", name="Mitsurugi"},
+			{
+"“He says he changed his conscience upon awakening to his love for you.”",
+			},
+		},
+		[66]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“Does he intend to dissolve his current union? How ridiculous.”",
+			},
+		},
+		[67]={
+			{
+"Himi-no-Mikoto heaves a deep sigh.",
+			},
+		},
+		[68]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Um... Tooru is a good man.”",
+			},
+		},
+		[69]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Though he is easily flattered and wont to drink, he is also most quick-witted and good-natured.”",
+			},
+		},
+		[70]={
+			name={"name", name="Mitsurugi"},
+			{
+"“His men trust him greatly, and he is beloved by the people. All this I can personally attest to.”",
+			},
+		},
+		[71]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“What are you trying to say?”",
+			},
+		},
+		[72]={
+			name={"name", name="Mitsurugi"},
+			{
+"“In light of that, might you consider him for your groom?”",
+			},
+		},
+		[73]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“...”",
+			},
+		},
+		[74]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“You leave me at a loss for words.”",
+			},
+		},
+		[75]={
+			{
+"True to her declaration, Himi-no-Mikoto silently purses her lips for some time.",
+			},
+		},
+		[76]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“Why do you insist on my taking a groom?”",
+			},
+		},
+		[77]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Sooner or later, you will have to do so.”",
+			},
+		},
+		[78]={
+			name={"name", name="Mitsurugi"},
+			{
+"“If you leave no heir, the Empire you labored so tirelessly to build will swiftly crumble.”",
+			},
+		},
+		[79]={
+			name={"name", name="Mitsurugi"},
+			{
+"“And if you are to choose a consort eventually, is it so wrong for me to at least elect someone worthy of you?”",
+			},
+		},
+		[80]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“I see you've become quite the adept casuist.”",
+			},
+		},
+		[81]={
+			{
+"She directs a cold glare in mine direction.",
+			},
+		},
+		[82]={
+			{
+"Himi-no-Mikoto is furious, to say the least.",
+			},
+		},
+		[83]={
+			{
+"Beneath her nearly perfect mask of composure, I can sense the incandescent flames of her rage.",
+			},
+		},
+		[84]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“You are hereby dismissed.”",
+			},
+		},
+		[85]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“Until otherwise ordered, do not dare to show your face before me.”",
+			},
+		},
+		[86]={
+			{
+"Her tone is one that brooks no rejoinder.",
+			},
+		},
+		[87]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Understood.”",
+			},
+		},
+		[88]={
+			{
+"I merely kneel and bow mine head.",
+			},
+		},
+		[89]={
+			{
+"Only now do I realize that I've committed an irrevocable transgression.",
+			},
+		},
+		[90]={
+			{
+"Now that I've been dismissed, I no longer have anywhere to return to.",
+			},
+		},
+		[91]={
+			{
+"I didn't expect it to end well, but I never thought it would turn out this badly.",
+			},
+		},
+		[92]={
+			name={"name", name="Mitsurugi"},
+			{
+"“I suppose I deserve it for sticking mine nose where it\ndoesn't belong...”",
+			},
+		},
+		[93]={
+			{
+"I cast mine gaze upwards with a sigh.",
+			},
+		},
+		[94]={
+			name={"name", name="Chihaya"},
+			{
+"“Ah, Mitsurugi-sama!”",
+			},
+		},
+		[95]={
+			{
+"As I wander about the streets, I come across Chihaya.",
+			},
+		},
+		[96]={
+			name={"name", name="Chihaya"},
+			{
+"“You have quite the pallor about your complexion. Might some misfortune have befallen you?”",
+			},
+		},
+		[97]={
+			name={"name", name="Mitsurugi"},
+			{
+"“You can tell?”",
+			},
+		},
+		[98]={
+			name={"name", name="Chihaya"},
+			{
+"“Why, I am your attending priestess, am I not?”",
+			},
+		},
+		[99]={
+			name={"name", name="Chihaya"},
+			{
+"“When it comes to matters of Mitsurugi-sama, not the slightest irregularity could ever escape my notice!”",
+			},
+		},
+		[100]={
+			name={"name", name="Mitsurugi"},
+			{
+"“I really can't get one past you, huh?”",
+			},
+		},
+		[101]={
+			name={"name", name="Chihaya"},
+			{
+"“Hehehee, in which case, I shall also be doing this!”",
+			},
+		},
+		[102]={
+			{
+"Chihaya takes mine arm into her own.",
+			},
+		},
+		[103]={
+			{
+"The inscrutable reasoning of a young maiden still appears to be far beyond mine grasp.",
+			},
+		},
+		[104]={
+			name={"name", name="Chihaya"},
+			{
+"“I must head to the temple now, but what about...”",
+			},
+		},
+		[105]={
+			name={"name", name="Mitsurugi"},
+			{
+"“I have no destination.”",
+			},
+		},
+		[106]={
+			name={"name", name="Chihaya"},
+			{
+"“In that case, I would certainly not object to an escort!”",
+			},
+		},
+		[107]={
+			{
+"Without any reason to refuse, I decide to go along with her.",
+			},
+		},
+		[108]={
+			name={"name", name="Chihaya"},
+			{
+"“By the way, Mitsurugi-sama, have you heard the news that Himi-no-Mikoto-sama will be retiring from her service in the priesthood?”",
+			},
+		},
+		[109]={
+			name={"name", name="Mitsurugi"},
+			{
+"“No, I haven't.”",
+			},
+		},
+		[110]={
+			{
+"Besides governing the Empire as its Empress, Himi-no-Mikoto also serves as its paramount priestess.",
+			},
+		},
+		[111]={
+			name={"name", name="Chihaya"},
+			{
+"“Himi-no-Mikoto-sama is apparently preoccupied with matters of statecraft as of late, making it difficult for her to preside over rituals at the same time.”",
+			},
+		},
+		[112]={
+			name={"name", name="Chihaya"},
+			{
+"“Hence, she is establishing the role of Exalt-Priestess as someone who might administer the priesthood on her behalf.”",
+			},
+		},
+		[113]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Will rituals still succeed even if she is not there to perform them?”",
+			},
+		},
+		[114]={
+			name={"name", name="Chihaya"},
+			{
+"“I believe we should be able to manage.”",
+			},
+		},
+		[115]={
+			name={"name", name="Chihaya"},
+			{
+"“Himi-no-Mikoto-sama has remade the system of magicks, such that even we ordinary priestesses can perform great rituals.”",
+			},
+		},
+		[116]={
+			name={"name", name="Mitsurugi"},
+			{
+"“I see. Then who is to be this Exalt-Priestess?”",
+			},
+		},
+		[117]={
+			{
+"Chihaya sheepishly points to herself.",
+			},
+		},
+		[118]={
+			name={"name", name="Chihaya"},
+			{
+"“Of all people, it is to be me...”",
+			},
+		},
+		[119]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Is that not great cause for celebration?”",
+			},
+		},
+		[120]={
+			name={"name", name="Chihaya"},
+			{
+"“But there are many, many priestesses who hold precedence over me.”",
+			},
+		},
+		[121]={
+			name={"name", name="Chihaya"},
+			{
+"“And I am far from being the most distinguished in either ability or lineage.”",
+			},
+		},
+		[122]={
+			name={"name", name="Mitsurugi"},
+			{
+"“You know that Himi-no-Mikoto's word is law. If she decided it, then that's that.”",
+			},
+		},
+		[123]={
+			name={"name", name="Chihaya"},
+			{
+"“Indeed, I am helpless but to accept this station.”",
+			},
+		},
+		[124]={
+			name={"name", name="Chihaya"},
+			{
+"“Haah... I fear I'll be reduced to skin and bones with all the jealousy sure to come my way.”",
+			},
+		},
+		[125]={
+			{
+"She lets out a piteous sigh.",
+			},
+		},
+		[126]={
+			name={"name", name="Mitsurugi"},
+			{
+"“I wish there were any way I could help you.”",
+			},
+		},
+		[127]={
+			name={"name", name="Chihaya"},
+			{
+"“Do you truly mean it?!”",
+			},
+		},
+		[128]={
+			name={"name", name="Chihaya"},
+			{
+"“Oh, how all my woes would disappear if only I had a─!”",
+			},
+		},
+		[129]={
+			name={"name", name="Mitsurugi"},
+			{
+"“That I cannot help you with.”",
+			},
+		},
+		[130]={
+			name={"name", name="Chihaya"},
+			{
+"“A fate of skin and bones it is...”",
+			},
+		},
+		[131]={
+			{
+"Chihaya hangs her head in dismay.",
+			},
+		},
+		[132]={
+			name={"name", name="Chihaya"},
+			{
+"“At any rate, this is a role that Himi-no-Mikoto-sama has entrusted me with, so I shall give it absolutely everything I have.”",
+			},
+		},
+		[133]={
+			name={"name", name="Mitsurugi"},
+			{
+"“I believe in you, Chihaya.”",
+			},
+		},
+		[134]={
+			name={"name", name="Chihaya"},
+			{
+"“Thank you very much, Mitsurugi-sama!”",
+			},
+		},
+		[135]={
+			name={"name", name="Chihaya"},
+			{
+"“Incidentally, attending to you is to be a paramount duty of the Exalt-Priestess which will be passed down to all future successors.”",
+			},
+		},
+		[136]={
+			name={"name", name="Chihaya"},
+			{
+"“Your existence is one that will endure for all eternity.”",
+			},
+		},
+		[137]={
+			name={"name", name="Chihaya"},
+			{
+"“Even hundreds of years hence, the Exalt-Priestess will forever and always be 'Mitsurugi's bride,' serving as your humble handmaiden.”",
+			},
+		},
+		[138]={
+			name={"name", name="Mitsurugi"},
+			{
+"“I see...”",
+			},
+		},
+		[139]={
+			name={"name", name="Mitsurugi"},
+			{
+"“I know not the words to describe mine true sentiments, but you have mine sincere thanks.”",
+			},
+		},
+		[140]={
+			{
+"Just as humans require victuals for sustenance, so too does mine body require periodical infusions of spellforce.",
+			},
+		},
+		[141]={
+			{
+"And as one who is undying, thus will I need to be replenished forevermore.",
+			},
+		},
+		[142]={
+			{
+"It is most assuring to know that I will always have a source of magicks by mine side.",
+			},
+		},
+		[143]={
+			{
+"Thus will I be able to fully devote myself to mine purpose: cutting down all calamity befalling the Empire.",
+			},
+		},
+		[144]={
+			name={"name", name="Chihaya"},
+			{
+"“Though I must confess I am ever so slightly jealous of the fact that other priestesses besides me will eventually come to serve you...”",
+			},
+		},
+		[145]={
+			name={"name", name="Mitsurugi"},
+			{
+"“You are mine first bride. That ought to set you apart from all future Exalt-Priestesses.”",
+			},
+		},
+		[146]={
+			name={"name", name="Chihaya"},
+			{
+"“Oh my, my! What a smooth talker you've become, Mitsurugi-sama!”",
+			},
+		},
+		[147]={
+			name={"name", name="Chihaya"},
+			{
+"“Please keep that up and come to understand more and more about the human heart.”",
+			},
+		},
+		[148]={
+			{
+"Chihaya shows me a delighted smile.",
+			},
+		},
+		[149]={
+			name={"name", name="Chihaya"},
+			{
+"“Now then, what might be the cause of the misfortune to have befallen you?”",
+			},
+		},
+		[150]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Hmm? Oh, right...”",
+			},
+		},
+		[151]={
+			name={"name", name="Mitsurugi"},
+			{
+"“I recommended a certain man to Himi-no-Mikoto for marriage, but...”",
+			},
+		},
+		[152]={
+			name={"name", name="Chihaya"},
+			{
+"“Say no more... She was terribly incensed, was she not?”",
+			},
+		},
+		[153]={
+			name={"name", name="Mitsurugi"},
+			{
+"“I'm impressed you could tell.”",
+			},
+		},
+		[154]={
+			name={"name", name="Chihaya"},
+			{
+"“Absolutely anyone could tell!”",
+			},
+		},
+		[155]={
+			name={"name", name="Chihaya"},
+			{
+"“You mustn't say such things, Mitsurugi-sama. How many times have we been over this already...”",
+			},
+		},
+		[156]={
+			{
+"Chihaya wearily rubs her eyes.",
+			},
+		},
+		[157]={
+			name={"name", name="Chihaya"},
+			{
+"“If you are to serve at Himi-no-Mikoto-sama's side, you must learn to understand a woman's heart.”",
+			},
+		},
+		[158]={
+			name={"name", name="Mitsurugi"},
+			{
+"“I am a mere tool of the battlefield. I know not the inner workings of a woman's heart.”",
+			},
+		},
+		[159]={
+			name={"name", name="Chihaya"},
+			{
+"“There you go, calling yourself a tool again.”",
+			},
+		},
+		[160]={
+			name={"name", name="Chihaya"},
+			{
+"“You are free to think of yourself however you wish, but know that there are those of us who do not feel the same way.”",
+			},
+		},
+		[161]={
+			name={"name", name="Mitsurugi"},
+			{
+"“No matter what anyone says, I am and will always remain a tool.”",
+			},
+		},
+		[162]={
+			name={"name", name="Chihaya"},
+			{
+"“In that case, I invite you to try repeating what you just said to Himi-no-Mikoto-sama.”",
+			},
+		},
+		[163]={
+			name={"name", name="Chihaya"},
+			{
+"“I daresay she will fly into a rage the likes of which will make her current disposition seem pleasant by comparison.”",
+			},
+		},
+		[164]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Mh...”",
+			},
+		},
+		[165]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Still, the Empire will be in jeopardy if Himi-no-Mikoto\ndoesn't soon birth an heir.”",
+			},
+		},
+		[166]={
+			name={"name", name="Mitsurugi"},
+			{
+"“She knows that better than anyone. Is that not why she is conducting marriage interviews?”",
+			},
+		},
+		[167]={
+			name={"name", name="Chihaya"},
+			{
+"“But of course.”",
+			},
+		},
+		[168]={
+			name={"name", name="Chihaya"},
+			{
+"“However, you are the very last person she wishes to hear that from.”",
+			},
+		},
+		[169]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Because a mere tool dares not presume to be so impudent?”",
+			},
+		},
+		[170]={
+			name={"name", name="Chihaya"},
+			{
+"“Not at all! Oh, Mitsurugi-sama, you dimwit!”",
+			},
+		},
+		[171]={
+			{
+"Chihaya puts her hands on her hips in a huff.",
+			},
+		},
+		[172]={
+			name={"name", name="Chihaya"},
+			{
+"“This is another hypothetical example, but suppose I were to be taken with you...”",
+			},
+		},
+		[173]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Hmm? Does that mean you were making jest when you last told me you loved me?”",
+			},
+		},
+		[174]={
+			name={"name", name="Chihaya"},
+			{
+"“Mitsurugi-sama, no more uncouth interruptions!”",
+			},
+		},
+		[175]={
+			name={"name", name="Mitsurugi"},
+			{
+"“S-Sorry.”",
+			},
+		},
+		[176]={
+			name={"name", name="Chihaya"},
+			{
+"“...Ahem!”",
+			},
+		},
+		[177]={
+			name={"name", name="Chihaya"},
+			{
+"“Hypothetically, now. Hypothetically, suppose I were to be taken with you...”",
+			},
+		},
+		[178]={
+			name={"name", name="Chihaya"},
+			{
+"“If you then told me to offer my hand to another man, it is only natural that I would be most distraught.”",
+			},
+		},
+		[179]={
+			name={"name", name="Chihaya"},
+			{
+"“That is the essence of the human heart.”",
+			},
+		},
+		[180]={
+			name={"name", name="Mitsurugi"},
+			{
+"“I see.”",
+			},
+		},
+		[181]={
+			{
+"Now I understand why Himi-no-Mikoto is so angry.",
+			},
+		},
+		[182]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Thank you for teaching me this important lesson, Chihaya.”",
+			},
+		},
+		[183]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Mine apologies, but I must beg your leave.”",
+			},
+		},
+		[184]={
+			name={"name", name="Chihaya"},
+			{
+"“To rush to Himi-no-Mikoto-sama's side?”",
+			},
+		},
+		[185]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Yeah. I must be off.”",
+			},
+		},
+		[186]={
+			name={"name", name="Chihaya"},
+			{
+"“May Oomikami's grace be with you.”",
+			},
+		},
+		[187]={
+			{
+"Turning mine back on Chihaya, I head towards the Imperial Palace once more.",
+			},
+		},
+		[188]={
+			name={"name", name="Chihaya"},
+			{
+"“Haah, what a troublesome gentleman he truly is...”",
+			},
+		},
+	},
+	label={
+	},
+}

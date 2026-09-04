@@ -1,0 +1,2518 @@
+ast = {
+	{
+		{"exfont", size="NORM"},
+		{"view", file="view_hot"},
+		{"wmc", no=2},
+		{"se", id=1, file=02585, vol=88},
+		{"bg", del=1, path=":bg/", file="bg_2153", time=900, rule="rand"},
+		{"bgm", path=":bg/", file="bgm_9002", vol=88},
+		{"vo", ch="sen04", path=":vo/004/", file="sen040500400"},
+		{"text"},
+		line=28,
+	},
+	{
+		{"text"},
+		line=30,
+	},
+	{
+		{"text"},
+		line=31,
+	},
+	{
+		{"text"},
+		line=32,
+	},
+	{
+		{"text"},
+		line=33,
+	},
+	{
+		{"sestop", id=1, time=1500},
+		{"bg", film=1, del=1, lv=0, id=31, path=":bg/", file="black", time=250, sync=1},
+		{"bg", del=1, path=":bg/", file="bg_2143", time=900, rule="rand"},
+		{"cg", id=12, path=":cg/99/", file="re_cloud", lv=11, time=0, sync=1},
+		{"cgdel", id=31, film=1, sync=1, time=250, lv=0},
+		{"text"},
+		line=42,
+	},
+	{
+		{"text"},
+		line=43,
+	},
+	{
+		{"text"},
+		line=44,
+	},
+	{
+		{"text"},
+		line=45,
+	},
+	{
+		{"bg", del=1, path=":cg/05/", file="dc050200001", time=500},
+		{"text"},
+		line=49,
+	},
+	{
+		{"text"},
+		line=50,
+	},
+	{
+		{"text"},
+		line=51,
+	},
+	{
+		{"bg", del=1, path=":cg/05/", file="dc050200002", time=500},
+		{"text"},
+		line=55,
+	},
+	{
+		{"text"},
+		line=56,
+	},
+	{
+		{"text"},
+		line=57,
+	},
+	{
+		{"text"},
+		line=58,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"bg", del=1, path=":bg/", file="bg_2153", time=900, rule="rand"},
+		{"vo", ch="sen04", path=":vo/004/", file="sen040500410"},
+		{"text"},
+		line=68,
+	},
+	{
+		{"text"},
+		line=70,
+	},
+	{
+		{"text"},
+		line=71,
+	},
+	{
+		{"text"},
+		line=72,
+	},
+	{
+		{"text"},
+		line=73,
+	},
+	{
+		{"text"},
+		line=74,
+	},
+	{
+		{"text"},
+		line=75,
+	},
+	{
+		{"vo", ch="sen04", path=":vo/004/", file="sen040500420"},
+		{"text"},
+		line=78,
+	},
+	{
+		{"text"},
+		line=80,
+	},
+	{
+		{"bg", del=1, path=":bg/", file="bg_3017", time=900, rule="rand"},
+		{"se", id=1, file=02584, vol=88},
+		{"vo", ch="sen04", path=":vo/004/", file="sen040500430"},
+		{"text"},
+		line=87,
+	},
+	{
+		{"text"},
+		line=89,
+	},
+	{
+		{"sestop", id=1, time=1500},
+		{"msgoff"},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=150},
+		{"mv", path=":cg/01/", file="m00001006", ex=1, loop=1},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=900, rule="rand"},
+		{"text"},
+		line=99,
+	},
+	{
+		{"bg", del=1, path=":bg/", file="bg_3018", time=900, rule="rand"},
+		{"se", id=3, file="90061_a", vol=88, loop=1},
+		{"vo", ch="sen04", path=":vo/004/", file="sen040500440"},
+		{"text"},
+		line=105,
+	},
+	{
+		{"text"},
+		line=107,
+	},
+	{
+		{"text"},
+		line=108,
+	},
+	{
+		{"text"},
+		line=109,
+	},
+	{
+		{"text"},
+		line=110,
+	},
+	{
+		{"text"},
+		line=111,
+	},
+	{
+		{"vo", ch="sen04", path=":vo/004/", file="sen040500450"},
+		{"text"},
+		line=114,
+	},
+	{
+		{"text"},
+		line=116,
+	},
+	{
+		{"text"},
+		line=117,
+	},
+	{
+		{"vo", ch="sen04", path=":vo/004/", file="sen040500460"},
+		{"text"},
+		line=120,
+	},
+	{
+		{"text"},
+		line=122,
+	},
+	{
+		{"sestop", id=3, time=1500},
+		{"bg", del=1, path=":cg/05/", file="dc050200003", time=500},
+		{"flash", mode=2},
+		{"se", id=1, file=04050, vol=88},
+		{"text"},
+		line=130,
+	},
+	{
+		{"text"},
+		line=131,
+	},
+	{
+		{"vo", ch="sen04", path=":vo/004/", file="sen040500470"},
+		{"text"},
+		line=134,
+	},
+	{
+		{"text"},
+		line=136,
+	},
+	{
+		{"text"},
+		line=137,
+	},
+	{
+		{"text"},
+		line=138,
+	},
+	{
+		{"text"},
+		line=139,
+	},
+	{
+		{"text"},
+		line=140,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"bgm", stop=1, [1]="", time=1500},
+		{"viewend"},
+		{"bg", del=1, path=":bg/", file="bg_3017", time=900, rule="rand"},
+		{"bgm", path=":bg/", file="bgm_4072", vol=88},
+		{"text"},
+		line=164,
+	},
+	{
+		{"text"},
+		line=165,
+	},
+	{
+		{"mwf", path=":fa/001/", file="fac_0101301"},
+		{"vo", ch="sen01", path=":vo/001/", file="sen010505980"},
+		{"text"},
+		line=172,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110506850"},
+		{"text"},
+		line=178,
+	},
+	{
+		{"msgoff"},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=150},
+		{"mv", path=":cg/01/", file="m00028017", ex=1, loop=1},
+		{"bg", del=1, path=":cg/05/", file="dc050200004", time=500},
+		{"flash", mode=1},
+		{"se", id=1, file=04050, vol=88},
+		{"text"},
+		line=188,
+	},
+	{
+		{"text"},
+		line=190,
+	},
+	{
+		{"text"},
+		line=191,
+	},
+	{
+		{"msgoff"},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=150},
+		{"mv", path=":cg/01/", file="m00028011", ex=1, loop=1},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=150},
+		{"mv", path=":cg/05/", file="m050200005", ex=1, loop=1},
+		{"bg", del=1, path=":bg/", file="bg_3017", time=900, rule="rand"},
+		{"text"},
+		line=202,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110506860"},
+		{"text"},
+		line=205,
+	},
+	{
+		{"text"},
+		line=207,
+	},
+	{
+		{"text"},
+		line=208,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110506870"},
+		{"text"},
+		line=211,
+	},
+	{
+		{"fg", id=1, path=":fg/004/", file="bz04101", face="tat_z0401201", x=0, days=3},
+		{"mwf", path=":fa/004/", file="fac_0401201"},
+		{"vo", ch="sen04", path=":vo/004/", file="sen040500480"},
+		{"text"},
+		line=216,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=221,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110506880"},
+		{"text"},
+		line=226,
+	},
+	{
+		{"fg", id=1, path=":fg/004/", file="bz04101", face="tat_z0401101", x=0, days=3},
+		{"mwf", path=":fa/004/", file="fac_0401101"},
+		{"vo", ch="sen04", path=":vo/004/", file="sen040500490"},
+		{"text"},
+		line=231,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=236,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110506890"},
+		{"text"},
+		line=239,
+	},
+	{
+		{"fg", id=1, path=":fg/004/", file="bz04101", face="tat_z0401501", x=0, days=3},
+		{"mwf", path=":fa/004/", file="fac_0401501"},
+		{"vo", ch="sen04", path=":vo/004/", file="sen040500500"},
+		{"text"},
+		line=244,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110506900"},
+		{"text"},
+		line=250,
+	},
+	{
+		{"fg", id=1, path=":fg/004/", file="bz04201", face="tat_z0401202", x=0, days=3},
+		{"mwf", path=":fa/004/", file="fac_0401202"},
+		{"vo", ch="sen04", path=":vo/004/", file="sen040500510"},
+		{"text"},
+		line=255,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=260,
+	},
+	{
+		{"fg", id=1, path=":fg/004/", file="bz04101", face="tat_z0401201", x=0, days=3},
+		{"mwf", path=":fa/004/", file="fac_0401201"},
+		{"vo", ch="sen04", path=":vo/004/", file="sen040500520"},
+		{"text"},
+		line=265,
+	},
+	{
+		{"fg", id=2, path=":fg/004/", file="bz04101", face="tat_z0401201", x=300, days=3},
+		{"fg", id=1, path=":fg/001/", file="bz01101", face="tat_z0101101", x=-300, days=3},
+		{"mwf", path=":fa/001/", file="fac_0101101"},
+		{"vo", ch="sen01", path=":vo/001/", file="sen010505990"},
+		{"text"},
+		line=271,
+	},
+	{
+		{"fg", id=1, path=":fg/001/", file="bz01201", face="tat_z0101102", x=-300, days=3},
+		{"mwf", path=":fa/001/", file="fac_0101102"},
+		{"vo", ch="sen01", path=":vo/001/", file="sen010506000"},
+		{"text"},
+		line=276,
+	},
+	{
+		{"fg", id=2, path=":fg/004/", file="bz04201", face="tat_z0401202", x=300, days=3},
+		{"mwf", path=":fa/004/", file="fac_0401202"},
+		{"vo", ch="sen04", path=":vo/004/", file="sen040500530"},
+		{"text"},
+		line=281,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=286,
+	},
+	{
+		{"fg", id=2, path=":fg/004/", file="bz04101", face="tat_z0401301", x=300, days=3},
+		{"mwf", path=":fa/004/", file="fac_0401301"},
+		{"vo", ch="sen04", path=":vo/004/", file="sen040500540"},
+		{"text"},
+		line=291,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=296,
+	},
+	{
+		{"fg", id=1, path=":fg/001/", file="bz01101", face="tat_z0101401", x=-300, days=3},
+		{"mwf", path=":fa/001/", file="fac_0101401"},
+		{"vo", ch="sen01", path=":vo/001/", file="sen010506010"},
+		{"text"},
+		line=303,
+	},
+	{
+		{"fg", id=2, path=":fg/004/", file="bz04101", face="tat_z0401201", x=300, days=3},
+		{"mwf", path=":fa/004/", file="fac_0401201"},
+		{"vo", ch="sen04", path=":vo/004/", file="sen040500550"},
+		{"text"},
+		line=308,
+	},
+	{
+		{"fg", mode=-1, id=1, lv=""},
+		{"fg", mode=-1, id=2, lv=""},
+		{"mwf"},
+		{"text"},
+		line=315,
+	},
+	{
+		{"msgoff"},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=150},
+		{"mv", path=":cg/05/", file="m050200006", ex=1, loop=1},
+		{"bg", del=1, path=":bg/", file="bg_3017", time=900, rule="rand"},
+		{"text"},
+		line=323,
+	},
+	{
+		{"msgoff"},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=150},
+		{"mv", path=":cg/01/", file="m00028019", ex=1, loop=1},
+		{"bg", del=1, path=":bg/", file="bg_3017", time=900, rule="rand"},
+		{"vo", ch="sen31", path=":vo/031/", file="sen400500010"},
+		{"text"},
+		line=332,
+	},
+	{
+		{"text"},
+		line=334,
+	},
+	{
+		{"text"},
+		line=335,
+	},
+	{
+		{"msgoff"},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=150},
+		{"mv", path=":cg/05/", file="m050200007", ex=1, loop=1},
+		{"bg", del=1, path=":bg/", file="bg_3017", time=900, rule="rand"},
+		{"text"},
+		line=343,
+	},
+	{
+		{"text"},
+		line=344,
+	},
+	{
+		{"flash", mode=1},
+		{"se", id=1, file=02103, vol=88},
+		{"mwf", path=":fa/004/", file="fac_0401001"},
+		{"vo", ch="sen04", path=":vo/004/", file="sen040500560"},
+		{"text"},
+		line=352,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=357,
+	},
+	{
+		{"text"},
+		line=358,
+	},
+	{
+		{"flash", mode=1},
+		{"se", id=1, file=02111, vol=88},
+		{"mwf", path=":fa/001/", file="fac_0101301"},
+		{"vo", ch="sen01", path=":vo/001/", file="sen010506020"},
+		{"text"},
+		line=366,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=371,
+	},
+	{
+		{"se", id=1, file=02584, vol=88},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110506910"},
+		{"text"},
+		line=376,
+	},
+	{
+		{"text"},
+		line=378,
+	},
+	{
+		{"text"},
+		line=379,
+	},
+	{
+		{"flash", mode=1},
+		{"se", id=1, file=04051, vol=88},
+		{"text"},
+		line=384,
+	},
+	{
+		{"text"},
+		line=385,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110506920"},
+		{"text"},
+		line=388,
+	},
+	{
+		{"fg", id=2, path=":fg/003/", file="bz03201", face="tat_z0301102", x=300, days=3},
+		{"fg", id=1, path=":fg/007/", file="bz07103", face="tat_z0701101", x=-300, days=3},
+		{"mwf", path=":fa/007/", file="fac_0703101"},
+		{"vo", ch="sen07", path=":vo/007/", file="sen070500200"},
+		{"text"},
+		line=394,
+	},
+	{
+		{"fg", id=2, path=":fg/003/", file="bz03201", face="tat_z0301102", x=300, days=3},
+		{"mwf", path=":fa/003/", file="fac_0301102"},
+		{"vo", ch="sen03", path=":vo/003/", file="sen030509830"},
+		{"text"},
+		line=399,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=404,
+	},
+	{
+		{"fg", id=1, path=":fg/007/", file="bz07203", face="tat_z0701102", x=-300, days=3},
+		{"mwf", path=":fa/007/", file="fac_0703102"},
+		{"vo", ch="sen07", path=":vo/007/", file="sen070500210"},
+		{"text"},
+		line=411,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110506930"},
+		{"text"},
+		line=417,
+	},
+	{
+		{"text"},
+		line=419,
+	},
+	{
+		{"fg", id=1, path=":fg/007/", file="bz07203", face="tat_z0701202", x=-300, days=3},
+		{"mwf", path=":fa/007/", file="fac_0703202"},
+		{"vo", ch="sen07", path=":vo/007/", file="sen070500220"},
+		{"text"},
+		line=424,
+	},
+	{
+		{"fg", mode=-1, id=1, lv=""},
+		{"mwf"},
+		{"text"},
+		line=430,
+	},
+	{
+		{"fg", mode=-1, id=2, lv=""},
+		{"fg", id=1, path=":fg/003/", file="bz03101", face="tat_z0301101", x=0, days=3},
+		{"mwf", path=":fa/003/", file="fac_0301101"},
+		{"vo", ch="sen03", path=":vo/003/", file="sen030509840"},
+		{"text"},
+		line=436,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110506940"},
+		{"text"},
+		line=442,
+	},
+	{
+		{"text"},
+		line=445,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"bg", del=1, path=":bg/", file="bg_2113", time=900, rule="rand"},
+		{"text"},
+		line=454,
+	},
+	{
+		{"fg", id=1, path=":fg/003/", file="bz03101", face="tat_z0301401", x=0, days=3},
+		{"mwf", path=":fa/003/", file="fac_0301401"},
+		{"vo", ch="sen03", path=":vo/003/", file="sen030509850"},
+		{"text"},
+		line=459,
+	},
+	{
+		{"fg", id=1, path=":fg/003/", file="bz03101", face="tat_z0301101", x=0, days=3},
+		{"mwf", path=":fa/003/", file="fac_0301101"},
+		{"vo", ch="sen03", path=":vo/003/", file="sen030509860"},
+		{"text"},
+		line=464,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=469,
+	},
+	{
+		{"fg", id=1, path=":fg/003/", file="bz03201", face="tat_z0301102", x=0, days=3},
+		{"mwf", path=":fa/003/", file="fac_0301102"},
+		{"vo", ch="sen03", path=":vo/003/", file="sen030509870"},
+		{"text"},
+		line=474,
+	},
+	{
+		{"fg", id=1, path=":fg/003/", file="bz03201", face="tat_z0301102", x=0, days=3},
+		{"mwf", path=":fa/003/", file="fac_0301102"},
+		{"vo", ch="sen03", path=":vo/003/", file="sen030509880"},
+		{"text"},
+		line=479,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=484,
+	},
+	{
+		{"fg", id=1, path=":fg/003/", file="bz03101", face="tat_z0301101", x=0, days=3},
+		{"mwf", path=":fa/003/", file="fac_0301101"},
+		{"vo", ch="sen03", path=":vo/003/", file="sen030509890"},
+		{"text"},
+		line=489,
+	},
+	{
+		{"fg", id=1, path=":fg/003/", file="bz03101", face="tat_z0301101", x=0, days=3},
+		{"mwf", path=":fa/003/", file="fac_0301101"},
+		{"vo", ch="sen03", path=":vo/003/", file="sen030509900"},
+		{"text"},
+		line=494,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110506950"},
+		{"text"},
+		line=500,
+	},
+	{
+		{"text"},
+		line=503,
+	},
+	{
+		{"fg", id=1, path=":fg/003/", file="bz03101", face="tat_z0301201", x=0, days=3},
+		{"mwf", path=":fa/003/", file="fac_0301201"},
+		{"vo", ch="sen03", path=":vo/003/", file="sen030509910"},
+		{"text"},
+		line=508,
+	},
+	{
+		{"fg", id=1, path=":fg/003/", file="bz03201", face="tat_z0301202", x=0, days=3},
+		{"mwf", path=":fa/003/", file="fac_0301202"},
+		{"vo", ch="sen03", path=":vo/003/", file="sen030509920"},
+		{"text"},
+		line=513,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=518,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110506960"},
+		{"text"},
+		line=521,
+	},
+	{
+		{"fg", id=1, path=":fg/003/", file="bz03201", face="tat_z0301212", x=0, days=3},
+		{"mwf", path=":fa/003/", file="fac_0301212"},
+		{"vo", ch="sen03", path=":vo/003/", file="sen030509930"},
+		{"text"},
+		line=526,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=531,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110506970"},
+		{"text"},
+		line=534,
+	},
+	{
+		{"fg", id=1, path=":fg/003/", file="bz03101", face="tat_z0301211", x=0, days=3},
+		{"mwf", path=":fa/003/", file="fac_0301211"},
+		{"vo", ch="sen03", path=":vo/003/", file="sen030509940"},
+		{"text"},
+		line=539,
+	},
+	{
+		{"fg", mode=-1, id=1, lv=""},
+		{"mwf"},
+		{"text"},
+		line=545,
+	},
+	{
+		{"se", id=1, file=03024, vol=88},
+		{"text"},
+		line=549,
+	},
+	{
+		{"fg", id=1, path=":fg/003/", file="bz03101", face="tat_z0301301", x=0, days=3},
+		{"mwf", path=":fa/003/", file="fac_0301301"},
+		{"vo", ch="sen03", path=":vo/003/", file="sen030509950"},
+		{"text"},
+		line=554,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=559,
+	},
+	{
+		{"fg", id=1, path=":fg/003/", file="bz03101", face="tat_z0301101", x=0, days=3},
+		{"mwf", path=":fa/003/", file="fac_0301101"},
+		{"vo", ch="sen03", path=":vo/003/", file="sen030509960"},
+		{"text"},
+		line=564,
+	},
+	{
+		{"fg", mode=-1, id=1, lv=""},
+		{"mwf"},
+		{"text"},
+		line=570,
+	},
+	{
+		{"se", id=1, file=02583, vol=88},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110506980"},
+		{"text"},
+		line=575,
+	},
+	{
+		{"flash", mode=1},
+		{"se", id=1, file=02702, vol=88},
+		{"text"},
+		line=580,
+	},
+	{
+		{"fg", id=1, path=":fg/003/", file="bz03101", face="tat_z0301301", x=0, days=3},
+		{"mwf", path=":fa/003/", file="fac_0301301"},
+		{"vo", ch="sen03", path=":vo/003/", file="sen030509970"},
+		{"text"},
+		line=585,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=590,
+	},
+	{
+		{"text"},
+		line=591,
+	},
+	{
+		{"fg", id=1, path=":fg/003/", file="bz03201", face="tat_z0301302", x=0, days=3},
+		{"mwf", path=":fa/003/", file="fac_0301302"},
+		{"vo", ch="sen03", path=":vo/003/", file="sen030509980"},
+		{"text"},
+		line=596,
+	},
+	{
+		{"fg", mode=-1, id=1, lv=""},
+		{"mwf"},
+		{"text"},
+		line=602,
+	},
+	{
+		{"text"},
+		line=603,
+	},
+	{
+		{"msgoff"},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=150},
+		{"mv", path=":cg/03/", file="m030260005", ex=1, loop=1},
+		{"bg", del=1, path=":cg/03/", file="m030260005a", time=500},
+		{"text"},
+		line=611,
+	},
+	{
+		{"text"},
+		line=612,
+	},
+	{
+		{"se", id=1, file=02706, vol=88},
+		{"bg", del=1, path=":cg/03/", file="dc030180011", time=500},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110506990"},
+		{"text"},
+		line=618,
+	},
+	{
+		{"text"},
+		line=620,
+	},
+	{
+		{"text"},
+		line=621,
+	},
+	{
+		{"bg", del=1, path=":bg/", file="bg_2113", time=900, rule="rand"},
+		{"fg", id=1, path=":fg/003/", file="bz03201", face="tat_z0301102", x=0, days=3},
+		{"mwf", path=":fa/003/", file="fac_0301102"},
+		{"vo", ch="sen03", path=":vo/003/", file="sen030509990"},
+		{"text"},
+		line=628,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=633,
+	},
+	{
+		{"fg", id=1, path=":fg/003/", file="bz03101", face="tat_z0301101", x=0, days=3},
+		{"mwf", path=":fa/003/", file="fac_0301101"},
+		{"vo", ch="sen03", path=":vo/003/", file="sen030510000"},
+		{"text"},
+		line=638,
+	},
+	{
+		{"fg", id=1, path=":fg/003/", file="bz03101", face="tat_z0301101", x=0, days=3},
+		{"mwf", path=":fa/003/", file="fac_0301101"},
+		{"vo", ch="sen03", path=":vo/003/", file="sen030510010"},
+		{"text"},
+		line=643,
+	},
+	{
+		{"fg", id=1, path=":fg/003/", file="bz03101", face="tat_z0301001", x=0, days=3},
+		{"mwf", path=":fa/003/", file="fac_0301001"},
+		{"vo", ch="sen03", path=":vo/003/", file="sen030510020"},
+		{"text"},
+		line=648,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=653,
+	},
+	{
+		{"text"},
+		line=654,
+	},
+	{
+		{"text"},
+		line=655,
+	},
+	{
+		{"text"},
+		line=656,
+	},
+	{
+		{"text"},
+		line=657,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"bgm", stop=1, [1]="", time=1500},
+		{"view", file="view_oth"},
+		{"wmc", no=3},
+		{"bg", del=1, path=":bg/", file="bg_2123", time=900, rule="rand"},
+		{"bgm", path=":bg/", file="bgm_3080", vol=88},
+		{"fg", id=1, path=":fg/016/", file="bz16101", face="tat_z1601111", x=0},
+		{"mwf", path=":fa/016/", file="fac_1601111"},
+		{"vo", ch="sen16", path=":vo/016/", file="sen160500010"},
+		{"text"},
+		line=684,
+	},
+	{
+		{"fg", id=1, path=":fg/016/", file="bz16101", face="tat_z1601501", x=0},
+		{"mwf", path=":fa/016/", file="fac_1601501"},
+		{"vo", ch="sen16", path=":vo/016/", file="sen160500020"},
+		{"text"},
+		line=689,
+	},
+	{
+		{"fg", id=1, path=":fg/016/", file="bz16101", face="tat_z1601101", x=-300},
+		{"fg", id=2, path=":fg/012/", file="bz12101", face="tat_z1201101", x=300},
+		{"mwf", path=":fa/012/", file="fac_1201101"},
+		{"vo", ch="sen12", path=":vo/012/", file="sen120500810"},
+		{"text"},
+		line=695,
+	},
+	{
+		{"fg", id=2, path=":fg/012/", file="bz12101", face="tat_z1201401", x=300},
+		{"mwf", path=":fa/012/", file="fac_1201401"},
+		{"vo", ch="sen12", path=":vo/012/", file="sen120500820"},
+		{"text"},
+		line=700,
+	},
+	{
+		{"fg", id=1, path=":fg/016/", file="bz16101", face="tat_z1601101", x=-300},
+		{"mwf", path=":fa/016/", file="fac_1601101"},
+		{"vo", ch="sen16", path=":vo/016/", file="sen160500030"},
+		{"text"},
+		line=705,
+	},
+	{
+		{"fg", id=1, path=":fg/016/", file="bz16101", face="tat_z1601101", x=-300},
+		{"mwf", path=":fa/016/", file="fac_1601101"},
+		{"vo", ch="sen16", path=":vo/016/", file="sen160500040"},
+		{"text"},
+		line=710,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=715,
+	},
+	{
+		{"fg", id=2, path=":fg/012/", file="bz12101", face="tat_z1201101", x=300},
+		{"mwf", path=":fa/012/", file="fac_1201101"},
+		{"vo", ch="sen12", path=":vo/012/", file="sen120500830"},
+		{"text"},
+		line=720,
+	},
+	{
+		{"fg", id=1, path=":fg/016/", file="bz16101", face="tat_z1601111", x=-300},
+		{"mwf", path=":fa/016/", file="fac_1601111"},
+		{"vo", ch="sen16", path=":vo/016/", file="sen160500050"},
+		{"text"},
+		line=725,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=730,
+	},
+	{
+		{"fg", id=1, path=":fg/016/", file="bz16101", face="tat_z1601401", x=-300},
+		{"mwf", path=":fa/016/", file="fac_1601401"},
+		{"vo", ch="sen16", path=":vo/016/", file="sen160500060"},
+		{"text"},
+		line=735,
+	},
+	{
+		{"fg", id=1, path=":fg/016/", file="bz16101", face="tat_z1601401", x=-300},
+		{"mwf", path=":fa/016/", file="fac_1601401"},
+		{"vo", ch="sen16", path=":vo/016/", file="sen160500070"},
+		{"text"},
+		line=740,
+	},
+	{
+		{"fg", id=1, path=":fg/016/", file="bz16101", face="tat_z1601101", x=-300},
+		{"mwf", path=":fa/016/", file="fac_1601101"},
+		{"vo", ch="sen16", path=":vo/016/", file="sen160500080"},
+		{"text"},
+		line=745,
+	},
+	{
+		{"fg", id=1, path=":fg/016/", file="bz16101", face="tat_z1601101", x=-300},
+		{"mwf", path=":fa/016/", file="fac_1601101"},
+		{"vo", ch="sen16", path=":vo/016/", file="sen160500090"},
+		{"text"},
+		line=750,
+	},
+	{
+		{"fg", id=1, path=":fg/016/", file="bz16101", face="tat_z1601501", x=-300},
+		{"mwf", path=":fa/016/", file="fac_1601501"},
+		{"vo", ch="sen16", path=":vo/016/", file="sen160500100"},
+		{"text"},
+		line=755,
+	},
+	{
+		{"fg", id=2, path=":fg/012/", file="bz12101", face="tat_z1201201", x=300},
+		{"mwf", path=":fa/012/", file="fac_1201201"},
+		{"vo", ch="sen12", path=":vo/012/", file="sen120500840"},
+		{"text"},
+		line=760,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=765,
+	},
+	{
+		{"fg", id=1, path=":fg/016/", file="bz16101", face="tat_z1601201", x=-300},
+		{"mwf", path=":fa/016/", file="fac_1601201"},
+		{"vo", ch="sen16", path=":vo/016/", file="sen160500110"},
+		{"text"},
+		line=770,
+	},
+	{
+		{"fg", mode=-1, id=1, lv=""},
+		{"mwf"},
+		{"text"},
+		line=776,
+	},
+	{
+		{"fg", mode=-1, id=2, lv=""},
+		{"fg", id=1, path=":fg/012/", file="bz12101", face="tat_z1201701", x=0},
+		{"mwf", path=":fa/012/", file="fac_1201701"},
+		{"vo", ch="sen24", path=":vo/024/", file="sen240501310"},
+		{"text"},
+		line=782,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=787,
+	},
+	{
+		{"fg", id=1, path=":fg/012/", file="bz12101", face="tat_z1201401", x=0},
+		{"mwf", path=":fa/012/", file="fac_1201401"},
+		{"vo", ch="sen24", path=":vo/024/", file="sen240501320"},
+		{"text"},
+		line=792,
+	},
+	{
+		{"fg", id=1, path=":fg/012/", file="bz12101", face="tat_z1201411", x=0},
+		{"mwf", path=":fa/012/", file="fac_1201411"},
+		{"vo", ch="sen24", path=":vo/024/", file="sen240501330"},
+		{"text"},
+		line=797,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=802,
+	},
+	{
+		{"bg", del=1, path=":cg/05/", file="dc050200008", time=500},
+		{"mwf", path=":fa/012/", file="fac_1201201"},
+		{"vo", ch="sen24", path=":vo/024/", file="sen240501340"},
+		{"text"},
+		line=809,
+	},
+	{
+		{"mwf", path=":fa/012/", file="fac_1201201"},
+		{"vo", ch="sen24", path=":vo/024/", file="sen240501350"},
+		{"text"},
+		line=814,
+	},
+	{
+		{"mwf", path=":fa/012/", file="fac_1201001"},
+		{"vo", ch="sen24", path=":vo/024/", file="sen240501360"},
+		{"text"},
+		line=819,
+	},
+	{
+		{"mwf"},
+		{"se", id=1, file=09212, vol=88},
+		{"text"},
+		line=827,
+	},
+	{
+		{"text"},
+		line=828,
+	},
+	{
+		{"text"},
+		line=829,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"sestop", id=1, time=1500},
+		{"bgm", stop=1, [1]="", time=1500},
+		{"bg", del=1, path=":bg/", file="bg_2161", time=900, rule="rand"},
+		{"bgm", path=":bg/", file="bgm_2020", vol=88},
+		{"fg", id=1, path=":fg/005/", file="bz05101", face="tat_z0501101", x=0},
+		{"mwf", path=":fa/005/", file="fac_0501101"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050500305"},
+		{"text"},
+		line=855,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=860,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05101", face="tat_z0501101", x=-300},
+		{"fg", id=2, path=":fg/002/", file="bz02101", face="tat_z0201501", x=300},
+		{"mwf", path=":fa/002/", file="fac_0201501"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen020500090"},
+		{"text"},
+		line=866,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=871,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05201", face="tat_z0501102", x=-300},
+		{"mwf", path=":fa/005/", file="fac_0501102"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050500310"},
+		{"text"},
+		line=876,
+	},
+	{
+		{"fg", id=2, path=":fg/002/", file="bz02101", face="tat_z0201101", x=300},
+		{"mwf", path=":fa/002/", file="fac_0201101"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen020500100"},
+		{"text"},
+		line=881,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05201", face="tat_z0501402", x=-300},
+		{"mwf", path=":fa/005/", file="fac_0501402"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050500320"},
+		{"text"},
+		line=886,
+	},
+	{
+		{"fg", id=2, path=":fg/002/", file="bz02101", face="tat_z0201201", x=300},
+		{"mwf", path=":fa/002/", file="fac_0201201"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen020500110"},
+		{"text"},
+		line=891,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05201", face="tat_z0501702", x=-300},
+		{"mwf"},
+		{"text"},
+		line=897,
+	},
+	{
+		{"fg", id=2, path=":fg/002/", file="bz02101", face="tat_z0201231", x=300},
+		{"mwf", path=":fa/002/", file="fac_0201231"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen020500135"},
+		{"text"},
+		line=902,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05201", face="tat_z0501102", x=-300},
+		{"mwf", path=":fa/005/", file="fac_0501102"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050500380"},
+		{"text"},
+		line=907,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05201", face="tat_z0501202", x=-300},
+		{"mwf", path=":fa/005/", file="fac_0501202"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050500390"},
+		{"text"},
+		line=912,
+	},
+	{
+		{"fg", id=2, path=":fg/002/", file="bz02101", face="tat_z0201101", x=300},
+		{"mwf", path=":fa/002/", file="fac_0201101"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen020500160"},
+		{"text"},
+		line=917,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=922,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05201", face="tat_z0501102", x=-300},
+		{"mwf", path=":fa/005/", file="fac_0501102"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050500391"},
+		{"text"},
+		line=927,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05201", face="tat_z0501102", x=-300},
+		{"mwf", path=":fa/005/", file="fac_0501102"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050500392"},
+		{"text"},
+		line=932,
+	},
+	{
+		{"fg", id=2, path=":fg/002/", file="bz02201", face="tat_z0201102", x=300},
+		{"mwf", path=":fa/002/", file="fac_0201102"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen020500171"},
+		{"text"},
+		line=937,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05201", face="tat_z0501112", x=-300},
+		{"mwf", path=":fa/005/", file="fac_0501112"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050500393"},
+		{"text"},
+		line=942,
+	},
+	{
+		{"fg", id=2, path=":fg/002/", file="bz02201", face="tat_z0201002", x=300},
+		{"mwf", path=":fa/002/", file="fac_0201002"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen020500172"},
+		{"text"},
+		line=947,
+	},
+	{
+		{"fg", id=2, path=":fg/002/", file="bz02201", face="tat_z0201002", x=300},
+		{"mwf", path=":fa/002/", file="fac_0201002"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen020500173"},
+		{"text"},
+		line=952,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05301", face="tat_z0501103", x=-300},
+		{"mwf", path=":fa/005/", file="fac_0501103"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050500394"},
+		{"text"},
+		line=957,
+	},
+	{
+		{"fg", id=2, path=":fg/002/", file="bz02201", face="tat_z0201302", x=300},
+		{"mwf", path=":fa/002/", file="fac_0201302"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen020500174"},
+		{"text"},
+		line=962,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=966,
+	},
+	{
+		{"text"},
+		line=967,
+	},
+	{
+		{"text"},
+		line=968,
+	},
+	{
+		{"text"},
+		line=969,
+	},
+	{
+		{"text"},
+		line=970,
+	},
+	{
+		{"text"},
+		line=971,
+	},
+	{
+		{"text"},
+		line=972,
+	},
+	{
+		{"fg", id=1, path=":fg/005/", file="bz05201", face="tat_z0501202", x=-300},
+		{"mwf", path=":fa/005/", file="fac_0501202"},
+		{"vo", ch="sen05", path=":vo/005/", file="sen050500395"},
+		{"text"},
+		line=977,
+	},
+	{
+		{"fg", id=2, path=":fg/002/", file="bz02201", face="tat_z0201272", x=300},
+		{"mwf", path=":fa/002/", file="fac_0201272"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen020500175"},
+		{"text"},
+		line=982,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=987,
+	},
+	{
+		{"text"},
+		line=988,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"bg", del=1, path=":bg/", file="bg_5031", time=900, rule="rand"},
+		{"text"},
+		line=997,
+	},
+	{
+		{"text"},
+		line=998,
+	},
+	{
+		{"text"},
+		line=999,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"bgm", stop=1, [1]="", time=1500},
+		{"viewend"},
+		{"excall", call=0, file="hat050210"},
+		line=999,
+	},
+	text={
+		[1]={
+			name={"name", name="Hotori"},
+			{
+"“Move it! We'll be surrounded at this rate!”",
+			},
+		},
+		[2]={
+			{
+"I rally my comrades behind me as I take point in our formation.",
+			},
+		},
+		[3]={
+			{
+"Our ragtag rebellion comprises forty-odd captured warriors and priestesses.",
+			},
+		},
+		[4]={
+			{
+"Though we managed to steal the handful of spellblades in the garrison's armory, our fighting strength still leaves much to be desired.",
+			},
+		},
+		[5]={
+			{
+"We don't have a second to waste in breaking out of the Republican occupation zone and fleeing Tenkyo.",
+			},
+		},
+		[6]={
+			{
+"I first returned to my senses a few evenings ago.",
+			},
+		},
+		[7]={
+			{
+"A pair of Republican soldiers were escorting me across the occupation.",
+			},
+		},
+		[8]={
+			{
+"I don't remember how I got there.",
+			},
+		},
+		[9]={
+			{
+"As though waking from a dream, I suddenly found myself standing where I was.",
+			},
+		},
+		[10]={
+			{
+"Once my sudden confusion subsided, I eventually realized that I must have been afflicted by the magicks of that priestess Yagi Sekka.",
+			},
+		},
+		[11]={
+			{
+"In all likelihood, I was turned into a mindless puppet just like Father.",
+			},
+		},
+		[12]={
+			{
+"I don't know why the spell was broken, but it's possible that Sekka was incapacitated or killed.",
+			},
+		},
+		[13]={
+			{
+"Fortunately, the Republican soldiers accompanying me were completely unaware that I'd regained my senses.",
+			},
+		},
+		[14]={
+			{
+"This was my Oomikami-given chance.",
+			},
+		},
+		[15]={
+			{
+"I continued pretending to be a mindless puppet while waiting for my chance to escape.",
+			},
+		},
+		[16]={
+			{
+"And that chance came to me earlier today.",
+			},
+		},
+		[17]={
+			name={"name", name="Hotori"},
+			{
+"“Anyone who can't move on their own, pair up with an uninjured warrior! We're all getting out of this alive!”",
+			},
+		},
+		[18]={
+			{
+"As soon as I escaped, I freed all the other warriors and priestesses I could find.",
+			},
+		},
+		[19]={
+			{
+"We stole back our captured spellblades and seized control of the garrison.",
+			},
+		},
+		[20]={
+			{
+"Along the way, we made sure to smash up all the suspicious Artifacts that were being developed there.",
+			},
+		},
+		[21]={
+			{
+"The problem comes from our next step.",
+			},
+		},
+		[22]={
+			{
+"No matter what, we need to escape from the Republican occupation.",
+			},
+		},
+		[23]={
+			{
+"Up until now, we've snuck along alleyways to avoid detection, but at some point, we'll need to make a break for it across the main street.",
+			},
+		},
+		[24]={
+			name={"name", name="Hotori"},
+			{
+"“We're going in! Watch your backs!”",
+			},
+		},
+		[25]={
+			{
+"Steeling myself, I leap out from behind our cover.",
+			},
+		},
+		[26]={
+			name={"name", name="Hotori"},
+			{
+"“I knew it. An ambush!”",
+			},
+		},
+		[27]={
+			{
+"But a screen of lead is hardly enough to stop a warrior with spellblade in hand.",
+			},
+		},
+		[28]={
+			{
+"We spring forward at once and neutralize the enemy soldiers firing on us.",
+			},
+		},
+		[29]={
+			name={"name", name="Hotori"},
+			{
+"“Tanks?!”",
+			},
+		},
+		[30]={
+			{
+"At the end of the road, the enemy has deployed a column of tanks to serve as a barricade.",
+			},
+		},
+		[31]={
+			{
+"Another enemy unit is also rapidly closing in behind us.",
+			},
+		},
+		[32]={
+			{
+"We have nowhere left to run.",
+			},
+		},
+		[33]={
+			{
+"If we just sit here and do nothing, we'll be wiped out to the last.",
+			},
+		},
+		[34]={
+			{
+"The only way out is through.",
+			},
+		},
+		[35]={
+			name={"name", name="Hotori"},
+			{
+"“I'll clear a path! The rest of you, protect the priestesses and break through my opening!”",
+			},
+		},
+		[36]={
+			{
+"This is our only chance.",
+			},
+		},
+		[37]={
+			{
+"I whisper to my spellblade, hardening my resolve once more before the end.",
+			},
+		},
+		[38]={
+			name={"name", name="Hotori"},
+			{
+"“(Please, lend me your power.)”",
+			},
+		},
+		[39]={
+			{
+"Leaving my comrades to fend for themselves, I rush into the fray for the last time.",
+			},
+		},
+		[40]={
+			{
+"Just then─",
+			},
+		},
+		[41]={
+			{
+"A tank explodes in the distance with a deafening blast.",
+			},
+		},
+		[42]={
+			name={"name", name="Hotori"},
+			{
+"“What... in the world...?”",
+			},
+		},
+		[43]={
+			{
+"The Republican soldiers lined up in front of their makeshift barricade break their formation and scatter.",
+			},
+		},
+		[44]={
+			{
+"There's no way.",
+			},
+		},
+		[45]={
+			{
+"I didn't even dare to dream it, but still, you really came for me...",
+			},
+		},
+		[46]={
+			{
+"It really is you─",
+			},
+		},
+		[47]={
+			{
+"Soujin!",
+			},
+		},
+		[48]={
+			{
+"Across the battlefield, Hotori's hope-filled eyes meet my own.",
+			},
+		},
+		[49]={
+			{
+"Thank Oomikami, ",
+{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1},
+"she's alive.",
+{"/font"},
+			},
+		},
+		[50]={
+			name={"name", name="Akari"},
+			{
+"“Soujin, we're charging in!”",
+			},
+		},
+		[51]={
+			name={"name", name="Soujin"},
+			{
+"“Understood!”",
+			},
+		},
+		[52]={
+			{
+"Carving my way through the barricade of enemy tanks, I make my way towards Hotori.",
+			},
+		},
+		[53]={
+			{
+"Thanks to my work at the flower shop, I have the layout of the Republican occupation fully memorized.",
+			},
+		},
+		[54]={
+			{
+"And my guess of where Hotori's group would find themselves pinned down was right on the money.",
+			},
+		},
+		[55]={
+			{
+"Akari and I cut down another group of Republican soldiers and send another tank to the scrap heap.",
+			},
+		},
+		[56]={
+			name={"name", name="Soujin"},
+			{
+"“Hotori!”",
+			},
+		},
+		[57]={
+			{
+"Taking advantage of the blinding explosion and billowing cloud of smoke, I rush to Hotori's side.",
+			},
+		},
+		[58]={
+			{
+"I toss her a cache of a dozen spellblades that were stored for safekeeping at Miyoshi.",
+			},
+		},
+		[59]={
+			name={"name", name="Soujin"},
+			{
+"“Glad to see that you're safe.”",
+			},
+		},
+		[60]={
+			name={"name", name="Hotori"},
+			{
+"“Neither of us'd go down that easily.”",
+			},
+		},
+		[61]={
+			{
+"For a brief moment, we exchange a smile between warriors.",
+			},
+		},
+		[62]={
+			name={"name", name="Soujin"},
+			{
+"“They're bringing in more and more reinforcements. We\nwon't be able to take them on with our numbers.”",
+			},
+		},
+		[63]={
+			name={"name", name="Hotori"},
+			{
+"“Leave it to me. I'll break through and clear an escape path.”",
+			},
+		},
+		[64]={
+			{
+"Hotori passes each of the remaining unarmed warriors a spellblade, securing the keenblade among them to her own hip.",
+			},
+		},
+		[65]={
+			name={"name", name="Soujin"},
+			{
+"“No, it's not time yet.”",
+			},
+		},
+		[66]={
+			name={"name", name="Hotori"},
+			{
+"“Not time yet? Now's our best chance.”",
+			},
+		},
+		[67]={
+			name={"name", name="Soujin"},
+			{
+"“Mutsumi-san will be here soon with reinforcements of our own. We just need to hold out until then.”",
+			},
+		},
+		[68]={
+			name={"name", name="Hotori"},
+			{
+"“Now that's what I like to hear.”",
+			},
+		},
+		[69]={
+			{
+"I scan our surroundings and find Republican soldiers surrounding us on all sides.",
+			},
+		},
+		[70]={
+			name={"name", name="Hotori"},
+			{
+"“So then, what's our plan of attack?”",
+			},
+		},
+		[71]={
+			name={"name", name="Akari"},
+			{
+"“You, Soujin, and I will break their ranks.”",
+			},
+		},
+		[72]={
+			name={"name", name="Akari"},
+			{
+"“Everyone else can protect the priestesses and buy time for Mutsumi-san to arrive with the cavalry. How's that sound?”",
+			},
+		},
+		[73]={
+			name={"name", name="Hotori"},
+			{
+"“Sounds good. Let's have some fun.”",
+			},
+		},
+		[74]={
+			{
+"We have a plan.",
+			},
+		},
+		[75]={
+			name={"name", name="Hotori"},
+			{
+"“You heard all that, didn't you?! Protect these priestesses with your lives!”",
+			},
+		},
+		[76]={
+			{
+"A chorus of war cries resounds in response.",
+			},
+		},
+		[77]={
+			name={"name", name="Akari"},
+			{
+"“Inou, don't push yourself too hard.”",
+			},
+		},
+		[78]={
+			name={"name", name="Hotori"},
+			{
+"“Understood.”",
+			},
+		},
+		[79]={
+			{
+"At Hotori's signal, the three of us leap into the enemy lines in separate directions.",
+			},
+		},
+		[80]={
+			{
+"The moment we dive out behind our cover, we're met with a veritable hail of bullets, but─",
+			},
+		},
+		[81]={
+			name={"name", name="Republican Soldier"},
+			{
+"“Fuck, I can't draw a bead!”",
+			},
+		},
+		[82]={
+			{
+"Faster than a raging gale, I close the distance and cut the line of Republican soldiers into ribbons.",
+			},
+		},
+		[83]={
+			{
+"Once you've managed to break into their formation, the day is yours.",
+			},
+		},
+		[84]={
+			{
+"Like a man possessed, I indiscriminately cut down anyone that crosses my path.",
+			},
+		},
+		[85]={
+			{
+"Dodge, then swing, and then onto the next enemy before the last even hits the ground.",
+			},
+		},
+		[86]={
+			name={"name", name="Hotori"},
+			{
+"“It's your lucky day. I've got plenty of resentment to let out on you, Republican scum!”",
+			},
+		},
+		[87]={
+			{
+"Hotori rampages across the battlefield in an expression of her pent-up frustration.",
+			},
+		},
+		[88]={
+			{
+"Her lightning-fast bladework is every bit as sharp as ever.",
+			},
+		},
+		[89]={
+			name={"name", name="Akari"},
+			{
+"“If you don't want to die, throw down your weapons and run away!”",
+			},
+		},
+		[90]={
+			{
+"Akari is also not holding anything back as she cuts down one Republican soldier after another.",
+			},
+		},
+		[91]={
+			name={"name", name="Soujin"},
+			{
+"“Mh...!”",
+			},
+		},
+		[92]={
+			{
+"But unfortunately, we're still hopelessly outnumbered.",
+			},
+		},
+		[93]={
+			{
+"The three of us are barely causing enough chaos to prevent our allies from being overrun.",
+			},
+		},
+		[94]={
+			{
+"Until suddenly, several explosions erupt in the back lines of the Republican Army.",
+			},
+		},
+		[95]={
+			{
+"I look up to find a formation of warriors making short work of the enemy's rear lines, clearing a path for us.",
+			},
+		},
+		[96]={
+			name={"name", name="Soujin"},
+			{
+"“They're here!”",
+			},
+		},
+		[97]={
+			name={"name", name="Mutsumi"},
+			{
+"“Do pardon our tardiness.”",
+			},
+		},
+		[98]={
+			name={"name", name="Kotone"},
+			{
+"“Soujin-sama! Reinforcements have arrived!”",
+			},
+		},
+		[99]={
+			{
+"Mutsumi-san and Kotone are trailed by over a dozen priestesses.",
+			},
+		},
+		[100]={
+			name={"name", name="Mutsumi"},
+			{
+"“Is Hotori-sama in good health?”",
+			},
+		},
+		[101]={
+			name={"name", name="Soujin"},
+			{
+"“Yeah, she's going wild over there.”",
+			},
+		},
+		[102]={
+			{
+"Noticing Mutsumi-san's arrival, Hotori only proceeds to cut into the enemy with an even greater ferocity.",
+			},
+		},
+		[103]={
+			name={"name", name="Mutsumi"},
+			{
+"“Hehee, in that case, perhaps I shall go indulge myself alongside her.”",
+			},
+		},
+		[104]={
+			{
+"Her spellblade in hand, Mutsumi-san wastes no time charging into the heart of the enemy formation.",
+			},
+		},
+		[105]={
+			name={"name", name="Kotone"},
+			{
+"“Soujin-sama, where might the escaped priestesses be?”",
+			},
+		},
+		[106]={
+			name={"name", name="Soujin"},
+			{
+"“They're being protected by the warriors. Over here!”",
+			},
+		},
+		[107]={
+			{
+"I escort Kotone and her retinue of priestesses to the escapees.",
+			},
+		},
+		[108]={
+			{
+"As soon as Kotone arrives, the escaped priestesses' eyes light up.",
+			},
+		},
+		[109]={
+			name={"name", name="Kotone"},
+			{
+"“I humbly apologize for having caused you concern. I would be more than glad to catch up at a later time.”",
+			},
+		},
+		[110]={
+			name={"name", name="Kotone"},
+			{
+"“For now, let us prioritize extricating ourselves from our current predicament.”",
+			},
+		},
+		[111]={
+			{
+"All the priestesses nod in response.",
+			},
+		},
+		[112]={
+			name={"name", name="Kotone"},
+			{
+"“I ask your assistance in pooling our strength to safeguard the warriors with a Spellshield.”",
+			},
+		},
+		[113]={
+			name={"name", name="Kotone"},
+			{
+"“I shall serve as the conduit, so please direct all of your magicks to me.”",
+			},
+		},
+		[114]={
+			{
+"The priestesses nod again in unison.",
+			},
+		},
+		[115]={
+			name={"name", name="Kotone"},
+			{
+"“Soujin-sama, in order to cover everyone with the Spellshield, I will need to be at the center of the battlefield.”",
+			},
+		},
+		[116]={
+			name={"name", name="Kotone"},
+			{
+"“Would you protect me?”",
+			},
+		},
+		[117]={
+			name={"name", name="Soujin"},
+			{
+"“I don't mind, but are you sure you should be using magicks?”",
+			},
+		},
+		[118]={
+			{
+"At my expression of concern, Kotone faces me with a gentle smile.",
+			},
+		},
+		[119]={
+			name={"name", name="Kotone"},
+			{
+"“I will simply be channeling everyone else's power, so the burden will not be anything I cannot handle.”",
+			},
+		},
+		[120]={
+			name={"name", name="Kotone"},
+			{
+"“The two of us shall live on together, for as long as we can... Is that not so?”",
+			},
+		},
+		[121]={
+			{
+"As long as she agrees with that, I can rest easy.",
+			},
+		},
+		[122]={
+			name={"name", name="Soujin"},
+			{
+"“All right. I'll guard your life with my own!”",
+			},
+		},
+		[123]={
+			name={"name", name="Kotone"},
+			{
+"“I have never felt safer!”",
+			},
+		},
+		[124]={
+			{
+"Kotone and I nod to each other.",
+			},
+		},
+		[125]={
+			name={"name", name="Soujin"},
+			{
+"“Okay, let's move!”",
+			},
+		},
+		[126]={
+			name={"name", name="Kotone"},
+			{
+"“Yes!”",
+			},
+		},
+		[127]={
+			{
+"I pick Kotone up in my arms, gather my strength, and with a single leap─",
+			},
+		},
+		[128]={
+			{
+"I land in the heart of the battlefield, setting Kotone down as bullets whiz over our heads.",
+			},
+		},
+		[129]={
+			name={"name", name="Kotone"},
+			{
+"“All right, here I go!”",
+			},
+		},
+		[130]={
+			{
+"The magicks channeled to her by the other priestesses cause her body to glow with an ethereal light.",
+			},
+		},
+		[131]={
+			name={"name", name="Kotone"},
+			{
+"“Terrible mighty Oomikami, Thy humble servant beseeches Thee. Bestow of me Thy powers Lordly...”",
+			},
+		},
+		[132]={
+			{
+"As she murmurs her invocation, the fervor of the battle reaches a fever pitch.",
+			},
+		},
+		[133]={
+			name={"name", name="Soujin"},
+			{
+"“Not on my watch!”",
+			},
+		},
+		[134]={
+			{
+"I cut down all the bullets flying in our direction.",
+			},
+		},
+		[135]={
+			name={"name", name="Kotone"},
+			{
+"“May Thy divine protection deliver the warriors from all harm!”",
+			},
+		},
+		[136]={
+			{
+"With Kotone's shout, a dramatic change occurs in the bodies of all the warriors fighting on the front lines.",
+			},
+		},
+		[137]={
+			{
+"The bullets flying towards them deflected harmlessly, each warrior is transfigured into a being incapable of being harmed even by the powerful firearms of the Republic.",
+			},
+		},
+		[138]={
+			name={"name", name="Kotone"},
+			{
+"“Warriors of the Empire, you are under the protection of Her Majesty's priestesses!”",
+			},
+		},
+		[139]={
+			{
+"At Kotone's declaration, the empowered warriors surge forward in a berserk frenzy.",
+			},
+		},
+		[140]={
+			{
+"Advancing fearlessly forward, they leap into the enemy lines as a crashing wave.",
+			},
+		},
+		[141]={
+			{
+"Kotone's spell does not go unnoticed, and enemy marksmen immediately train their fire upon her.",
+			},
+		},
+		[142]={
+			{
+"However─",
+			},
+		},
+		[143]={
+			name={"name", name="Soujin"},
+			{
+"“Kotone!”",
+			},
+		},
+		[144]={
+			{
+"I knock all of their bullets out of the air.",
+			},
+		},
+		[145]={
+			{
+"If they want to get to Kotone, they'll have to get through me first.",
+			},
+		},
+		[146]={
+			name={"name", name="Kotone"},
+			{
+"“Oomikami shall bring us victory.”",
+			},
+		},
+		[147]={
+			{
+"Kotone proudly pronounces, directing her open palms towards the Republican soldiers.",
+			},
+		},
+		[148]={
+			name={"name", name="Kotone"},
+			{
+"“For as long as the Empire endures, there will always remain an unconditional fount of love for its inhabitants.”",
+			},
+		},
+		[149]={
+			name={"name", name="Kotone"},
+			{
+"“Even down to the last, we priestesses shall bestow our love upon this Empire and our benedictions upon its people!”",
+			},
+		},
+		[150]={
+			name={"name", name="Kotone"},
+			{
+"“And you will never, ever break our spirit!”",
+			},
+		},
+		[151]={
+			{
+"Kotone screams aloud her unshakable determination.",
+			},
+		},
+		[152]={
+			{
+"Her heart, overflowing with its boundless love, strengthens her Spellshield into a barrier impregnable to all mortal steel.",
+			},
+		},
+		[153]={
+			{
+"The Republican Army has absolutely no hope of standing against these warriors under Oomikami's protection.",
+			},
+		},
+		[154]={
+			{
+"One by one, the enemy soldiers lose their nerve and retreat, until the entire Republican Army is put to rout.",
+			},
+		},
+		[155]={
+			{
+"At last, the day is ours.",
+			},
+		},
+		[156]={
+			name={"name", name="Warren"},
+			{
+"“I believe there's an Imperial proverb along the lines of 'a rat will lash out at the cat that corners it.'”",
+			},
+		},
+		[157]={
+			name={"name", name="Warren"},
+			{
+"“So, what of Sekka?”",
+			},
+		},
+		[158]={
+			name={"name", name="Rochel"},
+			{
+"“She was a party in the search for the ringleaders of the coup d'etat.”",
+			},
+		},
+		[159]={
+			name={"name", name="Rochel"},
+			{
+"“But considering that our expeditionary force was annihilated, it is likely that she, too, has perished.”",
+			},
+		},
+		[160]={
+			name={"name", name="Warren"},
+			{
+"“Why did you dispatch Sekka to the front lines?”",
+			},
+		},
+		[161]={
+			name={"name", name="Warren"},
+			{
+"“She was an important pawn in my plans. You ought to have known that.”",
+			},
+		},
+		[162]={
+			{
+"Rochel's face betrays no consternation.",
+			},
+		},
+		[163]={
+			name={"name", name="Rochel"},
+			{
+"“Inner Iseya was concealed by most ingenious camouflage magicks. None other than Sekka would have been capable of unmasking it in the first place.”",
+			},
+		},
+		[164]={
+			name={"name", name="Warren"},
+			{
+"“That's enough. What's done is done. No amount of complaining will change that.”",
+			},
+		},
+		[165]={
+			{
+"Warren dismissively waves his hand.",
+			},
+		},
+		[166]={
+			name={"name", name="Warren"},
+			{
+"“That said, my plans are now at an impasse.”",
+			},
+		},
+		[167]={
+			name={"name", name="Warren"},
+			{
+"“If my forces were still in any fighting condition, I'd at least be able to leave things to a successor, but the warriors have destroyed them all.”",
+			},
+		},
+		[168]={
+			name={"name", name="Warren"},
+			{
+"“I have no more use for the Empire. We're pulling out.”",
+			},
+		},
+		[169]={
+			name={"name", name="Warren"},
+			{
+"“I'll leave what's left of the Empire to Elsa.”",
+			},
+		},
+		[170]={
+			name={"name", name="Warren"},
+			{
+"“Rochel, what will you do?”",
+			},
+		},
+		[171]={
+			name={"name", name="Rochel"},
+			{
+"“I will naturally accompany you, Your Excellency.”",
+			},
+		},
+		[172]={
+			{
+"Rochel respectfully lowers his head.",
+			},
+		},
+		[173]={
+			name={"name", name="Warren"},
+			{
+"“Suit yourself.”",
+			},
+		},
+		[174]={
+			{
+"Leaving it at that, Warren saunters out of the\ngovernor-general's office without another word.",
+			},
+		},
+		[175]={
+			name={"name", name="Rochel"},
+			{
+"“Oh dearie me...”",
+			},
+		},
+		[176]={
+			{
+"Left by his lonesome, Rochel plops himself down into the\ngovernor-general's luxurious chair.",
+			},
+		},
+		[177]={
+			name={"name", name="Rochel"},
+			{
+"“I sure got awfully far, but I suppose that's all from me this time.”",
+			},
+		},
+		[178]={
+			name={"name", name="Rochel"},
+			{
+"“If only the Exalt-Priestess had managed to destroy that orb...”",
+			},
+		},
+		[179]={
+			{
+"Letting out a deep sigh, Rochel chuckles annoyedly to himself.",
+			},
+		},
+		[180]={
+			name={"name", name="Rochel"},
+			{
+"“Well, so be it.”",
+			},
+		},
+		[181]={
+			name={"name", name="Rochel"},
+			{
+"“I suppose I can afford to spend the next century or two looking for my next canvas.”",
+			},
+		},
+		[182]={
+			name={"name", name="Rochel"},
+			{
+"“After all, I have all the time in the world...”",
+			},
+		},
+		[183]={
+			{
+"Rising leisurely to his feet, the young Republican soldier strolls out of the room.",
+			},
+		},
+		[184]={
+			{
+"True to his word, he has absolutely no need to rush.",
+			},
+		},
+		[185]={
+			{
+"For so long as the Empire continues to endure, time will always be on his side─",
+			},
+		},
+		[186]={
+			name={"name", name="Elsa"},
+			{
+"“I beg your pardon, Your Majesty.”",
+			},
+		},
+		[187]={
+			{
+"Elsa throws open the door to Kanami's chambers, a solitary room located deep in the Republican Government-General.",
+			},
+		},
+		[188]={
+			name={"name", name="Kanami"},
+			{
+"“It seems that there is quite the commotion outside.”",
+			},
+		},
+		[189]={
+			{
+"The far-off sounds of gunshots and explosions have not failed to escape Kanami's attentive ears.",
+			},
+		},
+		[190]={
+			name={"name", name="Elsa"},
+			{
+"“The convicts under arrest in the Republican occupation have initiated an armed insurrection.”",
+			},
+		},
+		[191]={
+			name={"name", name="Kanami"},
+			{
+"“Have you managed to subdue them?”",
+			},
+		},
+		[192]={
+			name={"name", name="Elsa"},
+			{
+"“Unfortunately, they appear to have gotten away.”",
+			},
+		},
+		[193]={
+			name={"name", name="Kanami"},
+			{
+"“Ehehee, that's the first good news I've received in a long time.”",
+			},
+		},
+		[194]={
+			{
+"Elsa can't help but smile wryly at Kanami's defiant declaration of a prison break as being “good news.”",
+			},
+		},
+		[195]={
+			name={"name", name="Kanami"},
+			{
+"“Well then, what are your intentions moving forward, Madam Vice Governor-General?”",
+			},
+		},
+		[196]={
+			name={"name", name="Elsa"},
+			{
+"“Hmm, I think I'll start by lifting all restrictions on Your\nMajesty's freedom of movement.”",
+			},
+		},
+		[197]={
+			name={"name", name="Elsa"},
+			{
+"“Effective immediately, Your Majesty is free to step outside, attend school, and conduct yourself however you so wish.”",
+			},
+		},
+		[198]={
+			name={"name", name="Kanami"},
+			{
+"“...How so?”",
+			},
+		},
+		[199]={
+			{
+"Kanami is naturally skeptical of Elsa's words.",
+			},
+		},
+		[200]={
+			name={"name", name="Elsa"},
+			{
+"“The current governor-general will be taking leave of the Empire in short order.”",
+			},
+		},
+		[201]={
+			name={"name", name="Elsa"},
+			{
+"“Administration of this country will be passed on to yours truly, the vice governor-general.”",
+			},
+		},
+		[202]={
+			name={"name", name="Kanami"},
+			{
+"“I suppose congratulations are in order. You're finally free to carry out your ambitions without reservations.”",
+			},
+		},
+		[203]={
+			name={"name", name="Elsa"},
+			{
+"“Indeed. I plan to move forward immediately with the democratization of the Empire.”",
+			},
+		},
+		[204]={
+			name={"name", name="Kanami"},
+			{
+"“So how does securing my release play into your designs?”",
+			},
+		},
+		[205]={
+			name={"name", name="Kanami"},
+			{
+"“I assure you, you'll receive no cooperation from me even in exchange for my freedom.”",
+			},
+		},
+		[206]={
+			name={"name", name="Elsa"},
+			{
+"“How about if I sweeten the deal with a special pardon for Tokita-kun and all the other warriors who were complicit in Operation Bellflower?”",
+			},
+		},
+		[207]={
+			name={"name", name="Kanami"},
+			{
+"“Do you mean to suggest that Onii-sama is alive?!”",
+			},
+		},
+		[208]={
+			{
+"Kanami leans forward, fixing Elsa with searching eyes.",
+			},
+		},
+		[209]={
+			{
+"Seeing the extent to which Empress Hisui swallowed her bait, Elsa reassures herself that confining her was indeed the right decision.",
+			},
+		},
+		[210]={
+			{
+"After all, there's simply no telling the lengths Kanami would have gone to for her Onii-sama.",
+			},
+		},
+		[211]={
+			{
+"For the sake of her own safety, Elsa needed her to behave herself until she secured complete authority over the Empire.",
+			},
+		},
+		[212]={
+			{
+"─Protect Kanami until Tokita-kun returns to Tenkyo.",
+			},
+		},
+		[213]={
+			{
+"That was the promise Elsa made with Soujin.",
+			},
+		},
+		[214]={
+			{
+"To that end, even imprisoning Empress Hisui was a recourse she was willing to resort to, all in order to protect Kanami.",
+			},
+		},
+		[215]={
+			name={"name", name="Elsa"},
+			{
+"“Feeling ready to change your tune and hear me out?”",
+			},
+		},
+		[216]={
+			name={"name", name="Kanami"},
+			{
+"“Why, I would love to!”",
+			},
+		},
+		[217]={
+			{
+"─I would give anything, even my life, for Onii-sama's sake.",
+			},
+		},
+		[218]={
+			{
+"That is the animating principle that guides every last one of Kanami's actions.",
+			},
+		},
+		[219]={
+			{
+"And so, for the first time in a long time, the two compatriots sit down as equals.",
+			},
+		},
+		[220]={
+			{
+"Their passionate conversation continues long into the chill autumn night─",
+			},
+		},
+		[221]={
+			{
+"Until the bright dawn breaks upon a new Empire.",
+			},
+		},
+	},
+	label={
+	},
+}

@@ -1,0 +1,615 @@
+ast = {
+	{
+		{"exfont", size="NORM"},
+		{"bg", del=1, path=":bg/", file="bg_3121", time=900, rule="rand"},
+		{"bgm", path=":bg/", file="bgm_2041", vol=88},
+		{"text"},
+		line=22,
+	},
+	{
+		{"text"},
+		line=23,
+	},
+	{
+		{"text"},
+		line=24,
+	},
+	{
+		{"text"},
+		line=25,
+	},
+	{
+		{"text"},
+		line=26,
+	},
+	{
+		{"text"},
+		line=27,
+	},
+	{
+		{"text"},
+		line=28,
+	},
+	{
+		{"text"},
+		line=29,
+	},
+	{
+		{"text"},
+		line=30,
+	},
+	{
+		{"text"},
+		line=31,
+	},
+	{
+		{"text"},
+		line=32,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"ev", del=1, set="eve_0406", path=":ev/", file="eve_040601", time=900, rule="rand"},
+		{"mwf", path=":fa/004/", file="fac_0401201"},
+		{"vo", ch="sen04", path=":vo/004/", file="sen040210880"},
+		{"text"},
+		line=57,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=62,
+	},
+	{
+		{"text"},
+		line=63,
+	},
+	{
+		{"text"},
+		line=64,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110205470"},
+		{"text"},
+		line=67,
+	},
+	{
+		{"text"},
+		line=69,
+	},
+	{
+		{"text"},
+		line=70,
+	},
+	{
+		{"mwf", path=":fa/004/", file="fac_0401101"},
+		{"vo", ch="sen04", path=":vo/004/", file="sen040210890"},
+		{"text"},
+		line=75,
+	},
+	{
+		{"mwf", path=":fa/004/", file="fac_0401401"},
+		{"vo", ch="sen04", path=":vo/004/", file="sen040210900"},
+		{"text"},
+		line=80,
+	},
+	{
+		{"mwf", path=":fa/004/", file="fac_0401102"},
+		{"vo", ch="sen04", path=":vo/004/", file="sen040210910"},
+		{"text"},
+		line=85,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110205480"},
+		{"text"},
+		line=91,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110205490"},
+		{"text"},
+		line=94,
+	},
+	{
+		{"text"},
+		line=96,
+	},
+	{
+		{"text"},
+		line=97,
+	},
+	{
+		{"text"},
+		line=98,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110205500"},
+		{"text"},
+		line=101,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110205510"},
+		{"text"},
+		line=104,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110205520"},
+		{"text"},
+		line=107,
+	},
+	{
+		{"text"},
+		line=109,
+	},
+	{
+		{"mwf", path=":fa/004/", file="fac_0401202"},
+		{"vo", ch="sen04", path=":vo/004/", file="sen040210920"},
+		{"text"},
+		line=114,
+	},
+	{
+		{"mwf", path=":fa/004/", file="fac_0401203"},
+		{"vo", ch="sen04", path=":vo/004/", file="sen040210930"},
+		{"text"},
+		line=119,
+	},
+	{
+		{"mwf", path=":fa/004/", file="fac_0401201"},
+		{"vo", ch="sen04", path=":vo/004/", file="sen040210940"},
+		{"text"},
+		line=124,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=129,
+	},
+	{
+		{"mwf", path=":fa/004/", file="fac_0401231"},
+		{"vo", ch="sen04", path=":vo/004/", file="sen040210950"},
+		{"text"},
+		line=134,
+	},
+	{
+		{"mwf", path=":fa/004/", file="fac_0401102"},
+		{"vo", ch="sen04", path=":vo/004/", file="sen040210960"},
+		{"text"},
+		line=139,
+	},
+	{
+		{"mwf", path=":fa/004/", file="fac_0401101"},
+		{"vo", ch="sen04", path=":vo/004/", file="sen040210970"},
+		{"text"},
+		line=144,
+	},
+	{
+		{"mwf", path=":fa/004/", file="fac_0401111"},
+		{"vo", ch="sen04", path=":vo/004/", file="sen040210980"},
+		{"text"},
+		line=149,
+	},
+	{
+		{"mwf", path=":fa/004/", file="fac_0401201"},
+		{"vo", ch="sen04", path=":vo/004/", file="sen040210990"},
+		{"text"},
+		line=154,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=159,
+	},
+	{
+		{"mwf", path=":fa/004/", file="fac_0401202"},
+		{"vo", ch="sen04", path=":vo/004/", file="sen040211000"},
+		{"text"},
+		line=164,
+	},
+	{
+		{"mwf", path=":fa/004/", file="fac_0401201"},
+		{"vo", ch="sen04", path=":vo/004/", file="sen040211010"},
+		{"text"},
+		line=169,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110205530"},
+		{"text"},
+		line=175,
+	},
+	{
+		{"text"},
+		line=177,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110205540"},
+		{"text"},
+		line=180,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110205550"},
+		{"text"},
+		line=183,
+	},
+	{
+		{"text"},
+		line=185,
+	},
+	{
+		{"text"},
+		line=186,
+	},
+	{
+		{"text"},
+		line=187,
+	},
+	{
+		{"text"},
+		line=188,
+	},
+	{
+		{"text"},
+		line=189,
+	},
+	{
+		{"text"},
+		line=190,
+	},
+	{
+		{"text"},
+		line=191,
+	},
+	{
+		{"text"},
+		line=192,
+	},
+	{
+		{"text"},
+		line=193,
+	},
+	{
+		{"text"},
+		line=194,
+	},
+	{
+		{"msgoff"},
+		{"skipstop"},
+		{"skipstop"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=3000, wait=1500, sync=1},
+		{"bgm", stop=1, [1]="", time=1500},
+		{"sestop", id=1, time=1500},
+		{"sestop", id=2, time=1500},
+		{"sestop", id=3, time=1500},
+		{"vo", id=1, stop=1},
+		{"wa", time=1000},
+		{"mv", file="endroll02", mode=2},
+		{"wa", time=2000},
+		{"ev", del=1, set="eve_0406", path=":ev/", file="eve_040601", time=3000},
+		{"exclick"},
+		line=194,
+	},
+	{
+		{"ev", del=1, set="eve_0406", path=":ev/", file="eve_040602", time=3000},
+		{"wa", time=3000},
+		{"ev", del=1, set="eve_0406", path=":ev/", file="eve_040603", time=3000},
+		{"wa", time=5000},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=3000},
+		{"setTrophy", name="TR003"},
+		{"skipstop"},
+		{"eval", exp="g.no104=1"},
+		{"eval", exp="g.no100=1"},
+		{"exflgchk", no=104},
+		{"tl"},
+		line=220,
+	},
+	text={
+		[1]={
+			{
+"Hand in hand, the two of us bask in the warm rays of dawn as we wander the streets of Tenkyo.",
+			},
+		},
+		[2]={
+			{
+"The still-sleepy streets are calm and awash with the crisp morning air.",
+			},
+		},
+		[3]={
+			{
+"To escape the bustle of the town as it prepares to wake up, we head for its tallest point.",
+			},
+		},
+		[4]={
+			{
+"Standing atop this familiar hill, we gaze down at the sprawling Tenkyo scenery.",
+			},
+		},
+		[5]={
+			{
+"Seen from this vista, the Empire is at peace, and the people live their lives in tranquility.",
+			},
+		},
+		[6]={
+			{
+"The spring sky is as clear as can be, and the breeze tickling our hair grows warmer by the day.",
+			},
+		},
+		[7]={
+			{
+"Far away in the distance, I can spot the silhouette of the Imperial Palace.",
+			},
+		},
+		[8]={
+			{
+"It's surrounded on all sides by a towering wall of stone.",
+			},
+		},
+		[9]={
+			{
+"The hole that was there before has since been patched, and not a trace of damage remains.",
+			},
+		},
+		[10]={
+			{
+"However, the number of Republican soldiers garrisoning the palace has swelled by a considerable amount since that day.",
+			},
+		},
+		[11]={
+			{
+"From here, the individual soldiers thronging about the palace complex appear almost like ants swarming a castle of sugar.",
+			},
+		},
+		[12]={
+			name={"name", name="Hotori"},
+			{
+"“It's so pretty, isn't it?”",
+			},
+		},
+		[13]={
+			{
+"Hotori murmurs from beside me.",
+			},
+		},
+		[14]={
+			{
+"She smooths her hair down as it sways gently in the breeze.",
+			},
+		},
+		[15]={
+			{
+"Her typical ponytail is held in place by a shiny new hair ornament.",
+			},
+		},
+		[16]={
+			name={"name", name="Soujin"},
+			{
+"“Yeah.”",
+			},
+		},
+		[17]={
+			{
+"At first glance, Tenkyo seems like the very picture of harmony, but a closer look reveals the armed guards and military checkpoints on every street corner.",
+			},
+		},
+		[18]={
+			{
+"They'll never rest until they crush every last one of us warriors.",
+			},
+		},
+		[19]={
+			name={"name", name="Hotori"},
+			{
+"“So long as we continue to struggle and resist, the Republican Army will never let up on their crackdowns.”",
+			},
+		},
+		[20]={
+			name={"name", name="Hotori"},
+			{
+"“...Are we wrong to keep up our fight?”",
+			},
+		},
+		[21]={
+			name={"name", name="Hotori"},
+			{
+"“If we lay down our arms, would we be able to live in peace?”",
+			},
+		},
+		[22]={
+			name={"name", name="Soujin"},
+			{
+"“Maybe...”",
+			},
+		},
+		[23]={
+			name={"name", name="Soujin"},
+			{
+"“...But that would be nothing but a false peace.”",
+			},
+		},
+		[24]={
+			{
+"Even now, within this ostensibly peaceful city, there are those who are starving to death on the streets.",
+			},
+		},
+		[25]={
+			{
+"Every day, innocent civilians are paying the ultimate price for daring to defy Okonogi's puppet government or the Republican Army.",
+			},
+		},
+		[26]={
+			{
+"The absence of tension says nothing about the presence of justice.",
+			},
+		},
+		[27]={
+			name={"name", name="Soujin"},
+			{
+"“If you just say the word, we could cast everything aside and run away together.”",
+			},
+		},
+		[28]={
+			name={"name", name="Soujin"},
+			{
+"“We could forsake our lord, leave this place behind us, and live out the rest of our lives in some quiet rural backwater.”",
+			},
+		},
+		[29]={
+			name={"name", name="Soujin"},
+			{
+"“If it's with you, I'd flee to the ends of the earth, somewhere so far away that the Republic would never be able to catch us.”",
+			},
+		},
+		[30]={
+			{
+"Hotori smiles gently at my suggestion.",
+			},
+		},
+		[31]={
+			name={"name", name="Hotori"},
+			{
+"“That's true.”",
+			},
+		},
+		[32]={
+			name={"name", name="Hotori"},
+			{
+"“If I wasn't a warrior, I think I just might...”",
+			},
+		},
+		[33]={
+			name={"name", name="Hotori"},
+			{
+"“But I was born to House Inou.”",
+			},
+		},
+		[34]={
+			{
+"She lightly touches Shiranui's handle at her hip, as though to remind herself of the weight that she carries.",
+			},
+		},
+		[35]={
+			name={"name", name="Hotori"},
+			{
+"“I'll keep fighting, even if I'm the last one standing.”",
+			},
+		},
+		[36]={
+			name={"name", name="Hotori"},
+			{
+"“Even if the blood of the warriors stain all of Tenkyo crimson, I'll keep fighting.”",
+			},
+		},
+		[37]={
+			name={"name", name="Hotori"},
+			{
+"“I won't rest until Miyaguni is safe and the Empire is restored to its former glory.”",
+			},
+		},
+		[38]={
+			name={"name", name="Hotori"},
+			{
+"“...That's what all our comrades who are no longer with us entrusted me with.”",
+			},
+		},
+		[39]={
+			name={"name", name="Hotori"},
+			{
+"“Soujin.”",
+			},
+		},
+		[40]={
+			{
+"Hotori fixes me with a weighty look, offering me her hand.",
+			},
+		},
+		[41]={
+			name={"name", name="Hotori"},
+			{
+"“Until that day comes, will you fight by my side?”",
+			},
+		},
+		[42]={
+			name={"name", name="Hotori"},
+			{
+"“Will you take my hand and never let go?”",
+			},
+		},
+		[43]={
+			name={"name", name="Soujin"},
+			{
+"“Yeah. Of course.”",
+			},
+		},
+		[44]={
+			{
+"I grab Hotori's outstretched hand and squeeze it tight.",
+			},
+		},
+		[45]={
+			name={"name", name="Soujin"},
+			{
+"“No matter how much we sully our souls, I'll stay by your side.”",
+			},
+		},
+		[46]={
+			name={"name", name="Soujin"},
+			{
+"“No matter where the fates take us, we'll go hand in hand.”",
+			},
+		},
+		[47]={
+			{
+"Hotori and I are warriors.",
+			},
+		},
+		[48]={
+			{
+"The loyal blades of our lord.",
+			},
+		},
+		[49]={
+			{
+"We shall spare absolutely no effort in reclaiming the Empire.",
+			},
+		},
+		[50]={
+			{
+"For that is Akari's will, and her will shall be done.",
+			},
+		},
+		[51]={
+			{
+"This is the path that Hotori and I have chosen.",
+			},
+		},
+		[52]={
+			{
+"A refreshing spring breeze blows through the Imperial Tomb.",
+			},
+		},
+		[53]={
+			{
+"The Empire's true spring is right on the horizon.",
+			},
+		},
+		[54]={
+			{
+"─Many years later...",
+			},
+		},
+		[55]={
+			{
+{"font", size=53},
+"Imperial citizens would still sing the praises of the legendary Sworn Blades, they who never let their flame of fealty burn out and bravely fought to win the Empire its freedom.",
+{"/font"},
+			},
+		},
+		[56]={
+			{
+"And the names of Inou Hotori and Shiinoha Kotone would forever go down in history as figures instrumental to the ascension of the Persica Princess.",
+			},
+		},
+	},
+	label={
+	},
+}

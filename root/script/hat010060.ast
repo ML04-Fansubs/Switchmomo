@@ -1,0 +1,220 @@
+ast = {
+	{
+		{"exfont", size="NORM"},
+		{"se", id=3, file="90052_a", vol=88, loop=1},
+		{"se", id=2, file="90053_a", vol=88, loop=1},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=900, rule="rand"},
+		{"mwf", path=":fa/002/", file="fac_0201401"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen020100710"},
+		{"text"},
+		line=30,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=35,
+	},
+	{
+		{"text"},
+		line=36,
+	},
+	{
+		{"text"},
+		line=37,
+	},
+	{
+		{"ev", del=1, set="eve_8001", path=":ev/", file="eve_800101", time=900, rule="rand"},
+		{"mwf", path=":fa/002/", file="fac_0201402"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen020100720"},
+		{"text"},
+		line=44,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=49,
+	},
+	{
+		{"text"},
+		line=50,
+	},
+	{
+		{"mwf", path=":fa/002/", file="fac_0201602"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen020100730"},
+		{"text"},
+		line=55,
+	},
+	{
+		{"mwf"},
+		{"ev", del=1, set="eve_8001", path=":ev/", file="eve_800102", time=900, rule="rand"},
+		{"text"},
+		line=62,
+	},
+	{
+		{"text"},
+		line=63,
+	},
+	{
+		{"mwf", path=":fa/002/", file="fac_0201402"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen020100740"},
+		{"text"},
+		line=68,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=73,
+	},
+	{
+		{"text"},
+		line=75,
+	},
+	{
+		{"text"},
+		line=76,
+	},
+	{
+		{"text"},
+		line=77,
+	},
+	{
+		{"mwf", path=":fa/002/", file="fac_0201401"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen020100750"},
+		{"text"},
+		line=82,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=3000, wait=1500, sync=1},
+		{"bgm", stop=1, [1]="", time=1500},
+		{"sestop", id=3, time=1500},
+		{"sestop", id=2, time=1500},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=900, rule="rand"},
+		{"cg", id=2, path=":cg/01/", file="dc00029003a", y=-100, ay=60, lv=1, time=250, sync=1},
+		{"exclick"},
+		line=99,
+	},
+	{
+		{"cgdel", id=2, time=250, lv=5},
+		{"cg", id=3, path=":cg/01/", file="dc00029003b", y=-100, ay=60, lv=1, time=250, sync=1},
+		{"exclick"},
+		line=104,
+	},
+	{
+		{"mwf"},
+		{"bgm", stop=1, [1]="", time=1500},
+		{"sestop", id=1, time=1500},
+		{"sestop", id=2, time=1500},
+		{"sestop", id=3, time=1500},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=3000, wait=1500, sync=1},
+		{"setTrophy", name="TR002"},
+		{"eval", exp="g.no121=1"},
+		{"excall", call=0, file="hat020010"},
+		line=105,
+	},
+	text={
+		[1]={
+			name={"name", name="Empress Hisui"},
+			{
+"“(Nnh... gh...)”",
+			},
+		},
+		[2]={
+			{
+"A thunderous roar reverberates in my ears.",
+			},
+		},
+		[3]={
+			{
+"A sensation like seasickness overwhelms me, and I can't even tell up from down.",
+			},
+		},
+		[4]={
+			{
+"All that I can perceive is a slick liquid trickling down my forehead.",
+			},
+		},
+		[5]={
+			name={"name", name="Empress Hisui"},
+			{
+"“(What... happened?)”",
+			},
+		},
+		[6]={
+			{
+"I unthinkingly breathe in an acrid lungful of smoke, and I struggle to blink back the tears.",
+			},
+		},
+		[7]={
+			{
+"All I can see through my blurry vision are the hazy outlines of people fleeing in panic.",
+			},
+		},
+		[8]={
+			name={"name", name="Empress Hisui"},
+			{
+"“?”",
+			},
+		},
+		[9]={
+			{
+"I catch the glimpse of someone's legs approaching me.",
+			},
+		},
+		[10]={
+			{
+"Military boots... An officer?",
+			},
+		},
+		[11]={
+			name={"name", name="Empress Hisui"},
+			{
+"“(Help... me...)”",
+			},
+		},
+		[12]={
+			{
+"I must have inhaled too much smoke, as my hoarse throat barely manages to croak out the words.",
+			},
+		},
+		[13]={
+			{
+"I try to reach out my hand, but my body refuses to listen.",
+			},
+		},
+		[14]={
+			{
+"As though blotted out by ink, my vision begins to close in from the edges.",
+			},
+		},
+		[15]={
+			{
+"I suppose this is the end for me...",
+			},
+		},
+		[16]={
+			name={"name", name="Empress Hisui"},
+			{
+"“(Onii-sama... Oh, how your Kanami... yearns to see you... one last...)”",
+			},
+		},
+		[17]={
+			hide=1,
+			name={"name", name="???"},
+			{
+"Well? A splendid little fireworks show, don't you think?",
+			},
+		},
+		[18]={
+			hide=1,
+			name={"name", name="???"},
+			{
+"Oh, please... We're only just getting started.",
+			},
+		},
+	},
+	label={
+	},
+}

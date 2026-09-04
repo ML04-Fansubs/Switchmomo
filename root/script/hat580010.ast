@@ -1,0 +1,1916 @@
+ast = {
+	{
+		{"exfont", size="NORM"},
+		{"view", file="view_kan"},
+		{"wmc", no=2},
+		{"bg", del=1, path=":bg/", file="bg_1041", time=900, rule="rand"},
+		{"bgm", path=":bg/", file="bgm_4142", vol=88},
+		{"text"},
+		line=32,
+	},
+	{
+		{"text"},
+		line=33,
+	},
+	{
+		{"text"},
+		line=34,
+	},
+	{
+		{"text"},
+		line=35,
+	},
+	{
+		{"text"},
+		line=36,
+	},
+	{
+		{"text"},
+		line=37,
+	},
+	{
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800010"},
+		{"text"},
+		line=40,
+	},
+	{
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800020"},
+		{"text"},
+		line=43,
+	},
+	{
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800030"},
+		{"text"},
+		line=46,
+	},
+	{
+		{"text"},
+		line=48,
+	},
+	{
+		{"text"},
+		line=49,
+	},
+	{
+		{"text"},
+		line=50,
+	},
+	{
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800040"},
+		{"text"},
+		line=53,
+	},
+	{
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800050"},
+		{"text"},
+		line=56,
+	},
+	{
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800060"},
+		{"text"},
+		line=59,
+	},
+	{
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800070"},
+		{"text"},
+		line=62,
+	},
+	{
+		{"text"},
+		line=64,
+	},
+	{
+		{"text"},
+		line=65,
+	},
+	{
+		{"text"},
+		line=66,
+	},
+	{
+		{"text"},
+		line=67,
+	},
+	{
+		{"text"},
+		line=68,
+	},
+	{
+		{"text"},
+		line=69,
+	},
+	{
+		{"text"},
+		line=70,
+	},
+	{
+		{"text"},
+		line=71,
+	},
+	{
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800080"},
+		{"text"},
+		line=74,
+	},
+	{
+		{"text"},
+		line=76,
+	},
+	{
+		{"text"},
+		line=77,
+	},
+	{
+		{"text"},
+		line=78,
+	},
+	{
+		{"text"},
+		line=79,
+	},
+	{
+		{"text"},
+		line=80,
+	},
+	{
+		{"text"},
+		line=81,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"bgm", stop=1, [1]="", time=1500},
+		{"viewend"},
+		{"bg", del=1, path=":bg/", file="bg_1101", time=900, rule="rand"},
+		{"bgm", path=":bg/", file="bgm_3042", vol=88},
+		{"se", id=1, file=00102, vol=88},
+		{"vo", ch="sen11", path=":vo/011/", file="sen115800010"},
+		{"text"},
+		line=98,
+	},
+	{
+		{"text"},
+		line=100,
+	},
+	{
+		{"text"},
+		line=101,
+	},
+	{
+		{"text"},
+		line=102,
+	},
+	{
+		{"sestop", id=1, time=1500},
+		{"vo", ch="sen11", path=":vo/011/", file="sen115800020"},
+		{"text"},
+		line=107,
+	},
+	{
+		{"text"},
+		line=109,
+	},
+	{
+		{"se", id=1, file=00100, vol=88},
+		{"bg", del=1, path=":bg/", file="bg_1041", time=900, rule="rand"},
+		{"text"},
+		line=115,
+	},
+	{
+		{"text"},
+		line=116,
+	},
+	{
+		{"text"},
+		line=117,
+	},
+	{
+		{"sestop", id=1, time=1500},
+		{"vo", ch="sen11", path=":vo/011/", file="sen115800030"},
+		{"text"},
+		line=122,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bz02301", face="tat_z0201603", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201603"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800090"},
+		{"text"},
+		line=127,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=132,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bz02101", face="tat_z0201601", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201601"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800100"},
+		{"text"},
+		line=137,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen115800040"},
+		{"text"},
+		line=142,
+	},
+	{
+		{"text"},
+		line=144,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bz02201", face="tat_z0201602", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201602"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800110"},
+		{"text"},
+		line=149,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen115800050"},
+		{"text"},
+		line=154,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bz02201", face="tat_z0201402", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201402"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800120"},
+		{"text"},
+		line=159,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bz02201", face="tat_z0201642", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201642"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800130"},
+		{"text"},
+		line=164,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen115800060"},
+		{"text"},
+		line=169,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bz02201", face="tat_z0201602", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201602"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800140"},
+		{"text"},
+		line=174,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=179,
+	},
+	{
+		{"text"},
+		line=180,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bz02101", face="tat_z0201601", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201601"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800150"},
+		{"text"},
+		line=185,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen115800070"},
+		{"text"},
+		line=190,
+	},
+	{
+		{"text"},
+		line=192,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bz02201", face="tat_z0201642", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201642"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800160"},
+		{"text"},
+		line=197,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=202,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bz02101", face="tat_z0201601", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201601"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800170"},
+		{"text"},
+		line=207,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen115800080"},
+		{"text"},
+		line=212,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bz02201", face="tat_z0201852", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201852"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800180"},
+		{"text"},
+		line=217,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen115800090"},
+		{"text"},
+		line=222,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bz02201", face="tat_z0201862", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201862"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800190"},
+		{"text"},
+		line=227,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bz02201", face="tat_z0201862", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201862"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800200"},
+		{"text"},
+		line=232,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen115800100"},
+		{"text"},
+		line=237,
+	},
+	{
+		{"text"},
+		line=239,
+	},
+	{
+		{"text"},
+		line=240,
+	},
+	{
+		{"text"},
+		line=241,
+	},
+	{
+		{"text"},
+		line=242,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bz02101", face="tat_z0201811", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201811"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800210"},
+		{"text"},
+		line=247,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=252,
+	},
+	{
+		{"text"},
+		line=253,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen115800110"},
+		{"text"},
+		line=256,
+	},
+	{
+		{"text"},
+		line=258,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"bgm", stop=1, [1]="", time=1500},
+		{"bg", del=1, path=":bg/", file="bg_1021", time=900, rule="rand"},
+		{"bgm", path=":bg/", file="bgm_2020", vol=88},
+		{"text"},
+		line=271,
+	},
+	{
+		{"text"},
+		line=272,
+	},
+	{
+		{"text"},
+		line=273,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bz02101", face="tat_z0201201", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201201"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800220"},
+		{"text"},
+		line=278,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=283,
+	},
+	{
+		{"text"},
+		line=284,
+	},
+	{
+		{"text"},
+		line=285,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bz02101", face="tat_z0201501", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201501"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800230"},
+		{"text"},
+		line=290,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=295,
+	},
+	{
+		{"text"},
+		line=296,
+	},
+	{
+		{"text"},
+		line=297,
+	},
+	{
+		{"text"},
+		line=298,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bz02101", face="tat_z0201401", x=0},
+		{"text"},
+		line=303,
+	},
+	{
+		{"text"},
+		line=304,
+	},
+	{
+		{"text"},
+		line=305,
+	},
+	{
+		{"text"},
+		line=306,
+	},
+	{
+		{"text"},
+		line=307,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bz02101", face="tat_z0201201", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201201"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800240"},
+		{"text"},
+		line=312,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bz02201", face="tat_z0201202", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201202"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800250"},
+		{"text"},
+		line=317,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=322,
+	},
+	{
+		{"text"},
+		line=323,
+	},
+	{
+		{"text"},
+		line=324,
+	},
+	{
+		{"text"},
+		line=325,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bz02201", face="tat_z0201502", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201502"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800260"},
+		{"text"},
+		line=330,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=335,
+	},
+	{
+		{"text"},
+		line=336,
+	},
+	{
+		{"text"},
+		line=337,
+	},
+	{
+		{"text"},
+		line=338,
+	},
+	{
+		{"text"},
+		line=339,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen115800120"},
+		{"text"},
+		line=342,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bz02101", face="tat_z0201501", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201501"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800270"},
+		{"text"},
+		line=347,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bz02101", face="tat_z0201501", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201501"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800280"},
+		{"text"},
+		line=352,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen115800130"},
+		{"text"},
+		line=357,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bz02101", face="tat_z0201101", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201101"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800290"},
+		{"text"},
+		line=362,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=367,
+	},
+	{
+		{"text"},
+		line=368,
+	},
+	{
+		{"text"},
+		line=369,
+	},
+	{
+		{"text"},
+		line=370,
+	},
+	{
+		{"text"},
+		line=371,
+	},
+	{
+		{"text"},
+		line=372,
+	},
+	{
+		{"text"},
+		line=373,
+	},
+	{
+		{"text"},
+		line=374,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bz02101", face="tat_z0201101", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201101"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800300"},
+		{"text"},
+		line=379,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen115800140"},
+		{"text"},
+		line=384,
+	},
+	{
+		{"text"},
+		line=386,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bz02201", face="tat_z0201102", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201102"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800310"},
+		{"text"},
+		line=391,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen115800150"},
+		{"text"},
+		line=396,
+	},
+	{
+		{"text"},
+		line=398,
+	},
+	{
+		{"text"},
+		line=399,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bzz02201", face="tat_zz0201102", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201102"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800320"},
+		{"text"},
+		line=404,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bzz02201", face="tat_zz0201102", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201102"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800330"},
+		{"text"},
+		line=409,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bzz02201", face="tat_zz0201402", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201402"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800340"},
+		{"text"},
+		line=414,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=419,
+	},
+	{
+		{"text"},
+		line=420,
+	},
+	{
+		{"text"},
+		line=421,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bzz02101", face="tat_zz0201401", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201401"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800350"},
+		{"text"},
+		line=426,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen115800160"},
+		{"text"},
+		line=431,
+	},
+	{
+		{"text"},
+		line=433,
+	},
+	{
+		{"text"},
+		line=434,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen115800170"},
+		{"text"},
+		line=437,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bzz02101", face="tat_zz0201111", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201111"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800360"},
+		{"text"},
+		line=442,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=447,
+	},
+	{
+		{"text"},
+		line=448,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bzz02201", face="tat_zz0201102", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201102"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800370"},
+		{"text"},
+		line=453,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bzz02201", face="tat_zz0201102", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201102"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800380"},
+		{"text"},
+		line=458,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bzz02201", face="tat_zz0201402", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201402"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800390"},
+		{"text"},
+		line=463,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=468,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen115800180"},
+		{"text"},
+		line=471,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bzz02101", face="tat_zz0201811", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201811"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800400"},
+		{"text"},
+		line=476,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=481,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen115800190"},
+		{"text"},
+		line=484,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen115800200"},
+		{"text"},
+		line=487,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen115800210"},
+		{"text"},
+		line=490,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bzz02201", face="tat_zz0201882", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201882"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800410"},
+		{"text"},
+		line=497,
+	},
+	{
+		{"mwf"},
+		{"bgm", stop=1, [1]="", time=1500},
+		{"bgm", path=":bg/", file="bgm_4170", vol=88},
+		{"text"},
+		line=506,
+	},
+	{
+		{"text"},
+		line=507,
+	},
+	{
+		{"text"},
+		line=508,
+	},
+	{
+		{"text"},
+		line=509,
+	},
+	{
+		{"text"},
+		line=510,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bzz02201", face="tat_zz0201882", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201882"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800420"},
+		{"text"},
+		line=515,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen115800220"},
+		{"text"},
+		line=520,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen115800230"},
+		{"text"},
+		line=523,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bzz02101", face="tat_zz0201801", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201801"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800430"},
+		{"text"},
+		line=528,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=533,
+	},
+	{
+		{"text"},
+		line=534,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bzz02201", face="tat_zz0201872", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201872"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800440r"},
+		{"text"},
+		line=542,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=550,
+	},
+	{
+		{"text"},
+		line=551,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bzz02201", face="tat_zz0201872", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201872"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800460r"},
+		{"text"},
+		line=563,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=575,
+	},
+	{
+		{"text"},
+		line=576,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bzz02101", face="tat_zz0201811", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201811"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025800470"},
+		{"text"},
+		line=583,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=588,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"bgm", stop=1, [1]="", time=1500},
+		{"bg", del=1, path=":bg/", file="bg_1021", time=900, rule="rand"},
+		{"bgm", path=":bg/", file="bgm_2020", vol=88},
+		{"text"},
+		line=604,
+	},
+	{
+		{"text"},
+		line=605,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bzz02201", face="tat_zz0201802", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201802"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025802300"},
+		{"text"},
+		line=610,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bzz02101", face="tat_zz0201801", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201801"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025802310"},
+		{"text"},
+		line=615,
+	},
+	{
+		{"fg", id=1, path=":fg/002/", file="bzz02201", face="tat_zz0201882", x=0},
+		{"mwf", path=":fa/002/", file="fac_0201882"},
+		{"vo", ch="sen02", path=":vo/002/", file="sen025802350"},
+		{"text"},
+		line=620,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen115800440"},
+		{"text"},
+		line=626,
+	},
+	{
+		{"text"},
+		line=628,
+	},
+	{
+		{"text"},
+		line=629,
+	},
+	{
+		{"eval", exp="g.no213=1"},
+		{"eval", exp="g.no307=1"},
+		{"exflgchk"},
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=3000, wait=1500, sync=1},
+		{"bgm", stop=1, [1]="", time=1500},
+		{"sestop", id=1, time=1500},
+		{"sestop", id=2, time=1500},
+		{"sestop", id=3, time=1500},
+		{"vo", id=1, stop=1},
+		{"msgoff"},
+		{"skipstop"},
+		{"skipstop"},
+		{"skipstop"},
+		{"bg", del=1, path=":cg/07/", file="ed580010", time=3000},
+		{"wa", time=5000},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=3000},
+		{"skipstop"},
+		{"exreturn"},
+		line=629,
+	},
+	text={
+		[1]={
+			{
+"I flip open my diary for the first time in a long while.",
+			},
+		},
+		[2]={
+			{
+"I should no longer have any need to cloister my overflowing sentiments for Onii-sama within these pages.",
+			},
+		},
+		[3]={
+			{
+"Unlike before, I can convey all my heart's desires to him whenever we meet.",
+			},
+		},
+		[4]={
+			{
+"And yet, I cannot bring myself to speak of these feelings of mine, even to him.",
+			},
+		},
+		[5]={
+			{
+"...For I am terrified of just how he might answer me.",
+			},
+		},
+		[6]={
+			{
+"And so, I put into words all of these ineffable feelings that must never be said aloud.",
+			},
+		},
+		[7]={
+			name={"name", name="Kanami"},
+			{
+"“'Onii-sama, you have lain with me many a time now.'”",
+			},
+		},
+		[8]={
+			name={"name", name="Kanami"},
+			{
+"“'Your Kanami is overjoyed that you have accepted her love in spite of the fact that we are brother and sister.'”",
+			},
+		},
+		[9]={
+			name={"name", name="Kanami"},
+			{
+"“'And yet, I cannot help but feel ill at ease.'”",
+			},
+		},
+		[10]={
+			{
+"My pen lingers above the page as I contemplate whether I should continue.",
+			},
+		},
+		[11]={
+			{
+"If someone were to find this diary, all the details of my sordid relationship with Onii-sama would be laid bare.",
+			},
+		},
+		[12]={
+			{
+"But irrepressibly, my feelings continue to take shape as ink on the page before me.",
+			},
+		},
+		[13]={
+			name={"name", name="Kanami"},
+			{
+"“'Onii-sama, you have accepted the noble task of protecting Miyaguni-sama, the true heir to the Imperial\nFamily.'”",
+			},
+		},
+		[14]={
+			name={"name", name="Kanami"},
+			{
+"“'I cannot bear the thought that when the time comes, my love for you might interfere with your sworn duty.'”",
+			},
+		},
+		[15]={
+			name={"name", name="Kanami"},
+			{
+"“'Such an affair, with one who is your sister, and the Empress at that, is already that which must not be.'”",
+			},
+		},
+		[16]={
+			name={"name", name="Kanami"},
+			{
+"“'It is with this in mind, Onii-sama, that the thought that I ought to sever ties with you weighs heavily on me.'”",
+			},
+		},
+		[17]={
+			{
+"My pen halts in midair as thoughts of Onii-sama fill my mind.",
+			},
+		},
+		[18]={
+			{
+"The very same Onii-sama that accepted my intemperate sisterly love and bestowed upon me carnal knowledge for the first time.",
+			},
+		},
+		[19]={
+			{
+"The mere act of thinking back to that night sets my whole body ablaze.",
+			},
+		},
+		[20]={
+			{
+"Oh, Onii-sama, how your Kanami yearns for you...",
+			},
+		},
+		[21]={
+			{
+"But I cannot help but wonder how you truly feel about our relationship.",
+			},
+		},
+		[22]={
+			{
+"Oh, Oomikami, would that Onii-sama might feel the same way as I do...",
+			},
+		},
+		[23]={
+			{
+"Unable to bring myself to ask, all I can do is continue penning my true feelings in this diary of mine.",
+			},
+		},
+		[24]={
+			{
+"At this rate, I'll be no different from when I was Okonogi's puppet.",
+			},
+		},
+		[25]={
+			name={"name", name="Kanami"},
+			{
+"“Onii-sama...”",
+			},
+		},
+		[26]={
+			{
+"No... I can't go on forever like this.",
+			},
+		},
+		[27]={
+			{
+"If I never clarify my feelings for Onii-sama, I won't ever be able to properly apply myself to other matters.",
+			},
+		},
+		[28]={
+			{
+"Even now, in the course of fulfilling my duties as Empress, my head is filled with nothing but thoughts of him.",
+			},
+		},
+		[29]={
+			{
+"I've dedicated myself to becoming a worthy Empress, and I would hate for Onii-sama of all people to be disappointed in me.",
+			},
+		},
+		[30]={
+			{
+"...I've made up my mind. I shall ask Onii-sama by the end of the day.",
+			},
+		},
+		[31]={
+			{
+"Facing my diary, I certify my resolve into ink.",
+			},
+		},
+		[32]={
+			name={"name", name="Soujin"},
+			{
+"“Your Majesty?”",
+			},
+		},
+		[33]={
+			{
+"I call out as I rap on the door, but there's no response.",
+			},
+		},
+		[34]={
+			{
+"I arrived here on her express summons, so might she be in trouble?",
+			},
+		},
+		[35]={
+			{
+"I'm left with no other choice.",
+			},
+		},
+		[36]={
+			name={"name", name="Soujin"},
+			{
+"“I humbly beg your pardon.”",
+			},
+		},
+		[37]={
+			{
+"Announcing myself, I enter her chambers uninvited.",
+			},
+		},
+		[38]={
+			{
+"Kanami is facing her desk, fully absorbed in writing.",
+			},
+		},
+		[39]={
+			{
+"She hasn't even made any notice of my intrusion.",
+			},
+		},
+		[40]={
+			{
+"So as to not startle her, I slowly approach and quietly call out only when I'm beside her.",
+			},
+		},
+		[41]={
+			name={"name", name="Soujin"},
+			{
+"“Kanami?”",
+			},
+		},
+		[42]={
+			name={"name", name="Kanami"},
+			{
+"“Hwaah?!”",
+			},
+		},
+		[43]={
+			{
+"Kanami notices me and jolts up with a start.",
+			},
+		},
+		[44]={
+			name={"name", name="Kanami"},
+			{
+"“Awawawawa!”",
+			},
+		},
+		[45]={
+			name={"name", name="Soujin"},
+			{
+"“Whoops.”",
+			},
+		},
+		[46]={
+			{
+"I support her with a hand as she nearly falls from her chair in startlement.",
+			},
+		},
+		[47]={
+			name={"name", name="Kanami"},
+			{
+"“O-Onii-sama?!”",
+			},
+		},
+		[48]={
+			name={"name", name="Soujin"},
+			{
+"“I did call out to you several times before I came in.”",
+			},
+		},
+		[49]={
+			name={"name", name="Kanami"},
+			{
+"“I-I hadn't noticed at all...”",
+			},
+		},
+		[50]={
+			name={"name", name="Kanami"},
+			{
+"“Oh, my heart very nearly leapt out of my chest.”",
+			},
+		},
+		[51]={
+			name={"name", name="Soujin"},
+			{
+"“You're the one who told me to come at this time.”",
+			},
+		},
+		[52]={
+			name={"name", name="Kanami"},
+			{
+"“Hweh?”",
+			},
+		},
+		[53]={
+			{
+"Kanami glances at the clock with a confused look on her face.",
+			},
+		},
+		[54]={
+			{
+"It seems like she totally lost track of time.",
+			},
+		},
+		[55]={
+			name={"name", name="Kanami"},
+			{
+"“I-I'm so sorry! H-How careless of me!”",
+			},
+		},
+		[56]={
+			name={"name", name="Soujin"},
+			{
+"“You seemed pretty absorbed in your writing.”",
+			},
+		},
+		[57]={
+			{
+"I peer over at the contents of her desk.",
+			},
+		},
+		[58]={
+			name={"name", name="Kanami"},
+			{
+"“Kyaaah!”",
+			},
+		},
+		[59]={
+			{
+"Kanami leaps to flop over her desk with her entire body.",
+			},
+		},
+		[60]={
+			name={"name", name="Kanami"},
+			{
+"“D-Did you see it...?”",
+			},
+		},
+		[61]={
+			name={"name", name="Soujin"},
+			{
+"“I didn't manage to make out the contents. What were you writing?”",
+			},
+		},
+		[62]={
+			name={"name", name="Kanami"},
+			{
+"“U-Umm... it's... my diary.”",
+			},
+		},
+		[63]={
+			name={"name", name="Soujin"},
+			{
+"“That's not anything to be so embarrassed about, is it?”",
+			},
+		},
+		[64]={
+			name={"name", name="Kanami"},
+			{
+"“I-It is...! It absolutely is!”",
+			},
+		},
+		[65]={
+			name={"name", name="Kanami"},
+			{
+"“Your Kanami would immediately perish if anyone were to lay eyes on her diary!”",
+			},
+		},
+		[66]={
+			name={"name", name="Soujin"},
+			{
+"“I-I see...”",
+			},
+		},
+		[67]={
+			{
+"From her nape of her neck to her hairline, Kanami flushes a bright red.",
+			},
+		},
+		[68]={
+			{
+"I can almost make out a puff of steam rising from her head.",
+			},
+		},
+		[69]={
+			{
+"What in the world could she be writing in that diary?",
+			},
+		},
+		[70]={
+			{
+"With a reaction like that, it only makes me all the more curious.",
+			},
+		},
+		[71]={
+			name={"name", name="Kanami"},
+			{
+"“Please wait outside for just a moment, I'll attend to you right away!”",
+			},
+		},
+		[72]={
+			{
+"Kanami hastily begins stashing her diary away in a double-locked drawer.",
+			},
+		},
+		[73]={
+			{
+"Whatever is written in there, it must be very important to her.",
+			},
+		},
+		[74]={
+			name={"name", name="Soujin"},
+			{
+"“Yeah, feel free to take your time.”",
+			},
+		},
+		[75]={
+			{
+"I'm still curious about its contents, but I withdraw to the hallway all the same.",
+			},
+		},
+		[76]={
+			{
+"On beautiful days such as this one, Kanami always makes time to stroll through the Imperial Gardens.",
+			},
+		},
+		[77]={
+			{
+"And whenever our schedules line up, like today, I'm able to escort her as her bodyguard.",
+			},
+		},
+		[78]={
+			{
+"I've been busy recently, so it's been quite a while since I've been able to accompany Kanami like this.",
+			},
+		},
+		[79]={
+			name={"name", name="Kanami"},
+			{
+"“What a lovely day it is.”",
+			},
+		},
+		[80]={
+			{
+"Kanami remarks as she gazes up at the clear sky.",
+			},
+		},
+		[81]={
+			{
+"The weather is clear and sunny, just warm enough to make me sweat slightly.",
+			},
+		},
+		[82]={
+			{
+"However, she appears to not be bothered at all by the heat as she pleasantly enjoys her stroll.",
+			},
+		},
+		[83]={
+			name={"name", name="Kanami"},
+			{
+"“...”",
+			},
+		},
+		[84]={
+			{
+"Kanami sneaks a glance up at me.",
+			},
+		},
+		[85]={
+			{
+"But I merely shake my head at her without breaking my silence.",
+			},
+		},
+		[86]={
+			{
+"Unlike that one precious day we shared between us, we are no longer permitted to speak intimately in public.",
+			},
+		},
+		[87]={
+			{
+"As I am now, I am but a humble bodyguard to the Empress.",
+			},
+		},
+		[88]={
+			{
+"Understanding, Kanami breaks our gaze with a lonely smile.",
+			},
+		},
+		[89]={
+			{
+"It pains my heart to see her like this, but I mustn't let it show on my face.",
+			},
+		},
+		[90]={
+			{
+"The two of us continue silently strolling through the garden.",
+			},
+		},
+		[91]={
+			{
+"As we continue on, a lone servant tending to the garden notices our presence.",
+			},
+		},
+		[92]={
+			{
+"Kanami shows him a kindly smile as he turns to pay his respects.",
+			},
+		},
+		[93]={
+			name={"name", name="Kanami"},
+			{
+"“Please, do not mind my presence.”",
+			},
+		},
+		[94]={
+			name={"name", name="Kanami"},
+			{
+"“I commend you for your diligent efforts.”",
+			},
+		},
+		[95]={
+			{
+"Kanami addresses him in a benevolent tone.",
+			},
+		},
+		[96]={
+			{
+"Moved by the Empress's consideration, the gardener lays down his tools and offers Kanami a deep bow.",
+			},
+		},
+		[97]={
+			{
+"─Empress Hisui's disposition has recently become even more fair.",
+			},
+		},
+		[98]={
+			{
+"I've heard this opinion shared unanimously among all the servants in the Imperial Palace.",
+			},
+		},
+		[99]={
+			name={"name", name="Kanami"},
+			{
+"“What seems to be the matter?”",
+			},
+		},
+		[100]={
+			{
+"Kanami pauses and turns to look at me.",
+			},
+		},
+		[101]={
+			{
+"She's recently become much more proactive in all aspects of her life.",
+			},
+		},
+		[102]={
+			{
+"She's grown to take a much more active role in governance, being able to discuss politics on an equal footing with parliamentary officials.",
+			},
+		},
+		[103]={
+			{
+"On top of that, she often takes the time to study with Akari in the academy library.",
+			},
+		},
+		[104]={
+			{
+"They had a strained relationship in the past, but now,\nthey're the best of friends.",
+			},
+		},
+		[105]={
+			name={"name", name="Soujin"},
+			{
+"“Nah, it's nothing.”",
+			},
+		},
+		[106]={
+			name={"name", name="Kanami"},
+			{
+"“You seemed amused.”",
+			},
+		},
+		[107]={
+			name={"name", name="Kanami"},
+			{
+"“Is there a matter you wish to discuss? I would dearly love to hear of it.”",
+			},
+		},
+		[108]={
+			name={"name", name="Soujin"},
+			{
+"“Don't worry, it's nothing.”",
+			},
+		},
+		[109]={
+			name={"name", name="Kanami"},
+			{
+"“Oh, must you really be such a meanie?”",
+			},
+		},
+		[110]={
+			{
+"Muttering this, Kanami adorably puffs out her cheeks.",
+			},
+		},
+		[111]={
+			{
+"“Empress Hisui” would never be seen wearing such an expression.",
+			},
+		},
+		[112]={
+			{
+"Right now, she comes off as far more innocently girlish than when she addressed the gardener.",
+			},
+		},
+		[113]={
+			{
+"I'm the only person Kanami shows this side of herself to.",
+			},
+		},
+		[114]={
+			{
+"When I think of it that way, I can't stop the grin from creeping across my face once again.",
+			},
+		},
+		[115]={
+			{
+"A cool breeze blows across the expansive courtyard.",
+			},
+		},
+		[116]={
+			{
+"Left in its wake is a serene stillness as we realize that the two of us are all alone, with nobody around to be seen.",
+			},
+		},
+		[117]={
+			{
+"Kanami draws a half-step closer to me and gently takes my hand into her own.",
+			},
+		},
+		[118]={
+			name={"name", name="Kanami"},
+			{
+"“Onii-sama.”",
+			},
+		},
+		[119]={
+			name={"name", name="Soujin"},
+			{
+"“What is it?”",
+			},
+		},
+		[120]={
+			{
+"I sense her slightly damp hand clutch mine ever so slightly tighter when I ask my question.",
+			},
+		},
+		[121]={
+			name={"name", name="Kanami"},
+			{
+"“There is... a matter I wish to speak to you of... Might you be willing to indulge me?”",
+			},
+		},
+		[122]={
+			name={"name", name="Soujin"},
+			{
+"“Yeah. I don't mind.”",
+			},
+		},
+		[123]={
+			{
+"I prompt her to continue.",
+			},
+		},
+		[124]={
+			{
+"With one last squeeze of my hand, Kanami seems to have steeled her resolve.",
+			},
+		},
+		[125]={
+			name={"name", name="Kanami"},
+			{
+"“Onii-sama... I would hear from you what you truly think of our relationship...”",
+			},
+		},
+		[126]={
+			name={"name", name="Kanami"},
+			{
+"“Do you perhaps find our liaison to be burdensome?”",
+			},
+		},
+		[127]={
+			name={"name", name="Kanami"},
+			{
+"“For instance, regretting having come to know me intimately on that day...”",
+			},
+		},
+		[128]={
+			{
+"The dam of her reservations having burst open, Kanami begins spilling her innermost thoughts.",
+			},
+		},
+		[129]={
+			{
+"Her eyes well up with tears as she recounts her deeply buried anxieties.",
+			},
+		},
+		[130]={
+			{
+"I lay my free hand on top of her head as she struggles to find her words.",
+			},
+		},
+		[131]={
+			name={"name", name="Kanami"},
+			{
+"“U-Um...”",
+			},
+		},
+		[132]={
+			name={"name", name="Soujin"},
+			{
+"“Calm down, Kanami. What brought all this on?”",
+			},
+		},
+		[133]={
+			{
+"I pat her head with one hand as I squeeze her hand reassuringly with my other.",
+			},
+		},
+		[134]={
+			{
+"Even though her shoulders are still feebly trembling, the tears at least no longer spill over from her limpid eyes.",
+			},
+		},
+		[135]={
+			name={"name", name="Soujin"},
+			{
+"“Take as long as you need... Please, just tell me what's bothering you.”",
+			},
+		},
+		[136]={
+			name={"name", name="Kanami"},
+			{
+"“Y-Yes.”",
+			},
+		},
+		[137]={
+			{
+"Kanami closes her eyes and draws a single, deep breath.",
+			},
+		},
+		[138]={
+			{
+"Finally, she begins speaking, barely above a whisper.",
+			},
+		},
+		[139]={
+			name={"name", name="Kanami"},
+			{
+"“I worry that I might be a burden to you, Onii-sama.”",
+			},
+		},
+		[140]={
+			name={"name", name="Kanami"},
+			{
+"“A love affair with the Empress... with your sister... it will surely bring nothing but trouble for you.”",
+			},
+		},
+		[141]={
+			name={"name", name="Kanami"},
+			{
+"“My presence is surely interfering with your fealty to Miyaguni-sama...”",
+			},
+		},
+		[142]={
+			{
+"Kanami hangs her head with a fragile, forlorn expression on her face.",
+			},
+		},
+		[143]={
+			name={"name", name="Soujin"},
+			{
+"“Kanami, don't say such sad things.”",
+			},
+		},
+		[144]={
+			name={"name", name="Kanami"},
+			{
+"“Ahh?”",
+			},
+		},
+		[145]={
+			{
+"I let go of her hand and embrace her frail shoulders.",
+			},
+		},
+		[146]={
+			name={"name", name="Soujin"},
+			{
+"“I wanted nothing more than to enter this relationship with you.”",
+			},
+		},
+		[147]={
+			name={"name", name="Soujin"},
+			{
+"“I made this choice of my own free will, and I'll see it through to the end.”",
+			},
+		},
+		[148]={
+			name={"name", name="Soujin"},
+			{
+"“I shall continue to protect Akari, just as I shall continue to always love you. I swear it on my blade.”",
+			},
+		},
+		[149]={
+			name={"name", name="Kanami"},
+			{
+"“...Onii-sama.”",
+			},
+		},
+		[150]={
+			{
+"Inside my arms, Kanami stares up into my eyes, her cheeks flushed bright red.",
+			},
+		},
+		[151]={
+			{
+"Kanami is not wrong. Our affair will beget nothing but misfortune for the both of us.",
+			},
+		},
+		[152]={
+			{
+"But I fell in love with her all the same─",
+{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1},
+"my",
+{"/font"},
+" Empress... ",
+{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1},
+"my",
+{"/font"},
+" sister... ",
+{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1},
+"my",
+{"/font"},
+" Kanami.",
+			},
+		},
+		[153]={
+			{
+"Perhaps in doing so, the two of us both have strayed far off of the righteous path.",
+			},
+		},
+		[154]={
+			{
+"But even so, I would sooner die than ever leave her side.",
+			},
+		},
+		[155]={
+			name={"name", name="Kanami"},
+			{
+"“Are you certain, Onii-sama? ...Will you truly never cease to love me?”",
+			},
+		},
+		[156]={
+			name={"name", name="Soujin"},
+			{
+"“Yeah. I will.”",
+			},
+		},
+		[157]={
+			name={"name", name="Soujin"},
+			{
+"“I'll always love you, Kanami.”",
+			},
+		},
+		[158]={
+			name={"name", name="Kanami"},
+			{
+"“Onii-sama, I eternally pledge myself... to you as well.”",
+			},
+		},
+		[159]={
+			{
+"Kanami trembles in my arms, as though she might shatter at the slightest touch.",
+			},
+		},
+		[160]={
+			{
+"Unable to hold back my overwhelming feelings for her, I delicately cradle her chin as I draw my face close to hers.",
+			},
+		},
+		[161]={
+			name={"name", name="Kanami"},
+			{
+"“Nnh, nn... ch...”",
+			},
+		},
+		[162]={
+			{
+"We share a tender kiss.",
+			},
+		},
+		[163]={
+			{
+"Her body stiffens for just an instant, but in the very next, she melts wholly within my embrace.",
+			},
+		},
+		[164]={
+			name={"name", name="Kanami"},
+			{
+"“Haah, haah... Onii-sama...”",
+			},
+		},
+		[165]={
+			{
+"As I slowly release her lips, Kanami leans her whole body against mine as though to prolong our kiss for even a moment longer.",
+			},
+		},
+		[166]={
+			{
+"Noticing my arousal, Kanami gently takes me by the hand.",
+			},
+		},
+		[167]={
+			name={"name", name="Kanami"},
+			{
+"“Onii-sama, over here...”",
+			},
+		},
+		[168]={
+			{
+"With unsteady steps and labored breaths, Kanami lures me to a shaded grove.",
+			},
+		},
+		[169]={
+			{
+"Even though we finished, my other self is facing skyward, stading proudly at attention.",
+			},
+		},
+		[170]={
+			{
+"Kanami can't help but let out a giggle.",
+			},
+		},
+		[171]={
+			name={"name", name="Kanami"},
+			{
+"“How naughty, Onii-sama. This simply will not do...”",
+			},
+		},
+		[172]={
+			name={"name", name="Kanami"},
+			{
+"“But your Kanami understands... Please make love to her once more.”",
+			},
+		},
+		[173]={
+			name={"name", name="Kanami"},
+			{
+"“I beg you... Please, Onii-sama.”",
+			},
+		},
+		[174]={
+			name={"name", name="Soujin"},
+			{
+"“Yeah. All right.”",
+			},
+		},
+		[175]={
+			{
+"No matter how many times I make love to her, I'll never tire of it.",
+			},
+		},
+		[176]={
+			{
+"And so, within this shaded grove, we embraced each other once again.",
+			},
+		},
+	},
+	label={
+	},
+}

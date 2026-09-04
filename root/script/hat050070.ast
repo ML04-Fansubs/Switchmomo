@@ -1,0 +1,1807 @@
+ast = {
+	{
+		{"exfont", size="NORM"},
+		{"view", file="view_kot"},
+		{"wmc", no=2},
+		{"bg", film=1, lv=0, id=31, path=":bg/", file="white", mode="add", time=0, sync=1},
+		{"cg", id=11, path=":bg/", file="white", lv=10, time=0, sync=1},
+		{"cg", id=2, path=":cg/05/", file="dc050070001", count=4, atime=50, amode=1, lv=2, time=0, sync=1},
+		{"cgdel", id=31, film=1, sync=1, time=0, lv=0},
+		{"cg", id=11, alpha=0, speed=1000, time=0, path=":bg/", file="white", a2=255},
+		{"bgm", path=":bg/", file="bgm_4040", vol=88},
+		{"text"},
+		line=32,
+	},
+	{
+		{"text"},
+		line=33,
+	},
+	{
+		{"text"},
+		line=34,
+	},
+	{
+		{"text"},
+		line=35,
+	},
+	{
+		{"text"},
+		line=36,
+	},
+	{
+		{"text"},
+		line=37,
+	},
+	{
+		{"vo", ch="sen03", path=":vo/003/", file="sen030501950"},
+		{"text"},
+		line=40,
+	},
+	{
+		{"text"},
+		line=42,
+	},
+	{
+		{"ev", del=1, set="eve_7006", path=":ev/", file="eve_700601", time=900, rule="rand"},
+		{"text"},
+		line=60,
+	},
+	{
+		{"text"},
+		line=61,
+	},
+	{
+		{"text"},
+		line=62,
+	},
+	{
+		{"text"},
+		line=63,
+	},
+	{
+		{"text"},
+		line=64,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500010"},
+		{"text"},
+		line=67,
+	},
+	{
+		{"text"},
+		line=69,
+	},
+	{
+		{"text"},
+		line=70,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500020"},
+		{"text"},
+		line=73,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110502320"},
+		{"text"},
+		line=76,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500030"},
+		{"text"},
+		line=79,
+	},
+	{
+		{"text"},
+		line=81,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500040"},
+		{"text"},
+		line=84,
+	},
+	{
+		{"text"},
+		line=86,
+	},
+	{
+		{"text"},
+		line=87,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500050"},
+		{"text"},
+		line=90,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500060"},
+		{"text"},
+		line=93,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500070"},
+		{"text"},
+		line=96,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110502330"},
+		{"text"},
+		line=99,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500080"},
+		{"text"},
+		line=103,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500090"},
+		{"text"},
+		line=106,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500100"},
+		{"text"},
+		line=109,
+	},
+	{
+		{"text"},
+		line=111,
+	},
+	{
+		{"text"},
+		line=112,
+	},
+	{
+		{"text"},
+		line=113,
+	},
+	{
+		{"text"},
+		line=114,
+	},
+	{
+		{"vo", ch="sen03", path=":vo/003/", file="sen030501960"},
+		{"text"},
+		line=117,
+	},
+	{
+		{"text"},
+		line=119,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500110"},
+		{"text"},
+		line=122,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500120"},
+		{"text"},
+		line=125,
+	},
+	{
+		{"text"},
+		line=127,
+	},
+	{
+		{"text"},
+		line=128,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500130"},
+		{"text"},
+		line=131,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110502340"},
+		{"text"},
+		line=134,
+	},
+	{
+		{"text"},
+		line=137,
+	},
+	{
+		{"se", id=1, file=00000, vol=88},
+		{"sestop", id=1, time=1500},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=900, rule="rand"},
+		{"vo", ch="sen03", path=":vo/003/", file="sen030501970"},
+		{"text"},
+		line=148,
+	},
+	{
+		{"text"},
+		line=150,
+	},
+	{
+		{"text"},
+		line=151,
+	},
+	{
+		{"text"},
+		line=152,
+	},
+	{
+		{"text"},
+		line=153,
+	},
+	{
+		{"ev", del=1, set="eve_7007", path=":ev/", file="eve_700701", time=900, rule="rand"},
+		{"vo", ch="sen35", path=":vo/035/", file="sen590500010"},
+		{"text"},
+		line=174,
+	},
+	{
+		{"text"},
+		line=176,
+	},
+	{
+		{"text"},
+		line=177,
+	},
+	{
+		{"text"},
+		line=178,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110502350"},
+		{"text"},
+		line=181,
+	},
+	{
+		{"vo", ch="sen35", path=":vo/035/", file="sen590500020"},
+		{"text"},
+		line=184,
+	},
+	{
+		{"vo", ch="sen35", path=":vo/035/", file="sen590500030"},
+		{"text"},
+		line=187,
+	},
+	{
+		{"text"},
+		line=189,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500140"},
+		{"text"},
+		line=192,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500150"},
+		{"text"},
+		line=195,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500160"},
+		{"text"},
+		line=198,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110502360"},
+		{"text"},
+		line=201,
+	},
+	{
+		{"text"},
+		line=204,
+	},
+	{
+		{"text"},
+		line=205,
+	},
+	{
+		{"text"},
+		line=206,
+	},
+	{
+		{"text"},
+		line=207,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110502370"},
+		{"text"},
+		line=210,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500170"},
+		{"text"},
+		line=214,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500180"},
+		{"text"},
+		line=217,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500190"},
+		{"text"},
+		line=220,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500200"},
+		{"text"},
+		line=223,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110502380"},
+		{"text"},
+		line=226,
+	},
+	{
+		{"vo", ch="sen35", path=":vo/035/", file="sen590500040"},
+		{"text"},
+		line=229,
+	},
+	{
+		{"vo", ch="sen35", path=":vo/035/", file="sen590500050"},
+		{"text"},
+		line=232,
+	},
+	{
+		{"vo", ch="sen35", path=":vo/035/", file="sen590500060"},
+		{"text"},
+		line=235,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110502390"},
+		{"text"},
+		line=238,
+	},
+	{
+		{"text"},
+		line=241,
+	},
+	{
+		{"msgoff"},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=150},
+		{"mv", path=":cg/05/", file="m050070002", ex=1, loop=1},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=900, rule="rand"},
+		{"text"},
+		line=249,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500210"},
+		{"text"},
+		line=252,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500220"},
+		{"text"},
+		line=255,
+	},
+	{
+		{"msgoff"},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=150},
+		{"mv", path=":cg/05/", file="m050070003", ex=1, loop=1},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=900, rule="rand"},
+		{"text"},
+		line=264,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"bg", film=1, lv=0, id=31, path=":bg/", file="white", mode="add", time=0, sync=1},
+		{"cg", id=11, path=":bg/", file="white", lv=10, time=0, sync=1},
+		{"cg", id=2, path=":cg/05/", file="dc050070001", count=4, atime=50, amode=1, lv=2, time=0, sync=1},
+		{"cgdel", id=31, film=1, sync=1, time=0, lv=0},
+		{"cg", id=11, alpha=0, speed=1000, time=0, path=":bg/", file="white", a2=255},
+		{"text"},
+		line=280,
+	},
+	{
+		{"text"},
+		line=281,
+	},
+	{
+		{"text"},
+		line=282,
+	},
+	{
+		{"text"},
+		line=283,
+	},
+	{
+		{"text"},
+		line=284,
+	},
+	{
+		{"text"},
+		line=285,
+	},
+	{
+		{"text"},
+		line=286,
+	},
+	{
+		{"text"},
+		line=287,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"bgm", stop=1, [1]="", time=1500},
+		{"viewend"},
+		{"ev", del=1, set="eve_7008", path=":ev/", file="eve_700801", time=900, rule="rand"},
+		{"bgm", path=":bg/", file="bgm_4040", vol=88},
+		{"text"},
+		line=303,
+	},
+	{
+		{"text"},
+		line=304,
+	},
+	{
+		{"text"},
+		line=305,
+	},
+	{
+		{"text"},
+		line=306,
+	},
+	{
+		{"text"},
+		line=307,
+	},
+	{
+		{"text"},
+		line=308,
+	},
+	{
+		{"bg", del=1, path=":cg/05/", file="dc050070004", time=500},
+		{"text"},
+		line=312,
+	},
+	{
+		{"text"},
+		line=313,
+	},
+	{
+		{"text"},
+		line=314,
+	},
+	{
+		{"text"},
+		line=315,
+	},
+	{
+		{"text"},
+		line=316,
+	},
+	{
+		{"text"},
+		line=317,
+	},
+	{
+		{"text"},
+		line=318,
+	},
+	{
+		{"text"},
+		line=319,
+	},
+	{
+		{"text"},
+		line=320,
+	},
+	{
+		{"msgoff"},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=150},
+		{"mv", path=":cg/05/", file="m050070006", ex=1, loop=1},
+		{"bg", del=1, path=":cg/05/", file="dc050070007", time=000},
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500230"},
+		{"text"},
+		line=329,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110502400"},
+		{"text"},
+		line=332,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500240"},
+		{"text"},
+		line=335,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500250"},
+		{"text"},
+		line=338,
+	},
+	{
+		{"text"},
+		line=340,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110502410"},
+		{"text"},
+		line=343,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500260"},
+		{"text"},
+		line=346,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500270"},
+		{"text"},
+		line=349,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110502420"},
+		{"text"},
+		line=352,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500280"},
+		{"text"},
+		line=355,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500290"},
+		{"text"},
+		line=358,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500300"},
+		{"text"},
+		line=361,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500310"},
+		{"text"},
+		line=364,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500320"},
+		{"text"},
+		line=367,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500330"},
+		{"text"},
+		line=370,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110502430"},
+		{"text"},
+		line=373,
+	},
+	{
+		{"text"},
+		line=375,
+	},
+	{
+		{"text"},
+		line=376,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500340"},
+		{"text"},
+		line=379,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110502440"},
+		{"text"},
+		line=382,
+	},
+	{
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500350"},
+		{"text"},
+		line=385,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110502450"},
+		{"text"},
+		line=388,
+	},
+	{
+		{"se", id=1, file=02100, vol=88},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=900, rule="rand"},
+		{"text"},
+		line=393,
+	},
+	{
+		{"text"},
+		line=394,
+	},
+	{
+		{"text"},
+		line=395,
+	},
+	{
+		{"text"},
+		line=396,
+	},
+	{
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"ev", del=1, set="eve_7009", path=":ev/", file="eve_700901", time=900, rule="rand"},
+		{"vo", ch="sen35", path=":vo/035/", file="sen600500010"},
+		{"text"},
+		line=420,
+	},
+	{
+		{"text"},
+		line=422,
+	},
+	{
+		{"text"},
+		line=423,
+	},
+	{
+		{"text"},
+		line=424,
+	},
+	{
+		{"text"},
+		line=425,
+	},
+	{
+		{"text"},
+		line=426,
+	},
+	{
+		{"ev", del=1, set="eve_7010", path=":ev/", file="eve_701001", time=900, rule="rand"},
+		{"vo", ch="sen35", path=":vo/035/", file="sen600500020"},
+		{"text"},
+		line=431,
+	},
+	{
+		{"vo", ch="sen35", path=":vo/035/", file="sen600500030"},
+		{"text"},
+		line=434,
+	},
+	{
+		{"vo", ch="sen35", path=":vo/035/", file="sen600500040"},
+		{"text"},
+		line=437,
+	},
+	{
+		{"text"},
+		line=439,
+	},
+	{
+		{"vo", ch="sen35", path=":vo/035/", file="sen600500050"},
+		{"text"},
+		line=442,
+	},
+	{
+		{"vo", ch="sen35", path=":vo/035/", file="sen600500060"},
+		{"text"},
+		line=445,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110502460"},
+		{"text"},
+		line=448,
+	},
+	{
+		{"text"},
+		line=450,
+	},
+	{
+		{"text"},
+		line=451,
+	},
+	{
+		{"text"},
+		line=452,
+	},
+	{
+		{"text"},
+		line=453,
+	},
+	{
+		{"ev", del=1, set="eve_7011", path=":ev/", file="eve_701101", time=900, rule="rand"},
+		{"vo", ch="sen35", path=":vo/035/", file="sen600500070"},
+		{"text"},
+		line=458,
+	},
+	{
+		{"vo", ch="sen35", path=":vo/035/", file="sen600500080"},
+		{"text"},
+		line=461,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110502470"},
+		{"text"},
+		line=464,
+	},
+	{
+		{"vo", ch="sen35", path=":vo/035/", file="sen600500090"},
+		{"text"},
+		line=467,
+	},
+	{
+		{"vo", ch="sen35", path=":vo/035/", file="sen600500100"},
+		{"text"},
+		line=470,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110502480"},
+		{"text"},
+		line=473,
+	},
+	{
+		{"vo", ch="sen35", path=":vo/035/", file="sen600500110"},
+		{"text"},
+		line=476,
+	},
+	{
+		{"vo", ch="sen35", path=":vo/035/", file="sen600500120"},
+		{"text"},
+		line=479,
+	},
+	{
+		{"text"},
+		line=481,
+	},
+	{
+		{"ev", del=1, set="eve_7012", path=":ev/", file="eve_701201", time=900, rule="rand"},
+		{"text"},
+		line=487,
+	},
+	{
+		{"text"},
+		line=488,
+	},
+	{
+		{"text"},
+		line=489,
+	},
+	{
+		{"text"},
+		line=490,
+	},
+	{
+		{"text"},
+		line=491,
+	},
+	{
+		{"text"},
+		line=492,
+	},
+	{
+		{"text"},
+		line=493,
+	},
+	{
+		{"text"},
+		line=494,
+	},
+	{
+		{"text"},
+		line=495,
+	},
+	{
+		{"text"},
+		line=496,
+	},
+	{
+		{"text"},
+		line=497,
+	},
+	{
+		{"text"},
+		line=498,
+	},
+	{
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"msgoff"},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=150},
+		{"mv", path=":cg/05/", file="m050070008", ex=1, loop=1},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=900, rule="rand"},
+		{"vo", ch="sen24", path=":vo/024/", file="sen240500360"},
+		{"text"},
+		line=510,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110502490"},
+		{"text"},
+		line=513,
+	},
+	{
+		{"msgoff"},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=150},
+		{"mv", path=":cg/05/", file="m050070009", ex=1, loop=1},
+		{"bg", del=1, path=":cg/05/", file="dc050070010", time=500},
+		{"text"},
+		line=521,
+	},
+	{
+		{"text"},
+		line=522,
+	},
+	{
+		{"text"},
+		line=523,
+	},
+	{
+		{"text"},
+		line=524,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110502500"},
+		{"text"},
+		line=529,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110502510"},
+		{"text"},
+		line=532,
+	},
+	{
+		{"bgm", stop=1, [1]="", time=1500},
+		{"sestop", id=1, time=1500},
+		{"sestop", id=2, time=1500},
+		{"sestop", id=3, time=1500},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"excall", call=0, file="hat050080"},
+		line=532,
+	},
+	text={
+		[1]={
+			{
+"Where am I?",
+			},
+		},
+		[2]={
+			{
+"My field of vision is hazy and indistinct, shrouded in near darkness.",
+			},
+		},
+		[3]={
+			{
+"What did I do after completing Soujin-sama's treatment at the bath?",
+			},
+		},
+		[4]={
+			{
+"Ah, I remember. Isuzu gave me a lengthy talking-to.",
+			},
+		},
+		[5]={
+			{
+"How as Exalt-Priestess, I need to conduct myself with more self-awareness.",
+			},
+		},
+		[6]={
+			{
+"After that... I retired for the evening, and...",
+			},
+		},
+		[7]={
+			name={"name", name="Kotone"},
+			{
+"“Nnh... What's this?”",
+			},
+		},
+		[8]={
+			{
+"Suddenly, my vision clears.",
+			},
+		},
+		[9]={
+			{
+"A faintly familiar man stands before me on a mountain path.",
+			},
+		},
+		[10]={
+			{
+"Could that be Soujin-sama?",
+			},
+		},
+		[11]={
+			{
+"No...",
+			},
+		},
+		[12]={
+			{
+"They look exactly alike, but this man exudes a wholly different aura.",
+			},
+		},
+		[13]={
+			{
+"Could this be...",
+			},
+		},
+		[14]={
+			name={"name", name="Filthy Brigand"},
+			{
+"“Hey, Mitsurugi...”",
+			},
+		},
+		[15]={
+			{
+"Drenched with blood, the man laying at Mitsurugi-sama's feet nevertheless opens his mouth.",
+			},
+		},
+		[16]={
+			{
+"Though his chest is split open down the middle, his voice is that of someone without a single care in the world.",
+			},
+		},
+		[17]={
+			name={"name", name="Filthy Brigand"},
+			{
+"“This makes it how many times y've killed me now?”",
+			},
+		},
+		[18]={
+			name={"name", name="Mitsurugi"},
+			{
+"“This is the sixth.”",
+			},
+		},
+		[19]={
+			name={"name", name="Filthy Brigand"},
+			{
+"“Ahaha, there y'go! Me memory's like a sieve, so lucky me I gots you 'round.”",
+			},
+		},
+		[20]={
+			{
+"Killed six times? What does he mean?",
+			},
+		},
+		[21]={
+			name={"name", name="Filthy Brigand"},
+			{
+"“Well, this time sure was pretty damn fun.”",
+			},
+		},
+		[22]={
+			{
+"The man turns his bloodshot eyes towards his surroundings.",
+			},
+		},
+		[23]={
+			{
+"Scattered all around him are too many corpses to count─men and women, young and old...",
+			},
+		},
+		[24]={
+			name={"name", name="Filthy Brigand"},
+			{
+"“Y'see, I happened to come across the Exalt-Priestess\npayin' her respects, 'n I just couldn't help meself!”",
+			},
+		},
+		[25]={
+			name={"name", name="Filthy Brigand"},
+			{
+"“Wassat they say 'bout never refusin' a meal freely offered?”",
+			},
+		},
+		[26]={
+			name={"name", name="Filthy Brigand"},
+			{
+"“Huh? That's not what that means?”",
+			},
+		},
+		[27]={
+			name={"name", name="Mitsurugi"},
+			{
+"“What need had you to slay all her attendants?”",
+			},
+		},
+		[28]={
+			name={"name", name="Filthy Brigand"},
+			{
+"“Settin' the scene.”",
+			},
+		},
+		[29]={
+			name={"name", name="Filthy Brigand"},
+			{
+"“Can't paint a masterpiece by just slappin' the subject down in the middle of the canvas, y'know?”",
+			},
+		},
+		[30]={
+			name={"name", name="Filthy Brigand"},
+			{
+"“In cookery and in portraiture, the set piece always, always needs its supporting elements...”",
+			},
+		},
+		[31]={
+			{
+"Without exception, every last corpse had the tendons in their legs severed.",
+			},
+		},
+		[32]={
+			{
+"Behind each victim, a long trail of blood stains the earth, giving the impression of a child's messy scribbles.",
+			},
+		},
+		[33]={
+			{
+"Even in their last moments, they struggled, and resisted, and protected each other─",
+			},
+		},
+		[34]={
+			{
+"All while this man made a mockery of their lives, cruelly cutting them down one after another as they tried desperately to crawl away.",
+			},
+		},
+		[35]={
+			name={"name", name="Kotone"},
+			{
+"“Ugh, ghh...!”",
+			},
+		},
+		[36]={
+			{
+"The sight of this gruesome scene makes me sick to the stomach.",
+			},
+		},
+		[37]={
+			name={"name", name="Filthy Brigand"},
+			{
+"“Still, though... wish I'd at least gotten meself a better haul.”",
+			},
+		},
+		[38]={
+			name={"name", name="Filthy Brigand"},
+			{
+"“This few ain't close to bein' enough to satisfy me...”",
+			},
+		},
+		[39]={
+			{
+"The man coughs up a lungful of blood as he lets out a throaty chuckle.",
+			},
+		},
+		[40]={
+			{
+"Mitsurugi-sama does not so much as twitch an eyebrow.",
+			},
+		},
+		[41]={
+			name={"name", name="Filthy Brigand"},
+			{
+"“Mitsurugi, old chap, next time how 'bout─”",
+			},
+		},
+		[42]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Be still.”",
+			},
+		},
+		[43]={
+			{
+"With not a trace of expression on his face, Mitsurugi-sama dispassionately swings his blade down.",
+			},
+		},
+		[44]={
+			name={"name", name="Kotone"},
+			{
+"“Wh-What... was that?”",
+			},
+		},
+		[45]={
+			{
+"My heart is hammering a furious beat.",
+			},
+		},
+		[46]={
+			{
+"This should be but a dream.",
+			},
+		},
+		[47]={
+			{
+"Yet everything felt all too real.",
+			},
+		},
+		[48]={
+			{
+"As though I were watching a motion picture from inside the silver screen itself.",
+			},
+		},
+		[49]={
+			name={"name", name="Dying Woman"},
+			{
+"“Mitsurugi-sama...”",
+			},
+		},
+		[50]={
+			{
+"The next sight before me is that of a young woman nigh unto death.",
+			},
+		},
+		[51]={
+			{
+"Her limbs are bent in a manner that defies all anatomy.",
+			},
+		},
+		[52]={
+			{
+"It is clear that someone took delight in treating her broken body as a plaything.",
+			},
+		},
+		[53]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Forgive me... If only I'd arrived sooner...”",
+			},
+		},
+		[54]={
+			name={"name", name="Dying Woman"},
+			{
+"“Hehee, please do not let it trouble your noble heart...”",
+			},
+		},
+		[55]={
+			name={"name", name="Dying Woman"},
+			{
+"“Dying here must surely... have been my destiny...”",
+			},
+		},
+		[56]={
+			{
+"As Mitsurugi-sama touches her cheek, she smiles the sincere smile of one who has been redeemed.",
+			},
+		},
+		[57]={
+			name={"name", name="Well-Dressed Man"},
+			{
+"“S'your own damn fault for taking your sweet time, Mitsurugi.”",
+			},
+		},
+		[58]={
+			name={"name", name="Well-Dressed Man"},
+			{
+"“If only you'd've come sooner, this woman wouldn't've needed to die, and this village wouldn't've needed to burn.”",
+			},
+		},
+		[59]={
+			name={"name", name="Well-Dressed Man"},
+			{
+"“I warned you, didn't I? I'd pile up another hundred corpses every hour 'till y'stopped me.”",
+			},
+		},
+		[60]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Shut up.”",
+			},
+		},
+		[61]={
+			{
+"Mitsurugi-sama glares at the man collapsed at his feet.",
+			},
+		},
+		[62]={
+			{
+"The man is garbed in the finery of a well-to-do merchant, but terrifyingly, his upper and lower halves are split atwain.",
+			},
+		},
+		[63]={
+			{
+"However, heedless of his missing legs, the man continues to speak with blithe indifference.",
+			},
+		},
+		[64]={
+			{
+"",
+{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1},
+"His is not any mortal existence.",
+{"/font"},
+			},
+		},
+		[65]={
+			name={"name", name="Mitsurugi"},
+			{
+"“If your grudge is with me, satisfy your vengeance with mine life and be done with it! Why must you implicate the lives of innocents?”",
+			},
+		},
+		[66]={
+			name={"name", name="Well-Dressed Man"},
+			{
+"“Ain't it more fun this way?!”",
+			},
+		},
+		[67]={
+			name={"name", name="Well-Dressed Man"},
+			{
+"“'Sides, it was your own damn fault for gettin' involved with this woman and her village.”",
+			},
+		},
+		[68]={
+			name={"name", name="Well-Dressed Man"},
+			{
+"“What a wicked man you are, Mitsurugi! Serves y'right!”",
+			},
+		},
+		[69]={
+			name={"name", name="Well-Dressed Man"},
+			{
+"“Ahaha, hahahahahaha!”",
+			},
+		},
+		[70]={
+			name={"name", name="Mitsurugi"},
+			{
+"“You fiend...!”",
+			},
+		},
+		[71]={
+			name={"name", name="Dying Woman"},
+			{
+"“Mitsurugi-sama, please... pay no heed to that man's words...”",
+			},
+		},
+		[72]={
+			name={"name", name="Dying Woman"},
+			{
+"“I was truly blessed... to have met you...”",
+			},
+		},
+		[73]={
+			name={"name", name="Dying Woman"},
+			{
+"“To ease my suffering... might I ask of you... one last kindness...?”",
+			},
+		},
+		[74]={
+			name={"name", name="Mitsurugi"},
+			{
+"“...”",
+			},
+		},
+		[75]={
+			{
+"Wordlessly, Mitsurugi-sama rises before her.",
+			},
+		},
+		[76]={
+			{
+"His blade catches the light, and the woman's soul is put to rest.",
+			},
+		},
+		[77]={
+			name={"name", name="Well-Dressed Man"},
+			{
+"“Hoo-whee! Your bladework is as fine as ever!”",
+			},
+		},
+		[78]={
+			name={"name", name="Well-Dressed Man"},
+			{
+"“That's the savior of the realm for you!”",
+			},
+		},
+		[79]={
+			{
+"The next instant, the man's remaining body is split atwain once more.",
+			},
+		},
+		[80]={
+			{
+"I am beginning to understand.",
+			},
+		},
+		[81]={
+			{
+"This is Mitsurugi-sama... Soujin-sama's dream.",
+			},
+		},
+		[82]={
+			{
+"Soujin-sama has entered my dream once before.",
+			},
+		},
+		[83]={
+			{
+"Now, the opposite must be happening.",
+			},
+		},
+		[84]={
+			{
+"As evidence, if I attune my consciousness, I can feel\nSoujin-sama's emotions as my own.",
+			},
+		},
+		[85]={
+			{
+"I can brush against his noble, wounded heart, stretched so close to the point of breaking.",
+			},
+		},
+		[86]={
+			{
+"I wish to know more and more about him...",
+			},
+		},
+		[87]={
+			{
+"And so, I bring my heart ever closer to his─",
+			},
+		},
+		[88]={
+			{
+"I cast mine gaze towards the endless spring sky.",
+			},
+		},
+		[89]={
+			{
+"─How many times have I slain that man now?",
+			},
+		},
+		[90]={
+			{
+"Yet he reappears each time, taking on a new form to blend in amongst the people before carrying out his slaughter.",
+			},
+		},
+		[91]={
+			{
+"With each cycle, his methods become more and more cunning.",
+			},
+		},
+		[92]={
+			{
+"At first, he merely killed with his own two hands, but eventually, he took to manipulating the hearts of others, inciting massacres and rebellions.",
+			},
+		},
+		[93]={
+			{
+"With this, the number of his victims rose dramatically.",
+			},
+		},
+		[94]={
+			{
+"Even as thousands upon thousands of innocents perish in the flames of rebellion, he needn't ever give himself away.",
+			},
+		},
+		[95]={
+			{
+"He merely watches from a safe place, delighting in the carnage, drunk on the slaughter.",
+			},
+		},
+		[96]={
+			{
+"There is no better way to describe his existence than as a calamity─",
+			},
+		},
+		[97]={
+			{
+"A dread spirit of death and destruction unleashed upon the Empire.",
+			},
+		},
+		[98]={
+			{
+"He appears without warning, wreaking ruin upon all that the people have toiled so hard to build.",
+			},
+		},
+		[99]={
+			{
+"In time, mine thoughts conjured for him a name─Kahaku.",
+			},
+		},
+		[100]={
+			{
+"To prevent Kahaku's sinister conspiracies from coming to fruition, I have also taken to living amongst the people.",
+			},
+		},
+		[101]={
+			{
+"─Find him and vanquish him before he claims any victims.",
+			},
+		},
+		[102]={
+			{
+"For as long as Kahaku does not disappear, that is all I am able to do.",
+			},
+		},
+		[103]={
+			name={"name", name="Kahaku"},
+			{
+"“Gh...! *Cough...!*”",
+			},
+		},
+		[104]={
+			name={"name", name="Mitsurugi"},
+			{
+"“*Cough!* Haah... haah...”",
+			},
+		},
+		[105]={
+			name={"name", name="Kahaku"},
+			{
+"“Heh... hahahahaha... You win this time! Can't believe I\ndidn't even gets meself a hundred...”",
+			},
+		},
+		[106]={
+			name={"name", name="Kahaku"},
+			{
+"“You're gettin' good at this, Mitsurugi!”",
+			},
+		},
+		[107]={
+			{
+"His head separated cleanly from his shoulders, Kahaku grins widely at me.",
+			},
+		},
+		[108]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Kahaku, what manner of fiend are you?!”",
+			},
+		},
+		[109]={
+			name={"name", name="Kahaku"},
+			{
+"“If Kahaku's what you're gonna call me, Kahaku's what I'll be.”",
+			},
+		},
+		[110]={
+			name={"name", name="Kahaku"},
+			{
+"“I really do likes me the ring of that.”",
+			},
+		},
+		[111]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Why do you kill?! Why ",
+{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1},
+"must",
+{"/font"},
+" you kill?! Why will you not begone and leave us in peace?!”",
+			},
+		},
+		[112]={
+			name={"name", name="Kahaku"},
+			{
+"“Heh, haha, ahahahahaha!”",
+			},
+		},
+		[113]={
+			name={"name", name="Kahaku"},
+			{
+"“I just wanna be a blot on the landscape of the Empire.\nThat's all me lil' heart ever desired.”",
+			},
+		},
+		[114]={
+			name={"name", name="Kahaku"},
+			{
+"“Ain't gots me any other reason.”",
+			},
+		},
+		[115]={
+			name={"name", name="Kahaku"},
+			{
+"“Though, come to think of it, I've always felt a bit of an artistic callin' in me.”",
+			},
+		},
+		[116]={
+			name={"name", name="Kahaku"},
+			{
+"“Just makin' a mess of the canvas ain't good enough.”",
+			},
+		},
+		[117]={
+			name={"name", name="Kahaku"},
+			{
+"“It's gotta be all the more extravagant, all the more beautiful, all the more gruesome... All the better to ",
+{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1},
+"see you suffer,",
+{"/font"},
+" Mitsurugi, old chap.”",
+			},
+		},
+		[118]={
+			name={"name", name="Mitsurugi"},
+			{
+"“...”",
+			},
+		},
+		[119]={
+			{
+"I say nothing, having long since exhausted all mine curses.",
+			},
+		},
+		[120]={
+			{
+"No mere words are capable of expressing mine enmity for Kahaku.",
+			},
+		},
+		[121]={
+			name={"name", name="Kahaku"},
+			{
+"“Next time, I'll treat you to a real masterpiece.”",
+			},
+		},
+		[122]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Shut up.”",
+			},
+		},
+		[123]={
+			name={"name", name="Kahaku"},
+			{
+"“Look forward to─!”",
+			},
+		},
+		[124]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Shut up!”",
+			},
+		},
+		[125]={
+			{
+"No matter how many times I slay him, Kahaku always appears once more.",
+			},
+		},
+		[126]={
+			{
+"Even as new Emperors accede to the throne, even as the world changes around us, our fight shall continue─",
+			},
+		},
+		[127]={
+			{
+"Forever... For ages more...",
+			},
+		},
+		[128]={
+			{
+"An unremitting requital upon this undying existence of mine.",
+			},
+		},
+		[129]={
+			name={"name", name="Young Priestess"},
+			{
+"“Mitsurugi-sama, may I please hold your hand?”",
+			},
+		},
+		[130]={
+			{
+"Living amongst the townsfolk, I am unable to avoid interacting with others.",
+			},
+		},
+		[131]={
+			{
+"And existing within the world of man, even a tool such as I cannot help but to form precious bonds.",
+			},
+		},
+		[132]={
+			{
+"Yet the seasons change ever so quickly.",
+			},
+		},
+		[133]={
+			{
+"Before mine ageless eyes, all that is precious to me passes me by in the blink of an eye.",
+			},
+		},
+		[134]={
+			{
+"The lives of mine “brides”─the succession of Exalt-Priestesses who supply me their magicks─are especially fleeting.",
+			},
+		},
+		[135]={
+			name={"name", name="Exalt-Priestess"},
+			{
+"“Mitsurugi-sama, I have a most felicitous announcement to make.”",
+			},
+		},
+		[136]={
+			name={"name", name="Exalt-Priestess"},
+			{
+"“I have been selected to become the next Exalt-Priestess!”",
+			},
+		},
+		[137]={
+			name={"name", name="Exalt-Priestess"},
+			{
+"“If it pleases you, I would be most honored to serve at your side.”",
+			},
+		},
+		[138]={
+			{
+"The girl I'd thought a mere child just the other day is to be ordained as the next Exalt-Priestess.",
+			},
+		},
+		[139]={
+			name={"name", name="Exalt-Priestess"},
+			{
+"“To serve you has been my dream ever since I was a child.”",
+			},
+		},
+		[140]={
+			name={"name", name="Exalt-Priestess"},
+			{
+"“I hope to render unto you most faithful service.”",
+			},
+		},
+		[141]={
+			name={"name", name="Mitsurugi"},
+			{
+"“You have mine thanks.”",
+			},
+		},
+		[142]={
+			{
+"The duty of the Exalt-Priestess is to maintain mine body.",
+			},
+		},
+		[143]={
+			{
+"Whenever I expend mine power battling Kahaku or quelling rebellions, the Exalt-Priestess invokes prodigious amounts of her magicks to replenish it.",
+			},
+		},
+		[144]={
+			{
+"However, just as with Himi-no-Mikoto, the use of magicks necessarily corrupts the body.",
+			},
+		},
+		[145]={
+			{
+"Thus and so, one Exalt-Priestess after another shaves away her life in service to me─",
+			},
+		},
+		[146]={
+			name={"name", name="Exalt-Priestess"},
+			{
+"“Thank you... for treasuring me all this time... Mitsurugi-sama.”",
+			},
+		},
+		[147]={
+			name={"name", name="Exalt-Priestess"},
+			{
+"“Did I... manage to serve you faithfully?”",
+			},
+		},
+		[148]={
+			name={"name", name="Mitsurugi"},
+			{
+"“I'm sorry to have taken so much from you.”",
+			},
+		},
+		[149]={
+			name={"name", name="Exalt-Priestess"},
+			{
+"“It is quite all right, Mitsurugi-sama.”",
+			},
+		},
+		[150]={
+			name={"name", name="Exalt-Priestess"},
+			{
+"“This was my purpose─the duty of all Exalt-Priestesses. There could be no higher honor.”",
+			},
+		},
+		[151]={
+			name={"name", name="Mitsurugi"},
+			{
+"“I am thankful, from the bottom of mine heart, for your devotion.”",
+			},
+		},
+		[152]={
+			name={"name", name="Exalt-Priestess"},
+			{
+"“Mitsurugi-sama... I leave the future of the Empire in your hands.”",
+			},
+		},
+		[153]={
+			name={"name", name="Exalt-Priestess"},
+			{
+"“To have served at your side... was my life's greatest blessing.”",
+			},
+		},
+		[154]={
+			{
+"Having offered me the last measure of her devotion, another Exalt-Priestess's all too short life slips away through mine fingers.",
+			},
+		},
+		[155]={
+			{
+"Countless long years have passed since Himi-no-Mikoto's soul set out on its long sojourn.",
+			},
+		},
+		[156]={
+			{
+"By now, the name “Mitsurugi” has been forgotten by all save for the Emperor and the Exalt-Priestess.",
+			},
+		},
+		[157]={
+			{
+"The succession of Exalt-Priestesses are mine only remaining companions, confidantes, and comrades-in-arms.",
+			},
+		},
+		[158]={
+			{
+"Perhaps Chihaya, as mine first Exalt-Priestess, truly did put it best when she described her station as mine bride.",
+			},
+		},
+		[159]={
+			{
+"Yet... I am always parted from mine brides all too soon.",
+			},
+		},
+		[160]={
+			{
+"Some are consumed by the corruption, having given their everything to me, and others are slain by Kahaku, but each of them is cruelly taken before their time.",
+			},
+		},
+		[161]={
+			{
+"And no matter how often it happens, the death of those most precious to me lacerates mine heart just as it did the first time.",
+			},
+		},
+		[162]={
+			{
+"As all that is precious to me inevitably slips through mine fingers─",
+			},
+		},
+		[163]={
+			{
+"More and more scars are imperishably graven upon mine increasingly human heart.",
+			},
+		},
+		[164]={
+			{
+"Indeed, the interminable march of time spares not even an ageless being as myself.",
+			},
+		},
+		[165]={
+			{
+"Before I know it, only I remain, left behind by everything I once held dear.",
+			},
+		},
+		[166]={
+			{
+"Yet even so...",
+			},
+		},
+		[167]={
+			name={"name", name="Kahaku"},
+			{
+"“We meet again, Mitsurugi.”",
+			},
+		},
+		[168]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Kahakuuu!”",
+			},
+		},
+		[169]={
+			{
+"Even so, I shall not rest.",
+			},
+		},
+		[170]={
+			{
+"Decades, centuries, millennia may pass me by─",
+			},
+		},
+		[171]={
+			{
+"But I shall continue fulfilling the purpose I was given, cutting down all calamity befalling the Empire─",
+			},
+		},
+		[172]={
+			{
+"Until the day you come back to me.",
+			},
+		},
+		[173]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Himi-no-Mikoto...”",
+			},
+		},
+		[174]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Where are you right now?”",
+			},
+		},
+	},
+	label={
+	},
+}

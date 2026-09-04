@@ -1,0 +1,2456 @@
+ast = {
+	{
+		{"exfont", size="NORM"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"bgm", stop=1, [1]="", time=1500},
+		{"sestop", id=1, time=1500},
+		{"sestop", id=2, time=1500},
+		{"sestop", id=3, time=1500},
+		{"vo", id=1, stop=1},
+		{"se", id=3, file="90073_a", vol=88, loop=1},
+		{"bg", del=1, path=":cg/07/", file="scdc0401", time=3000},
+		{"wa", time=3000},
+		{"bg", del=1, path=":cg/07/", file="scdc0402", time=3000},
+		{"wa", time=3000},
+		{"sestop", id=3, time=1500},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=3000},
+		{"wa", time=2000},
+		{"msgoff"},
+		{"bg", del=1, path=":bg/", file="bg_9999", time=3000},
+		{"cg", id=2, path=":cg/01/", file="dc00029004a", ay=120, lv=2, time=250, sync=1},
+		{"exclick"},
+		line=39,
+	},
+	{
+		{"cgdel", id=2, time=250, lv=5},
+		{"cg", id=3, path=":cg/01/", file="dc00029004b", ay=120, lv=2, time=250, sync=1},
+		{"exclick"},
+		line=44,
+	},
+	{
+		{"cgdel", id=3, time=250, lv=5},
+		{"cg", id=2, path=":cg/01/", file="dc00029004c", ay=120, lv=2, time=250, sync=1},
+		{"exclick"},
+		line=49,
+	},
+	{
+		{"cgdel", id=2, time=250, lv=5},
+		{"cg", id=3, path=":cg/01/", file="dc00029004d", ay=120, lv=2, time=250, sync=1},
+		{"exclick"},
+		line=54,
+	},
+	{
+		{"cgdel", id=3, time=250, lv=5},
+		{"cg", id=2, path=":cg/01/", file="dc00029004e", ay=120, lv=2, time=250, sync=1},
+		{"exclick"},
+		line=59,
+	},
+	{
+		{"cgdel", id=2, time=250, lv=5},
+		{"cg", id=3, path=":cg/04/", file="dc040010008a", ay=120, lv=2, time=250, sync=1},
+		{"exclick"},
+		line=64,
+	},
+	{
+		{"cgdel", id=3, time=250, lv=5},
+		{"cg", id=2, path=":cg/04/", file="dc040010008b", ay=120, lv=2, time=250, sync=1},
+		{"exclick"},
+		line=69,
+	},
+	{
+		{"bg", del=1, path=":bg/", file="bg_0000", time=3000},
+		{"msgoff"},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=0000},
+		{"mv", path=":cg/04/", file="m040010008", ex=1, loop=1},
+		{"bg", film=1, del=1, lv=0, id=31, path=":bg/", file="black", time=250, sync=1},
+		{"bg", del=1, path=":cg/04/", file="dc040010001a", time=000},
+		{"cg", id=2, path=":cg/04/", file="dc040010001b", lv=1, time=0, sync=1},
+		{"cg", id=3, path=":cg/04/", file="dc040010001c", lv=2, time=0, sync=1},
+		{"cg", id=4, path=":cg/04/", file="dc040010001d", lv=3, time=0, sync=1},
+		{"cgdel", id=31, film=1, sync=1, time=250, lv=0},
+		{"bgm", path=":bg/", file="bgm_3090", vol=88},
+		{"cg", id=3, y=-320, speed=2000, time=0, path=":cg/04/", file="dc040010001c", y2=0, a2=255},
+		{"cg", id=4, y=320, speed=2000, time=0, path=":cg/04/", file="dc040010001d", y2=0, a2=255},
+		{"wa", time=2000},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400010"},
+		{"text"},
+		line=93,
+	},
+	{
+		{"cg", id=3, y=0, speed=1000, time=0, path=":cg/04/", file="dc040010001c", y2=-320, a2=255},
+		{"cg", id=4, y=0, speed=1000, time=0, path=":cg/04/", file="dc040010001d", y2=320, a2=255},
+		{"wa", time=1000},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400020"},
+		{"text"},
+		line=99,
+	},
+	{
+		{"cgdel", id=2, time=3000, lv=5},
+		{"cg", id=3, y=-720, alpha=0, speed=1000, time=0, path=":cg/04/", file="dc040010001c", y2=0, a2=255},
+		{"cg", id=4, y=720, alpha=0, speed=1000, time=0, path=":cg/04/", file="dc040010001d", y2=0, a2=255},
+		{"wa", time=1000},
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400010"},
+		{"text"},
+		line=110,
+	},
+	{
+		{"mwf", path=":fa/020/", file="fac_2001301"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400030"},
+		{"text"},
+		line=115,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400020"},
+		{"text"},
+		line=121,
+	},
+	{
+		{"msgoff"},
+		{"bg", film=1, lv=0, id=31, path=":bg/", file="white", mode="add", time=250, sync=1},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=0},
+		{"cg", id=11, path=":bg/", file="white", lv=10, time=0, sync=1},
+		{"cg", id=2, path=":cg/04/", file="dc040010005", y=-1720, lv=1, time=0, sync=1},
+		{"cgdel", id=31, film=1, sync=1, time=0, lv=0},
+		{"cg", id=2, y=0, speed=4000, time=0, path=":cg/04/", file="dc040010005", y2=-1720, a2=255},
+		{"cg", id=11, alpha=0, speed=500, time=0, path=":bg/", file="white", a2=255},
+		{"wa", time=1000},
+		{"text"},
+		line=133,
+	},
+	{
+		{"text"},
+		line=134,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20101", face="tat_z2001101", x=0},
+		{"bg", del=1, path=":bg/", file="bg_6021", time=900, rule="rand"},
+		{"setTrophy", name="TR007"},
+		{"mwf", path=":fa/020/", file="fac_2001101"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400040"},
+		{"text"},
+		line=144,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=149,
+	},
+	{
+		{"text"},
+		line=150,
+	},
+	{
+		{"text"},
+		line=151,
+	},
+	{
+		{"text"},
+		line=152,
+	},
+	{
+		{"text"},
+		line=153,
+	},
+	{
+		{"text"},
+		line=154,
+	},
+	{
+		{"text"},
+		line=155,
+	},
+	{
+		{"text"},
+		line=156,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400030"},
+		{"text"},
+		line=159,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20201", face="tat_z2001002", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001002"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400050"},
+		{"text"},
+		line=164,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20201", face="tat_z2001102", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001102"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400060"},
+		{"text"},
+		line=169,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=174,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20201", face="tat_z2001202", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001202"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400070"},
+		{"text"},
+		line=179,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20101", face="tat_z2001201", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001201"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400080"},
+		{"text"},
+		line=184,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400040"},
+		{"text"},
+		line=189,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20101", face="tat_z2001501", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001501"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400090"},
+		{"text"},
+		line=194,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400050"},
+		{"text"},
+		line=199,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20101", face="tat_z2001701", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001701"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400100"},
+		{"text"},
+		line=204,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"bg", del=1, path=":cg/04/", file="dc040010006a", time=500},
+		{"se", id=3, file="92024_a", vol=88, loop=1},
+		{"text"},
+		line=217,
+	},
+	{
+		{"mwf", path=":fa/021/", file="fac_2101301"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400010"},
+		{"text"},
+		line=222,
+	},
+	{
+		{"mwf", path=":fa/021/", file="fac_2101401"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400020"},
+		{"text"},
+		line=227,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400060"},
+		{"text"},
+		line=233,
+	},
+	{
+		{"mwf", path=":fa/021/", file="fac_2101311"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400030"},
+		{"text"},
+		line=238,
+	},
+	{
+		{"mwf", path=":fa/021/", file="fac_2101301"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400040"},
+		{"text"},
+		line=243,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=248,
+	},
+	{
+		{"text"},
+		line=249,
+	},
+	{
+		{"text"},
+		line=250,
+	},
+	{
+		{"mwf", path=":fa/021/", file="fac_2101031"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400050"},
+		{"text"},
+		line=255,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400070"},
+		{"text"},
+		line=261,
+	},
+	{
+		{"mwf", path=":fa/021/", file="fac_2101701"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400060"},
+		{"text"},
+		line=266,
+	},
+	{
+		{"mwf", path=":fa/021/", file="fac_2101401"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400070"},
+		{"text"},
+		line=271,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400080"},
+		{"text"},
+		line=277,
+	},
+	{
+		{"bg", del=1, path=":cg/04/", file="dc040010006b", time=500},
+		{"text"},
+		line=281,
+	},
+	{
+		{"text"},
+		line=282,
+	},
+	{
+		{"text"},
+		line=283,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400090"},
+		{"text"},
+		line=286,
+	},
+	{
+		{"text"},
+		line=288,
+	},
+	{
+		{"text"},
+		line=289,
+	},
+	{
+		{"text"},
+		line=290,
+	},
+	{
+		{"text"},
+		line=291,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400100"},
+		{"text"},
+		line=294,
+	},
+	{
+		{"sestop", id=3, time=1500},
+		{"se", id=1, file=03024, vol=88},
+		{"bg", del=1, path=":bg/", file="bg_5003", time=900, rule="rand"},
+		{"text"},
+		line=301,
+	},
+	{
+		{"text"},
+		line=302,
+	},
+	{
+		{"text"},
+		line=303,
+	},
+	{
+		{"sestop", id=1, time=1500},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400110"},
+		{"text"},
+		line=308,
+	},
+	{
+		{"se", id=1, file=02111, vol=88},
+		{"flash", mode=1},
+		{"text"},
+		line=313,
+	},
+	{
+		{"vo", ch="sen31", path=":vo/031/", file="sen410400010"},
+		{"text"},
+		line=316,
+	},
+	{
+		{"text"},
+		line=318,
+	},
+	{
+		{"sestop", id=1, time=1500},
+		{"mwf", path=":fa/022/", file="fac_2201321"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220400010"},
+		{"text"},
+		line=325,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=330,
+	},
+	{
+		{"bg", del=1, path=":bg/", file="bg_6011", time=900, rule="rand"},
+		{"text"},
+		line=334,
+	},
+	{
+		{"bg", del=1, path=":cg/04/", file="dc040010002", time=500},
+		{"text"},
+		line=338,
+	},
+	{
+		{"text"},
+		line=339,
+	},
+	{
+		{"text"},
+		line=340,
+	},
+	{
+		{"se", id=1, file=03024, vol=88},
+		{"text"},
+		line=344,
+	},
+	{
+		{"msgoff"},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=150},
+		{"mv", path=":cg/04/", file="m040010003", ex=1, loop=1},
+		{"bg", del=1, path=":cg/04/", file="dc040010004", time=500},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400120"},
+		{"text"},
+		line=353,
+	},
+	{
+		{"text"},
+		line=355,
+	},
+	{
+		{"sestop", id=1, time=1500},
+		{"sestop", id=2, time=1500},
+		{"mwf", path=":fa/022/", file="fac_2201601"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220400020"},
+		{"text"},
+		line=363,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=368,
+	},
+	{
+		{"text"},
+		line=369,
+	},
+	{
+		{"text"},
+		line=370,
+	},
+	{
+		{"bg", del=1, path=":bg/", file="bg_6011", time=900, rule="rand"},
+		{"se", id=1, file=03005, vol=88},
+		{"vo", ch="sen31", path=":vo/031/", file="sen410400020"},
+		{"text"},
+		line=377,
+	},
+	{
+		{"text"},
+		line=379,
+	},
+	{
+		{"text"},
+		line=380,
+	},
+	{
+		{"text"},
+		line=381,
+	},
+	{
+		{"sestop", id=1, time=1500},
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201821", x=0},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400130"},
+		{"text"},
+		line=387,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201821", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201821"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220400030"},
+		{"text"},
+		line=392,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", film=1, lv=0, id=31, path=":bg/", file="white", mode="add", time=250, sync=1},
+		{"bg", del=1, path=":bg/", file="bg_0000", time=0},
+		{"cg", id=11, path=":bg/", file="white", lv=10, time=0, sync=1},
+		{"cg", id=2, path=":cg/04/", file="dc040010007", y=-1720, lv=1, time=0, sync=1},
+		{"cgdel", id=31, film=1, sync=1, time=0, lv=0},
+		{"cg", id=2, y=0, speed=4000, time=0, path=":cg/04/", file="dc040010007", y2=-1720, a2=255},
+		{"cg", id=11, alpha=0, speed=500, time=0, path=":bg/", file="white", a2=255},
+		{"wa", time=1000},
+		{"text"},
+		line=408,
+	},
+	{
+		{"text"},
+		line=409,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bn22101", face="tat_2201821", x=0},
+		{"bg", del=1, path=":bg/", file="bg_6011", time=900, rule="rand"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400140"},
+		{"text"},
+		line=416,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400150"},
+		{"text"},
+		line=419,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bn22101", face="tat_2201201", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201201"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220400040"},
+		{"text"},
+		line=424,
+	},
+	{
+		{"fg", mode=-1, id=1, lv=""},
+		{"mwf"},
+		{"text"},
+		line=430,
+	},
+	{
+		{"mwf", path=":fa/022/", file="fac_2201601"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220400050"},
+		{"text"},
+		line=435,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=440,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bn22101", face="tat_2201401", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201401"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220400060"},
+		{"text"},
+		line=445,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400160"},
+		{"text"},
+		line=450,
+	},
+	{
+		{"fg", mode=-1, id=1, lv=""},
+		{"text"},
+		line=455,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bn22101", face="tat_2201601", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201601"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220400070"},
+		{"text"},
+		line=460,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400170"},
+		{"text"},
+		line=465,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201821", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201821"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220400080"},
+		{"text"},
+		line=470,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400180"},
+		{"text"},
+		line=475,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201501", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201501"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220400090"},
+		{"text"},
+		line=480,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400190"},
+		{"text"},
+		line=485,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400200"},
+		{"text"},
+		line=488,
+	},
+	{
+		{"fg", id=1, path=":fg/022/", file="bz22101", face="tat_z2201801", x=0},
+		{"mwf", path=":fa/022/", file="fac_2201801"},
+		{"vo", ch="sen22", path=":vo/022/", file="sen220400100"},
+		{"text"},
+		line=493,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400210"},
+		{"text"},
+		line=498,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"bg", del=1, path=":bg/", file="bg_6011", time=900, rule="rand"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400220"},
+		{"text"},
+		line=509,
+	},
+	{
+		{"text"},
+		line=511,
+	},
+	{
+		{"vo", ch="sen31", path=":vo/031/", file="sen410400030"},
+		{"text"},
+		line=514,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400230"},
+		{"text"},
+		line=517,
+	},
+	{
+		{"vo", ch="sen31", path=":vo/031/", file="sen410400040"},
+		{"text"},
+		line=520,
+	},
+	{
+		{"vo", ch="sen31", path=":vo/031/", file="sen410400050"},
+		{"text"},
+		line=523,
+	},
+	{
+		{"vo", ch="sen31", path=":vo/031/", file="sen410400060"},
+		{"text"},
+		line=526,
+	},
+	{
+		{"vo", ch="sen31", path=":vo/031/", file="sen410400070"},
+		{"text"},
+		line=529,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400240"},
+		{"text"},
+		line=532,
+	},
+	{
+		{"text"},
+		line=534,
+	},
+	{
+		{"text"},
+		line=535,
+	},
+	{
+		{"vo", ch="sen31", path=":vo/031/", file="sen410400080"},
+		{"text"},
+		line=538,
+	},
+	{
+		{"vo", ch="sen31", path=":vo/031/", file="sen410400090"},
+		{"text"},
+		line=541,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400250"},
+		{"text"},
+		line=544,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400260"},
+		{"text"},
+		line=547,
+	},
+	{
+		{"se", id=1, file=03004, vol=88},
+		{"text"},
+		line=551,
+	},
+	{
+		{"text"},
+		line=552,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"sestop", id=1, time=1500},
+		{"bgm", stop=1, [1]="", time=1500},
+		{"bg", del=1, path=":bg/", file="bg_6021", time=900, rule="rand"},
+		{"bgm", path=":bg/", file="bgm_3042", vol=88},
+		{"text"},
+		line=574,
+	},
+	{
+		{"text"},
+		line=575,
+	},
+	{
+		{"text"},
+		line=576,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101211", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101211"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400080"},
+		{"text"},
+		line=581,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400270"},
+		{"text"},
+		line=586,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101201", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101201"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400090"},
+		{"text"},
+		line=591,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400280"},
+		{"text"},
+		line=596,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101211", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101211"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400100"},
+		{"text"},
+		line=601,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101201", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101201"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400110"},
+		{"text"},
+		line=606,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101211", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101211"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400120"},
+		{"text"},
+		line=611,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=616,
+	},
+	{
+		{"text"},
+		line=617,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400290"},
+		{"text"},
+		line=620,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101101", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101101"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400130"},
+		{"text"},
+		line=625,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101401", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101401"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400140"},
+		{"text"},
+		line=630,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400300"},
+		{"text"},
+		line=635,
+	},
+	{
+		{"text"},
+		line=637,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101101", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101101"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400150"},
+		{"text"},
+		line=642,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101201", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101201"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400160"},
+		{"text"},
+		line=647,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101201", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101201"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400170"},
+		{"text"},
+		line=652,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400310"},
+		{"text"},
+		line=657,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101701", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101701"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400180"},
+		{"text"},
+		line=662,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101501", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101501"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400190"},
+		{"text"},
+		line=667,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400320"},
+		{"text"},
+		line=672,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101211", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101211"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400200"},
+		{"text"},
+		line=677,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101501", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101501"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400210"},
+		{"text"},
+		line=682,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101101", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101101"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400220"},
+		{"text"},
+		line=687,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400330"},
+		{"text"},
+		line=692,
+	},
+	{
+		{"text"},
+		line=694,
+	},
+	{
+		{"text"},
+		line=695,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101201", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101201"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400230"},
+		{"text"},
+		line=700,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101221", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101221"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400240"},
+		{"text"},
+		line=705,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400340"},
+		{"text"},
+		line=710,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101211", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101211"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400250"},
+		{"text"},
+		line=715,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=720,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101201", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101201"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400260"},
+		{"text"},
+		line=725,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101221", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101221"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400270"},
+		{"text"},
+		line=730,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400350"},
+		{"text"},
+		line=735,
+	},
+	{
+		{"text"},
+		line=737,
+	},
+	{
+		{"text"},
+		line=738,
+	},
+	{
+		{"bgmvol", vol=0},
+		{"mwf", path=":fa/020/", file="fac_2001002"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400110"},
+		{"text"},
+		line=745,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101501", x=0},
+		{"mwf"},
+		{"text"},
+		line=751,
+	},
+	{
+		{"text"},
+		line=752,
+	},
+	{
+		{"fg", id=1, path=":fg/021/", file="bz21101", face="tat_z2101111", x=0},
+		{"mwf", path=":fa/021/", file="fac_2101111"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400280"},
+		{"text"},
+		line=757,
+	},
+	{
+		{"bgmvol", vol=100},
+		{"fg", id=1, path=":fg/020/", file="bz20101", face="tat_z2001101", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001101"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400120"},
+		{"text"},
+		line=764,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20201", face="tat_z2001002", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001002"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400130"},
+		{"text"},
+		line=769,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=774,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20201", face="tat_z2001102", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001102"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400145"},
+		{"text"},
+		line=779,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=784,
+	},
+	{
+		{"mwf", path=":fa/021/", file="fac_2101111"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400290"},
+		{"text"},
+		line=789,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400360"},
+		{"text"},
+		line=796,
+	},
+	{
+		{"fg", mode=-1, id=2, lv=""},
+		{"fg", id=1, path=":fg/020/", file="bz20101", face="tat_z2001101", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001101"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400150"},
+		{"text"},
+		line=802,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=807,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400370"},
+		{"text"},
+		line=810,
+	},
+	{
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400380"},
+		{"text"},
+		line=813,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20201", face="tat_z2001702", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001702"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400160"},
+		{"text"},
+		line=818,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400390"},
+		{"text"},
+		line=823,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20201", face="tat_z2001102", x=0},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400400"},
+		{"text"},
+		line=829,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20201", face="tat_z2001002", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001002"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400170"},
+		{"text"},
+		line=834,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400410"},
+		{"text"},
+		line=844,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20101", face="tat_z2001301", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001301"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400180"},
+		{"text"},
+		line=851,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400420"},
+		{"text"},
+		line=856,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20101", face="tat_z2001701", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001701"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400190"},
+		{"text"},
+		line=861,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20101", face="tat_z2001301", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001301"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400200"},
+		{"text"},
+		line=866,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400430"},
+		{"text"},
+		line=871,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20101", face="tat_z2001101", x=0},
+		{"text"},
+		line=876,
+	},
+	{
+		{"text"},
+		line=877,
+	},
+	{
+		{"text"},
+		line=878,
+	},
+	{
+		{"text"},
+		line=879,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20201", face="tat_z2001702", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001702"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400210"},
+		{"text"},
+		line=884,
+	},
+	{
+		{"fg", id=1, path=":fg/020/", file="bz20301", face="tat_z2001103", x=0},
+		{"mwf", path=":fa/020/", file="fac_2001103"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400220"},
+		{"text"},
+		line=889,
+	},
+	{
+		{"mwf", path=":fa/021/", file="fac_2101221"},
+		{"vo", ch="sen21", path=":vo/021/", file="sen210400300"},
+		{"text"},
+		line=894,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400440"},
+		{"text"},
+		line=899,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=904,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"bgm", stop=1, [1]="", time=1500},
+		{"bg", del=1, path=":bg/", file="bg_4041", time=900, rule="rand"},
+		{"bgm", path=":bg/", file="bgm_3090", vol=88},
+		{"text"},
+		line=916,
+	},
+	{
+		{"text"},
+		line=917,
+	},
+	{
+		{"text"},
+		line=918,
+	},
+	{
+		{"ev", del=1, set="eve_0106", path=":ev/", file="eve_010601", time=900, rule="rand"},
+		{"mwf", path=":fa/020/", file="fac_2001123"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400230"},
+		{"text"},
+		line=925,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=930,
+	},
+	{
+		{"mwf", path=":fa/020/", file="fac_2001203"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400240"},
+		{"text"},
+		line=935,
+	},
+	{
+		{"mwf", path=":fa/020/", file="fac_2001202"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400250"},
+		{"text"},
+		line=940,
+	},
+	{
+		{"mwf", path=":fa/020/", file="fac_2001202"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400260"},
+		{"text"},
+		line=945,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=950,
+	},
+	{
+		{"text"},
+		line=951,
+	},
+	{
+		{"text"},
+		line=952,
+	},
+	{
+		{"mwf", path=":fa/020/", file="fac_2001201"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400270"},
+		{"text"},
+		line=957,
+	},
+	{
+		{"mwf", path=":fa/020/", file="fac_2001201"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400280"},
+		{"text"},
+		line=962,
+	},
+	{
+		{"mwf"},
+		{"vo", ch="sen11", path=":vo/011/", file="sen110400450"},
+		{"text"},
+		line=968,
+	},
+	{
+		{"mwf", path=":fa/020/", file="fac_2001701"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400290"},
+		{"text"},
+		line=973,
+	},
+	{
+		{"mwf", path=":fa/020/", file="fac_2001371"},
+		{"vo", ch="sen20", path=":vo/020/", file="sen200400300"},
+		{"text"},
+		line=978,
+	},
+	{
+		{"mwf"},
+		{"text"},
+		line=983,
+	},
+	{
+		{"mwf"},
+		{"msgoff"},
+		{"bg", del=2, lv=0, id=31, path=":bg/", file="black", time=1000, wait=500, sync=1},
+		{"sestop", id=1, time=1500},
+		{"sestop", id=2, time=1500},
+		{"sestop", id=3, time=1500},
+		{"excall", call=0, file="hat040020"},
+		line=983,
+	},
+	text={
+		[1]={
+			hide=1,
+			{
+"They scatter...",
+			},
+		},
+		[2]={
+			hide=1,
+			{
+"Fluttering from the sky.",
+			},
+		},
+		[3]={
+			hide=1,
+			{
+"One petal of Persica, and another.",
+			},
+		},
+		[4]={
+			hide=1,
+			{
+"Alas, o beloved, tell me why.",
+			},
+		},
+		[5]={
+			hide=1,
+			{
+"Must you continue your fight, even unto your tears run dry?",
+			},
+		},
+		[6]={
+			hide=1,
+			{
+"I fain would ask you, to your humble servant impart,",
+			},
+		},
+		[7]={
+			hide=1,
+			{
+"The intricate layers of your most noble heart.",
+			},
+		},
+		[8]={
+			name={"name", name="???"},
+			{
+"“Hearken, Mitsurugi.”",
+			},
+		},
+		[9]={
+			name={"name", name="???"},
+			{
+"“Mi-tsu-ru-gi!”",
+			},
+		},
+		[10]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Hmm? Ahh... what is it?”",
+			},
+		},
+		[11]={
+			name={"name", name="???"},
+			{
+"“Some nerve my servant has, contemning his duties with idle daydreaming.”",
+			},
+		},
+		[12]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Mine apologies.”",
+			},
+		},
+		[13]={
+			{
+"Ah, that's right...",
+			},
+		},
+		[14]={
+			{
+"I was occupied with mine duty of escorting Himi-no-Mikoto to the ritual hall.",
+			},
+		},
+		[15]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“Honestly. To think that this simpleton is the savior of the realm.”",
+			},
+		},
+		[16]={
+			{
+"Himi-no-Mikoto runs a hand of slender fingers through her hair.",
+			},
+		},
+		[17]={
+			{
+"The sunbeams set those sheer strands of gossamer ashimmer.",
+			},
+		},
+		[18]={
+			{
+"Though mine heart knows not of love, it comprehends well\nHimi-no-Mikoto's beauty.",
+			},
+		},
+		[19]={
+			{
+"Her amaranthine eyes shine with the lucidity of a consecrated wellspring, her lips as lustrous as a freshly bloomed Persica.",
+			},
+		},
+		[20]={
+			{
+"Her clarion voice is capable at once of stilling the hearts and quelling the spirits of all who stand before her.",
+			},
+		},
+		[21]={
+			{
+"In the face of such a peerless elegance and aura of inviolable divinity, none can help but be overawed by her mere presence.",
+			},
+		},
+		[22]={
+			{
+"The Empire knows not of any nobler existence─",
+			},
+		},
+		[23]={
+			{
+"Nor any more deserving personage to serve as its Founding Empress.",
+			},
+		},
+		[24]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Mine existence was forged from thine hand. I daresay that any fault ought lie with the creator.”",
+			},
+		},
+		[25]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“That's enough out of you.”",
+			},
+		},
+		[26]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“I have no recollections of having made myself a jester.”",
+			},
+		},
+		[27]={
+			{
+"Himi-no-Mikoto lightly pokes me on the nose with her fingertip.",
+			},
+		},
+		[28]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“Hehee, 'tis no matter.”",
+			},
+		},
+		[29]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“I shall attend now to the ritual of rainmaking. You may disport yourself for the time being.”",
+			},
+		},
+		[30]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Very well. That works out conveniently.”",
+			},
+		},
+		[31]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“Hmm? Have you matters to attend to?”",
+			},
+		},
+		[32]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Tooru has summoned me.”",
+			},
+		},
+		[33]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“Haah... Not again...”",
+			},
+		},
+		[34]={
+			{
+"A score of guardsmen hurriedly make their way down the high street in pursuit of a criminal.",
+			},
+		},
+		[35]={
+			name={"name", name="Tooru"},
+			{
+"“Capital Watch! Halt at once!”",
+			},
+		},
+		[36]={
+			name={"name", name="Tooru"},
+			{
+"“...Not like any self-respecting criminal'd actually listen though, eh, Mitsurugi?”",
+			},
+		},
+		[37]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Right. If anything, he's running even faster.”",
+			},
+		},
+		[38]={
+			name={"name", name="Tooru"},
+			{
+"“Ah, blast it!”",
+			},
+		},
+		[39]={
+			name={"name", name="Tooru"},
+			{
+"“That there's an infamous murderer! On the honor of the Capital Watch, don't you louts dare let him get away!”",
+			},
+		},
+		[40]={
+			{
+"Inou Tooru bellows out to his subordinates.",
+			},
+		},
+		[41]={
+			{
+"The Capital Watch─those responsible for keeping the peace in Tenkyo─are chasing after a criminal who has stirred up much trouble as of late.",
+			},
+		},
+		[42]={
+			{
+"A notorious cut-throat who has taken the lives of no less than twenty-seven citizens.",
+			},
+		},
+		[43]={
+			name={"name", name="Tooru"},
+			{
+"“Haah... haah...! I'm done... Can't keep up...”",
+			},
+		},
+		[44]={
+			name={"name", name="Mitsurugi"},
+			{
+"“You ought to work out more.”",
+			},
+		},
+		[45]={
+			name={"name", name="Tooru"},
+			{
+"“First thing tomorrow for sure!”",
+			},
+		},
+		[46]={
+			name={"name", name="Tooru"},
+			{
+"“Anyways, countin' on you, Mitsurugi!”",
+			},
+		},
+		[47]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Understood.”",
+			},
+		},
+		[48]={
+			{
+"I rush ahead, leaving Tooru behind.",
+			},
+		},
+		[49]={
+			{
+"The people of Tenkyo fear this criminal as a demon.",
+			},
+		},
+		[50]={
+			{
+"There are whispers that he possesses inhuman strength capable of lifting boulders and fleetness of foot capable of outrunning a dire wolf.",
+			},
+		},
+		[51]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Not so fast.”",
+			},
+		},
+		[52]={
+			{
+"I catch a brief glimpse of the fleeing man.",
+			},
+		},
+		[53]={
+			{
+"He bounds across the thatched rooftops like a feral monkey, easily evading the bewildered Capital Watch.",
+			},
+		},
+		[54]={
+			{
+"Even an acrobat would find it difficult to apprehend such a man.",
+			},
+		},
+		[55]={
+			{
+"I see now why mine presence was summoned.",
+			},
+		},
+		[56]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Hah!”",
+			},
+		},
+		[57]={
+			{
+"Leaping into the sky─",
+			},
+		},
+		[58]={
+			{
+"I draw mine blade─",
+			},
+		},
+		[59]={
+			{
+"And dive towards the criminal from above.",
+			},
+		},
+		[60]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Prepare thyself.”",
+			},
+		},
+		[61]={
+			{
+"As a bird of prey, I bear down upon the condemned man, slashing out his legs.",
+			},
+		},
+		[62]={
+			name={"name", name="Criminal"},
+			{
+"“Gwaaahh!”",
+			},
+		},
+		[63]={
+			{
+"He somersaults through the air and tumbles off the edge of the roof.",
+			},
+		},
+		[64]={
+			name={"name", name="???"},
+			{
+"“Hyaaaah!”",
+			},
+		},
+		[65]={
+			{
+"─Could there be someone below?!",
+			},
+		},
+		[66]={
+			{
+"I leap down to the street at once.",
+			},
+		},
+		[67]={
+			{
+"A young damsel is lying collapsed to the ground.",
+			},
+		},
+		[68]={
+			{
+"The man, furious and wounded, raises his blade above her.",
+			},
+		},
+		[69]={
+			{
+"─He means to take her as a hostage!",
+			},
+		},
+		[70]={
+			{
+"I kick off the ground and interpose myself between them.",
+			},
+		},
+		[71]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Kgh!”",
+			},
+		},
+		[72]={
+			{
+"The criminal's steel rives into me as I embrace the girl in mine arms.",
+			},
+		},
+		[73]={
+			name={"name", name="Priestess"},
+			{
+"“Huh? Huuuhh?!”",
+			},
+		},
+		[74]={
+			{
+"Her eyes dart about in bewilderment at the situation.",
+			},
+		},
+		[75]={
+			{
+"Good, she's unharmed.",
+			},
+		},
+		[76]={
+			{
+"Still holding her in one arm, I turn around and fell the assailant with a sweep of mine blade.",
+			},
+		},
+		[77]={
+			name={"name", name="Criminal"},
+			{
+"“Uwaaargh!”",
+			},
+		},
+		[78]={
+			{
+"The sensation of flesh rending and bones shattering resonates through mine arm.",
+			},
+		},
+		[79]={
+			{
+"The man is sent crashing through the clay wall at his back and falls still.",
+			},
+		},
+		[80]={
+			{
+"It was only a strike with the dull edge of the blade, so he should still be amongst the living.",
+			},
+		},
+		[81]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Are you unharmed?”",
+			},
+		},
+		[82]={
+			name={"name", name="Priestess"},
+			{
+"“Ah... Y-Yes! I have nary an injury!”",
+			},
+		},
+		[83]={
+			{
+"The young girl nervously straightens her back.",
+			},
+		},
+		[84]={
+			{
+"Her distinctive garb identifies her as a priestess.",
+			},
+		},
+		[85]={
+			name={"name", name="Mitsurugi"},
+			{
+"“I am glad to hear it.”",
+			},
+		},
+		[86]={
+			name={"name", name="Mitsurugi"},
+			{
+"“The Capital Watch will escort you home. They should arrive momentarily.”",
+			},
+		},
+		[87]={
+			name={"name", name="Priestess"},
+			{
+"“Yes, thank you very much!”",
+			},
+		},
+		[88]={
+			{
+"I turn around and move to check on the criminal's condition.",
+			},
+		},
+		[89]={
+			name={"name", name="Priestess"},
+			{
+"“Hyaaaaah!”",
+			},
+		},
+		[90]={
+			{
+"A second maidenly shriek stops me in mine tracks.",
+			},
+		},
+		[91]={
+			name={"name", name="Priestess"},
+			{
+"“Ah...! Um, um, um, sire, th-that wound on your back!”",
+			},
+		},
+		[92]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Worry yourself not. It will be healed in due time.”",
+			},
+		},
+		[93]={
+			{
+"I turn mine back on the girl once more.",
+			},
+		},
+		[94]={
+			name={"name", name="Priestess"},
+			{
+"“Ah...! Um, um, um...!”",
+			},
+		},
+		[95]={
+			name={"name", name="Mitsurugi"},
+			{
+"“What is it?”",
+			},
+		},
+		[96]={
+			name={"name", name="Priestess"},
+			{
+"“I-I do humbly beg your pardon, noble sire... but if it pleases you...”",
+			},
+		},
+		[97]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Hmm? I did not quite catch that.”",
+			},
+		},
+		[98]={
+			name={"name", name="Priestess"},
+			{
+"“...M-Might you grace me with your name?”",
+			},
+		},
+		[99]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Ah, I see.”",
+			},
+		},
+		[100]={
+			name={"name", name="Mitsurugi"},
+			{
+"“I have not any formal name, but I am known by others as Mitsurugi.”",
+			},
+		},
+		[101]={
+			name={"name", name="Priestess"},
+			{
+"“Ahh, so my savior is the redeemer of the realm...”",
+			},
+		},
+		[102]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Indeed. Now, if you'll bid me leave.”",
+			},
+		},
+		[103]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Awaken, knave.”",
+			},
+		},
+		[104]={
+			{
+"I slap the cheeks of the criminal lying collapsed in the rubble.",
+			},
+		},
+		[105]={
+			name={"name", name="Criminal"},
+			{
+"“*Cough...!* *Cough, cough...*”",
+			},
+		},
+		[106]={
+			name={"name", name="Mitsurugi"},
+			{
+"“How dare you slay so many innocents, vile criminal?”",
+			},
+		},
+		[107]={
+			name={"name", name="Criminal"},
+			{
+"“How dare I? How dare I, he asks... Haha! Wahahahaha!”",
+			},
+		},
+		[108]={
+			name={"name", name="Criminal"},
+			{
+"“Before I even knew it, thems was already corpses.”",
+			},
+		},
+		[109]={
+			name={"name", name="Criminal"},
+			{
+"“If you really wants to know why, you can asks me dead body!”",
+			},
+		},
+		[110]={
+			name={"name", name="Criminal"},
+			{
+"“Heheh, ahahahaha!”",
+			},
+		},
+		[111]={
+			name={"name", name="Mitsurugi"},
+			{
+"“...You slew them for naught but disport?”",
+			},
+		},
+		[112]={
+			{
+"Oh, how tragic his victims are.",
+			},
+		},
+		[113]={
+			{
+"There is at least some human sentiment in murder born of resentment or malice... but mere ",
+{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1},
+"caprice?",
+{"/font"},
+			},
+		},
+		[114]={
+			name={"name", name="Criminal"},
+			{
+"“Y've gots the smell of blood oozin' thick from yer own body, brother.”",
+			},
+		},
+		[115]={
+			name={"name", name="Criminal"},
+			{
+"“No use tryna hide it. That scent of death... me nose knows it anywhere.”",
+			},
+		},
+		[116]={
+			name={"name", name="Mitsurugi"},
+			{
+"“You speak true. I have indeed cut short more lives than I am capable of counting.”",
+			},
+		},
+		[117]={
+			name={"name", name="Mitsurugi"},
+			{
+"“But all of it, I did in defense of the realm.”",
+			},
+		},
+		[118]={
+			{
+"I silence him with a firm strike to the gut.",
+			},
+		},
+		[119]={
+			{
+"The Capital Watch can be entrusted with his interrogation.",
+			},
+		},
+		[120]={
+			{
+"Some time after the manhunt, Tooru arrives at the Imperial Palace.",
+			},
+		},
+		[121]={
+			{
+"This edifice is the residence of Empress Himi-no-Mikoto and the nexus of the Empire's governance.",
+			},
+		},
+		[122]={
+			{
+"As one entrusted with safeguarding the Empress, these opulent halls are where I spend the most of mine days.",
+			},
+		},
+		[123]={
+			name={"name", name="Tooru"},
+			{
+"“Hail, Mitsurugi! You were here all along, eh?”",
+			},
+		},
+		[124]={
+			name={"name", name="Mitsurugi"},
+			{
+"“What is it? Have you business with me?”",
+			},
+		},
+		[125]={
+			name={"name", name="Tooru"},
+			{
+"“I'm here to thank you for your help earlier, what else?”",
+			},
+		},
+		[126]={
+			name={"name", name="Mitsurugi"},
+			{
+"“I need no gratitude.”",
+			},
+		},
+		[127]={
+			name={"name", name="Tooru"},
+			{
+"“C'mon now, don't be like that.”",
+			},
+		},
+		[128]={
+			name={"name", name="Tooru"},
+			{
+"“If you hadn't backed us up, that scoundrel would've gotten away.”",
+			},
+		},
+		[129]={
+			name={"name", name="Tooru"},
+			{
+"“We can always count on you, Mitsurugi! They don't call you the savior of the realm for nothing!”",
+			},
+		},
+		[130]={
+			{
+"He claps me on the shoulder with a genial smile.",
+			},
+		},
+		[131]={
+			{
+"This was by no means the first time I've been roped into assisting Tooru with apprehending a criminal.",
+			},
+		},
+		[132]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Has judgment been passed on that criminal?”",
+			},
+		},
+		[133]={
+			name={"name", name="Tooru"},
+			{
+"“Course he'll be beheaded, and hopefully sooner than later.”",
+			},
+		},
+		[134]={
+			name={"name", name="Tooru"},
+			{
+"“That chap is a lost cause. Seems like he can't help but get some sick pleasure outta murdering people.”",
+			},
+		},
+		[135]={
+			name={"name", name="Mitsurugi"},
+			{
+"“If he is to be beheaded anyway, I ought to have simply dispatched him yesterday.”",
+			},
+		},
+		[136]={
+			{
+"That priestess was placed into unnecessary danger only because I stayed mine hand.",
+			},
+		},
+		[137]={
+			name={"name", name="Tooru"},
+			{
+"“We gotta do things the proper way, Mitsurugi.”",
+			},
+		},
+		[138]={
+			name={"name", name="Tooru"},
+			{
+"“Only the Capital Watch is authorized to dispense justice on behalf of Himi-no-Mikoto-sama while she attends to more important matters.”",
+			},
+		},
+		[139]={
+			name={"name", name="Tooru"},
+			{
+"“It's only proper that we first receive\nHimi-no-Mikoto-sama's assent, even if it's just to execute a common criminal.”",
+			},
+		},
+		[140]={
+			name={"name", name="Mitsurugi"},
+			{
+"“But in actuality, you never do receive her assent.”",
+			},
+		},
+		[141]={
+			name={"name", name="Tooru"},
+			{
+"“It's the pretext that matters, old chap.”",
+			},
+		},
+		[142]={
+			name={"name", name="Tooru"},
+			{
+"“Even if reality doesn't end up working out that way, it's important to keep up appearances.”",
+			},
+		},
+		[143]={
+			name={"name", name="Mitsurugi"},
+			{
+"“How confounding.”",
+			},
+		},
+		[144]={
+			name={"name", name="Tooru"},
+			{
+"“Hahaha, that's the world of man for you.”",
+			},
+		},
+		[145]={
+			name={"name", name="Tooru"},
+			{
+"“Ultimately, it's important to deliver justice to criminals in\nHimi-no-Mikoto-sama's name.”",
+			},
+		},
+		[146]={
+			name={"name", name="Tooru"},
+			{
+"“That's what makes the people feel like Himi-no-Mikoto-sama is watching over them, smiting down evildoers and safeguarding their homes.”",
+			},
+		},
+		[147]={
+			name={"name", name="Mitsurugi"},
+			{
+"“I see. I shall reflect on what you've said.”",
+			},
+		},
+		[148]={
+			{
+"Inou Tooru is a liegeman whose skill with the blade is nonexistent, but claims an intimate familiarity with the ways of “the world of man.”",
+			},
+		},
+		[149]={
+			{
+"As one unfamiliar with such matters, his stories always fascinate me.",
+			},
+		},
+		[150]={
+			name={"name", name="Tooru"},
+			{
+"“Anyways, no need to sweat these small details.”",
+			},
+		},
+		[151]={
+			name={"name", name="Tooru"},
+			{
+"“More importantly, first drink tonight's on me.”",
+			},
+		},
+		[152]={
+			name={"name", name="Mitsurugi"},
+			{
+"“A single drink does naught but whet one's thirst.”",
+			},
+		},
+		[153]={
+			name={"name", name="Tooru"},
+			{
+"“Ain't that the truth! S'pose I'll have to pack a few extra coins in my purse!”",
+			},
+		},
+		[154]={
+			{
+"Tooru shows me an easygoing smile.",
+			},
+		},
+		[155]={
+			name={"name", name="Tooru"},
+			{
+"“Come drop by the guardhouse once you're relieved of your duties.”",
+			},
+		},
+		[156]={
+			name={"name", name="Tooru"},
+			{
+"“I found myself a nice little tavern that just popped up. It'll knock your socks right off.”",
+			},
+		},
+		[157]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Is that so? I look forward to it.”",
+			},
+		},
+		[158]={
+			{
+"Tooru grins as he takes a large swig out of an imaginary cup.",
+			},
+		},
+		[159]={
+			{
+{"font", size=51},
+"From his demeanor, none would suspect that this man could be the head of the venerable House Inou, one of the thirty-six noble houses that form the pillars of the Empire's governance.",
+{"/font"},
+			},
+		},
+		[160]={
+			name={"name", name="???"},
+			{
+"“Discussing matters of drink in broad daylight? It must be a most peaceful day in Tenkyo indeed.”",
+			},
+		},
+		[161]={
+			{
+"A dignified voice resounds across the hall.",
+			},
+		},
+		[162]={
+			{
+"Tooru immediately drops one leg to the floor and lowers his head.",
+			},
+		},
+		[163]={
+			name={"name", name="Tooru"},
+			{
+"“Himi-no-Mikoto-sama, 'tis a splendid day to be graced by your presence!”",
+			},
+		},
+		[164]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“Well met.”",
+			},
+		},
+		[165]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“Regrettably, my mood is far from splendid.”",
+			},
+		},
+		[166]={
+			{
+"All the surroundings immediately take on a newfound sense of serenity at her mere presence.",
+			},
+		},
+		[167]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“Inou, did I not last reprove your heedless summons of Mitsurugi to chase after common criminals?”",
+			},
+		},
+		[168]={
+			{
+"Her amaranthine eyes, abounding with wisdom, demand an answer from Tooru.",
+			},
+		},
+		[169]={
+			name={"name", name="Tooru"},
+			{
+"“My humblest apologies.”",
+			},
+		},
+		[170]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Himi-no-Mikoto, I would say but one thing.”",
+			},
+		},
+		[171]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“You may speak.”",
+			},
+		},
+		[172]={
+			{
+"Those serene springs of amaranth turn in mine direction.",
+			},
+		},
+		[173]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Mine duty is to defend the realm.”",
+			},
+		},
+		[174]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Is assisting its guardsmen not one aspect of that duty?”",
+			},
+		},
+		[175]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“I see now that you interpreted it thus.”",
+			},
+		},
+		[176]={
+			name={"name", name="Mitsurugi"},
+			{
+"“In the first place, I have no defined purpose in times of peace.”",
+			},
+		},
+		[177]={
+			name={"name", name="Mitsurugi"},
+			{
+"“I cannot imagine it fruitless to divert mine spare energies toward maintaining the capital's order.”",
+			},
+		},
+		[178]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“I believe I already bestowed upon you a most paramount duty. Might my memory be failing me?”",
+			},
+		},
+		[179]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Did you, now?”",
+			},
+		},
+		[180]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“Yours is to protect and amuse me!”",
+			},
+		},
+		[181]={
+			name={"name", name="Mitsurugi"},
+			{
+"“Indeed, now I remember.”",
+			},
+		},
+		[182]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“Haah... What a miserable fellow you are, feigning such brazen ignorance!”",
+			},
+		},
+		[183]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“None but you could dare speak to me in such a manner.”",
+			},
+		},
+		[184]={
+			name={"name", name="Mitsurugi"},
+			{
+"“I beg your pardon.”",
+			},
+		},
+		[185]={
+			{
+"I mimic the same posture as Tooru.",
+			},
+		},
+		[186]={
+			{
+"Granted life by Himi-no-Mikoto's magicks, mine existence is one wholly alien to the hierarchies of man.",
+			},
+		},
+		[187]={
+			{
+"Hence, Himi-no-Mikoto graciously abides mine most malapert conduct.",
+			},
+		},
+		[188]={
+			{
+"If one such as Tooru were to behave in a similar manner toward his Empress, he would surely be executed on the spot.",
+			},
+		},
+		[189]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“Oh, enough of this.”",
+			},
+		},
+		[190]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“Attend me. We betake ourselves.”",
+			},
+		},
+		[191]={
+			name={"name", name="Tooru"},
+			{
+"“(Mitsurugi, I'll catch you later.)”",
+			},
+		},
+		[192]={
+			name={"name", name="Mitsurugi"},
+			{
+"“(Yeah.)”",
+			},
+		},
+		[193]={
+			{
+"I briefly meet Tooru's eyes as I rise to mine feet.",
+			},
+		},
+		[194]={
+			{
+"We ascend a gentle slope and come to rest atop a verdant hillside overlooking all of Tenkyo.",
+			},
+		},
+		[195]={
+			{
+"This is Himi-no-Mikoto's favorite site of repose, one she visits often whenever her many labors afford her the opportunity.",
+			},
+		},
+		[196]={
+			{
+"I can no longer recall how many times I've now beheld this vista at her side.",
+			},
+		},
+		[197]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“'Tis a lovely view.”",
+			},
+		},
+		[198]={
+			{
+"Himi-no-Mikoto takes a deep breath as she stretches her hands towards the distant horizon.",
+			},
+		},
+		[199]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“The smoke of hearthfires fills the sky more and more with each passing day.”",
+			},
+		},
+		[200]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“I can think of no greater proof that the people are living in prosperity.”",
+			},
+		},
+		[201]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“Would that someday, Tenkyo might extend its reaches wide enough to cover this entire vast plain.”",
+			},
+		},
+		[202]={
+			{
+"Four years have passed since the Great War.",
+			},
+		},
+		[203]={
+			{
+"Countless smaller realms have been united under the common banner of this Empire, and the long age of sanguinary conflict is behind us.",
+			},
+		},
+		[204]={
+			{
+"Even Tenkyo, once ravaged by the flames of war, is slowly being rebuilt in the image of peace.",
+			},
+		},
+		[205]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“This view is all owed to you, Mitsurugi.”",
+			},
+		},
+		[206]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“All thanks to you, strife has at last been banished from these lands.”",
+			},
+		},
+		[207]={
+			name={"name", name="Mitsurugi"},
+			{
+"“I did nothing more than fulfill mine duty.”",
+			},
+		},
+		[208]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“Will you ",
+{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1},
+"never",
+{"/font"},
+" cease to be such a simpleton?”",
+			},
+		},
+		[209]={
+			name={"name", name="Himi-no-Mikoto"},
+			{
+"“At times like this, you need only to humbly accept your\nEmpress's acclaim.”",
+			},
+		},
+		[210]={
+			{
+"Himi-no-Mikoto graces me with a helpless smile before once more returning her gaze to her beloved Tenkyo vista.",
+			},
+		},
+	},
+	label={
+	},
+}
