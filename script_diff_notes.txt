@@ -23,3 +23,403 @@ Impact:
 - The Switch script has an extra text block in this local section. The line=936 target itself is present in both versions.
 - No other executable/event differences were found after excluding text and ruby payloads.
 - main.ast exists only in switch_root/script; it has no matching Vita file and was not included in the shared-file comparison.
+
+Rendering-sensitive dialogue annotations
+=========================================
+Scope: `root/script/*.ast`; indexed entries in the dialogue payload after the scripting logic.
+Markup tags are listed separately from visible dialogue text.
+
+Top 10 longest dialogue lines without an inline font `size=` override
+---------------------------------------------------------------------
+
+- `hat060010.ast [51]` (202 chars): â€œStarting with the political situation, the Imperial government has effectively ceased functioning, and Empress Hisui has been confined to the Government-General under pretenses of securing her safety.â€
+- `hat770010b.ast [163]` (184 chars): â€œIf I could not succeed with the blade, I could reach for the spear. If that comes to nothing, I still had the bow. Even if all else failed, I could still rely on hand-to-hand combat.â€
+- `hat020165.ast [42]` (176 chars): The realization that Soujin is still alive, that I still get to be by his side, hits me all at once, leaving me so deliriously happy that I hardly know what to do with myself. 
+- `hat050120.ast [149]` (175 chars): â€œWe willingly offer our lives in order to forge spellblades, and even Mitsurugi-sama would not exist if not for the sacrifice of eight hundred and eighty-eight devoted souls.â€
+- `hat050040.ast [47]` (174 chars): â€œYour injuries were very grave, and in order to avail myself of all the magicks I could muster to Heal you, I took the liberty of forming a direct conduit between our souls.â€
+- `hat030020.ast [4]` (173 chars): Naturally, Hotori and I can't go anywhere in public without being tailed, but even warriors who have shown no will to fight whatsoever are being subjected to harsh scrutiny.
+- `hat030020.ast [7]` (173 chars): The daily lives of ordinary civilians are no less burdened; a steep â€œindemnity taxâ€ was levied upon the populace as reparation for the bombing of the Armistice Day ceremony.
+- `hat030270.ast [46]` (173 chars): â€œBut Empress Hisui had to go and flat-out deny her right to rule, right before appointing a Republican as her political advisor. It's only going to make the people anxious.â€
+- `hat030270.ast [82]` (173 chars): She'll be carrying the weight of an entire country on her shoulders, forced to face those who revile her with a smile all while unfalteringly acting in their best interests.
+- `hat050210.ast [233]` (173 chars): Seeing the Exalt-Priestess herself listen to their concerns and Heal their ails, all without seeking anything in return, eventually instilled in the people an abiding trust.
+
+All dialogue lines with inline font parameter overrides
+----------------------------------------------------
+
+- `hat010010.ast [209]` (26 chars): â€œI see. It really is you.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat010010a.ast [70]` (165 chars): Ideally, we want everyone to be equipped with a spellblade by the time of our uprising, but at present, there are only enough to arm half of our two hundred members. | `{"font", size=53}`
+- `hat010010a.ast [550]` (22 chars): â”€That is your purpose. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat010010c.ast [225]` (75 chars): â€œIf you could follow the blade of an Inou, that'd be pretty extraordinary.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat010010c.ast [254]` (28 chars): â€œA student? You, a warrior?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat010020.ast [119]` (56 chars): â€œI take it back. I definitely don't like your attitude.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat010020b.ast [198]` (83 chars): â€œI am a coward. I absolutely can't afford to be arrested before I fulfill my duty.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat010020c.ast [100]` (41 chars): â€œActing chairman. Don't get it mixed up.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat010020e.ast [52]` (46 chars): â€œSo you were tailing them. Sworn Blades work?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat010020e.ast [68]` (86 chars): â€œJust promise me one thing: You are not getting out of this car during the operation.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat010020e.ast [230]` (44 chars): â€œT-T-Tokita-sama? As in, that Tokita-sama?!â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat010020f.ast [64]` (26 chars): â€œOh, now we're talkin'...â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat010030.ast [55]` (46 chars): â€œDo not make any more mistakes. Got it? Good.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat010030a.ast [172]` (45 chars): â€œWe have not been negligent in our training.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat010030c.ast [160]` (32 chars): â€œI am not going to let you die!â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat010040b.ast [38]` (93 chars): The Republicans point their cell phone cameras at whatever interests them, as they always do. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat010040c.ast [13]` (74 chars): â€œWe just received an order from the Imperial Palace. The Imperial Palace!â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat010040g.ast [234]` (63 chars): â€œI am different. A warrior fights only for the sake of fealty.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat010040g.ast [250]` (33 chars): â€œDon't you get it? We're at war.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat010050b.ast [133]` (43 chars): â€œPeople are only as sharp as their spirit.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat010050d.ast [100]` (33 chars): ...But I want him to look for me. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat010050d.ast [144]` (36 chars): â€œWhy must you steal Soujin from me?â€ | `{"font", color="0xcdc0e9"}`
+- `hat010050d.ast [147]` (40 chars): â€œIf it weren't for you, Soujin would...â€ | `{"font", color="0xcdc0e9"}`
+- `hat010050d.ast [148]` (15 chars): â€œUnforgivable.â€ | `{"font", color="0xcdc0e9"}`
+- `hat010050d.ast [149]` (15 chars): â€œUnforgivable!â€ | `{"font", color="0xcdc0e9"}`
+- `hat010050d.ast [223]` (37 chars): The person in front of me is not her. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat010050d.ast [234]` (18 chars): â€œ...Hatsushimo...â€ | `{"font", color="0xcdc0e9"}`
+- `hat010050d.ast [272]` (6 chars): â€œGhh!â€ | `{"font", color="0xcdc0e9"}`
+- `hat010050d.ast [277]` (13 chars): â€œHatsushimo.â€ | `{"font", color="0xcdc0e9"}`
+- `hat010050d.ast [322]` (21 chars): â€œI will protect you!â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat010050d.ast [402]` (46 chars): I grip my blade tightly with both of my hands. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat010050d.ast [412]` (6 chars): â€œGhh!â€ | `{"font", color="0xcdc0e9"}`
+- `hat010050e.ast [113]` (17 chars): There's no way... | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat010050e.ast [114]` (19 chars): It really is you... | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020030.ast [154]` (32 chars): â€œWe will be rescuing my father.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020030.ast [183]` (26 chars): â€œI'm the acting chairman.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020040.ast [24]` (77 chars): â€œLet me remind you that my father still is the chairman of the Sworn Blades.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020040.ast [62]` (173 chars): More members resulted in proportionately more influence in warrior society, and as House Inou's fame soared, the gulf between the Three Founding Houses grew wider and wider. | `{"font", size=53}`
+- `hat020050.ast [10]` (201 chars): â€œWith respect to the bombings carried out at the Armistice Day ceremony, we've discovered definitive evidence which suggests that the perpetrators are linked to remaining elements of the Sworn Blades.â€ | `{"font", size=45}`
+- `hat020050.ast [14]` (170 chars): â€œIf you have any useful eyewitness information to contribute, no matter how insignificant it may seem, please do not hesitate to contact the Republic government-general.â€ | `{"font", size=53}`
+- `hat020050.ast [44]` (183 chars): All alone in that dimly lit room, despite the morbid contents of their conversation, a certain woman puts on a dazzlingly bright smile that would not be out of place on a young child. | `{"font", size=53}`
+- `hat020060.ast [152]` (18 chars): â€œActing chairman.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020060.ast [192]` (62 chars): â€œNow that you mention it, yeah... She's your lord, isn't she?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020060.ast [193]` (36 chars): â€œThat's right... She's your lord...â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020060.ast [282]` (90 chars): To me, it hardly matters that which I wield. All that matters is who it is that wields me. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020070.ast [154]` (118 chars): â€œNothing work-related, of course. We are at school, after all, so wonâ€™t you simply indulge my intellectual curiosity?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020070.ast [182]` (61 chars): â€œWarriors need to be desperate about upholding their fealty.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020070.ast [192]` (139 chars): â€œI understand dying in the course of upholding your fealty, but dying in order to uphold your fealty is putting the cart before the horse.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020070.ast [278]` (157 chars): There's only the warriors of the Sworn Blades, Mutsumi-san, the manager, and Shino, who was responsible for bringing Natsumi to the world in the first place. | `{"font", size=53}`
+- `hat020080.ast [143]` (76 chars): â€œThat's one of the heads of the Three Founders? You've gotta be kidding me.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020090.ast [4]` (46 chars): She's... I'm not the same person I usually am. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020090.ast [45]` (28 chars): â€œNo, I'll make you popular!â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020100.ast [74]` (34 chars): â€œSo... this is our chairman, huh?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020100.ast [82]` (40 chars): â€œWhat the fuck happened to your spirit!â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020100.ast [101]` (67 chars): â€œD'you seriously think any warrior would ever take you for a wife?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020110.ast [73]` (53 chars): â€œWe only look like it because it truly is delicious.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020120.ast [22]` (65 chars): â€œThen is it only because of my bloodline that you're serving me?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020120.ast [33]` (34 chars): â€œYou are worthy of being my lord.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020120.ast [53]` (36 chars): â€œYou are worthy of being my vassal.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020120.ast [238]` (127 chars): I shall see to itâ”€No, all of the Sworn Blades shall see to it that we restore her to her rightful place on the Imperial throne. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020130.ast [67]` (23 chars): â€œHe'd even attack you?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020130.ast [119]` (190 chars): She remembers the security she felt as she buried her face in his broad chest, the sensation of his strong hands on her body, the comforting scent that drifted from him as he embraced her... | `{"font", size=49}`
+- `hat020130.ast [314]` (177 chars): If he truly believed in the ideological pretext for the war, the governor-general should be checking against Okonogi's tyranny and leading the Empire down the road to democracy. | `{"font", size=51}`
+- `hat020165.ast [82]` (43 chars): â”€I will take responsibility for the Blades. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020165.ast [118]` (90 chars): The enemy no longer even registered in my view; all I could see, all I could feel was him. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020165.ast [179]` (80 chars): â€œI actually really, reeeally love you, but now that's all flown out the window.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020170.ast [235]` (81 chars): â€œI mean, it's your cooking. How long have you been feeding me like this already?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020190.ast [55]` (177 chars): Imperial citizens would still sing the praises of the legendary Sworn Blades, they who never let their flame of fealty burn out and bravely fought to win the Empire its freedom. | `{"font", size=53}`
+- `hat020210.ast [41]` (26 chars): â€œI will avenge my father.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020220.ast [57]` (158 chars): â€œ'I've given the acting chairman more hell than anyone, but she is a worthy Executor of the warriors' will. On the honor of House Maki, this I hereby swear.'â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat020220.ast [74]` (169 chars): At the same time, an admirably straightforward man whose purity of spirit and concern for the Sworn Blades and the disciples of the Koubukan are eclipsed by nobody else. | `{"font", size=53}`
+- `hat020220.ast [149]` (46 chars): â€œI am quite experienced with that, after all.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030010.ast [77]` (11 chars): â€œI insist.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030010.ast [129]` (169 chars): Meanwhile, I'll be playing my part by making arrangements within the Republican Army, sabotaging the Imperial Palace's security, and supplying the warriors with weapons. | `{"font", size=53}`
+- `hat030020.ast [10]` (168 chars): She has been working with Kotone to gather the spellblades enshrined in temples across the Empire, all while supporting the Blades financially by performing as Natsumi. | `{"font", size=53}`
+- `hat030020.ast [15]` (174 chars): The long-established wardens of the Imperial Palace, the Forbidden Guard, have been sent out for training, and the Republican Army has assumed security duties in their place. | `{"font", size=53}`
+- `hat030020.ast [17]` (173 chars): However, the Republican occupation boasts a garrison of close to 20,000 troops on standby. If anything were to happen at the palace, reinforcements would arrive immediately. | `{"font", size=51}`
+- `hat030030.ast [128]` (24 chars): â€œI said hypothetically.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030030.ast [296]` (184 chars): Thus, Tenkyo Imperial Academy was transformed from a school for Imperial elites to a site of cultural exchange where Republicans and Imperials could study together under the same roof. | `{"font", size=47}`
+- `hat030030.ast [297]` (171 chars): Helped along by Shino's own experience studying abroad, the Kurushima Group's investment had an easy time attracting the attention of movers and shakers from the Republic. | `{"font", size=51}`
+- `hat030040.ast [55]` (70 chars): â€œAnd Empress Hisui definitely only now started acting like a warrior.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030050.ast [174]` (75 chars): That's why, even without any memories of her, I wish I could hold her dear. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030050.ast [264]` (182 chars): â€œThe same Imperial Family for whom the warriors gave the last measure of their devotion, only to have their positions and their spellbladesâ”€their very soulsâ”€stripped away from them.â€ | `{"font", size=51}`
+- `hat030050.ast [349]` (66 chars): â€œShe's not wrong. It was usâ”€the Imperial Familyâ”€who betrayed her.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030060.ast [37]` (30 chars): â€œCare to explain, Kanami-san?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030060.ast [100]` (59 chars): â€œYou will continue serving as their Empress. Are we clear?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030060.ast [108]` (184 chars): It might've been possible for Tokita-kun to slip under Okonogi's radar if he were hiding his identity, but he's leading a regular life and working at a flower shop under his real name. | `{"font", size=51}`
+- `hat030060.ast [228]` (181 chars): The sight of him stepping out of the store to brave the midsummer rays tugs at the heartstrings as much as the sight of a sea turtle floundering helplessly on a scorching hot beach. | `{"font", size=51}`
+- `hat030070.ast [60]` (12 chars): â€œIt's fine.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030070.ast [261]` (99 chars): â€œI believe we've said it before, but we warriors need to be desperate about how we live our lives.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030080.ast [130]` (78 chars): â€œI'm looking forward to a conclusion where everyone lives happily ever after.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030080.ast [211]` (55 chars): I must be imagining things. The warriors are our enemy. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030100.ast [257]` (74 chars): â€œWith that in mind, do take care how you conduct yourself moving forward.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030100.ast [258]` (12 chars): â€œIt's fine.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030110.ast [42]` (64 chars): â€œThis comes from me and Hotori... No, from all of the warriors.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030110.ast [146]` (34 chars): â€œS-Soujin is my vassal, you know.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030110.ast [166]` (103 chars): â€œRight now, I am the Empress. Isn't it only natural for Her Majesty to have just one faithful servant?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030110.ast [235]` (78 chars): â€œAnd while we may not be connected by blood, we are still brother and sister.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030120.ast [191]` (44 chars): â€œFor me, Onii-sama is my primary objective.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030130.ast [43]` (71 chars): I suppose she would be mad that her vassal disobeyed her direct orders. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030130.ast [88]` (60 chars): â€œDo I have to spell it out for you, Your Imperial Highness?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030130.ast [152]` (72 chars): â€œ'Miyaguni-sama would never allow me to elope with\\nOnii-sama,' was it?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030140.ast [43]` (45 chars): â€œI said, how the hell did you hear about it?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030140.ast [93]` (50 chars): Rochel is completely right... We are the invaders. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030140.ast [268]` (42 chars): â€œYour humble escort awaits, Your Majesty.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030160.ast [69]` (32 chars): What can I do? What should I do? | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030160.ast [81]` (67 chars): I will protect the last and final modicum of virtue left within me. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030160.ast [157]` (24 chars): â€œI was made to surviveâ”€â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030170.ast [239]` (28 chars): â€œI will not be interrupted!â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030180.ast [136]` (26 chars): â€œWhat are you doing here?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030180.ast [137]` (64 chars): â€œI might not look like it, but I am still a Republican soldier.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030180.ast [301]` (21 chars): â€œI will protect you.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030190.ast [291]` (64 chars): â€œUntil that day comes, the two of us have to survive. Together.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030190.ast [298]` (83 chars): Until the day Miyaguni-sama returns to claim her rightful throne, I am the Empress. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030190.ast [308]` (43 chars): The two of us will survive. I will survive. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030200.ast [141]` (55 chars): â€œBut that's exactly why I will democratize the Empire.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030210.ast [3]` (174 chars): The Republican General Government Building, commonly known as the Government-General, is located in a complex running 2300 meters north to south and 1500 meters east to west. | `{"font", size=49}`
+- `hat030210.ast [182]` (45 chars): â€œDo you have any idea what you've just done?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030210.ast [282]` (73 chars): â€œYou will work to bring democracy to the Empire under my administration.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030210.ast [322]` (65 chars): â€œBut by the time you come back to me, you will be Empress Hisui.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030220.ast [333]` (102 chars): â€œAfter all, he did just stand by and watch his own sister sell her country down the river, didn't he?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030230.ast [66]` (142 chars): I swore to live with her, and die with her, and everything with her. And I cannot bear the thought of anyone else taking my place by her side. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030240.ast [29]` (189 chars): Many of those gathered here today are waving little Imperial flags with all their might to give encouragement to their Empress who imagined the unimaginable due to â€œstress-related fatigue.â€ | `{"font", size=49}`
+- `hat030250.ast [137]` (95 chars): That was as much a declaration of goodwill as an admission that she was our enemy up until now. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030260.ast [8]` (174 chars): The Republican General Government Building, commonly known as the Government-General, is located in a complex running 2300 meters north to south and 1500 meters east to west. | `{"font", size=49}`
+- `hat030260.ast [170]` (70 chars): â€œI guess they would be outraged at Warren for bombing his own troops.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030260.ast [300]` (56 chars): â€œAnyways, what do you intend to do next, Your Highness?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat030270.ast [14]` (178 chars): â€œHowever, their efforts alone would have come to nothing if not for the countless brave warriors and Republican soldiers alike who risked their lives that our Empire might live.â€ | `{"font", size=53}`
+- `hat030270.ast [79]` (126 chars): â€œBut no matter how deep I get dragged into the muck of the real world, I will hold on to my last and final modicum of virtue.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat040010.ast [113]` (98 chars): There is at least some human sentiment in murder born of resentment or malice... but mere caprice? | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat040010.ast [159]` (183 chars): From his demeanor, none would suspect that this man could be the head of the venerable House Inou, one of the thirty-six noble houses that form the pillars of the Empire's governance. | `{"font", size=51}`
+- `hat040010.ast [208]` (46 chars): â€œWill you never cease to be such a simpleton?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat040020.ast [18]` (177 chars): A pentacle spanning an entire plain was drawn for the ritual, and all creation was overawed into silence by the majesty of the invocations that flowed forth from its boundaries. | `{"font", size=53}`
+- `hat040020.ast [117]` (31 chars): â€œSay what exactly? Do go on...â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat040020.ast [167]` (80 chars): â€œ...Huh? That Inou Tooru-sama? Might that not make you the head of House Inou?!â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat040020.ast [168]` (82 chars): â€œOh dearie me, seems like the reputation of my ancestors is preceding me as well!â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat040030.ast [17]` (202 chars): I can't imagine Himi-no-Mikoto was actually the child of Oomikami, and it greatly dramatizes the events of the Empire's founding, but in time, the accounts of the Imperial Chronicles will become gospel. | `{"font", size=47}`
+- `hat040030.ast [32]` (128 chars): â€œI intend to cultivate a new generation of orthodox priests and priestesses and appoint them to positions throughout the realm.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat040030.ast [42]` (84 chars): â€œDo endeavor to exhaust all peaceful means of recourse before you exterminate them.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat040030.ast [49]` (177 chars): Though Himi-no-Mikoto was recognized as sovereign for her peerless beauty and proficiency with magicks, it is perhaps her leadership abilities which distinguish her most of all. | `{"font", size=53}`
+- `hat040030.ast [86]` (183 chars): â€œI humbly ask your cooperation to build an Empire that may preserve for ages more, an Empire where our descendants two thousand years hence may live without fear of external threats.â€ | `{"font", size=51}`
+- `hat040030.ast [106]` (87 chars): â€œWould that you might only extend that courtesy to me, I'd have no further complaints.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat040030.ast [130]` (116 chars): â€œHahaha! I suppose it would be inconsiderate of me to create you and then proceed to speak of an end to all strife.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat040030.ast [134]` (50 chars): â€œDo not betray my expectations, Ame no Mitsurugi.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat040030.ast [173]` (171 chars): The armies of the other chiefs, such as Maki, Sarashina, and Inou, followed closely behind and intercepted any enemies that slipped past who would threaten Himi-no-Mikoto. | `{"font", size=53}`
+- `hat040040.ast [61]` (68 chars): â€œOh, so thaaat's it, eh? All these people wants is to have me head?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat040040.ast [159]` (96 chars): â€œAll the tittle-tattle in the palace is that you are the most likely candidate to be her groom!â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat040070.ast [144]` (167 chars): â€œFields tainted, homes despoiled, lives robbed. Every street corner overflowing with the blood of the wretched and cruelly slain. What else could it be but beautiful?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat040070.ast [148]` (56 chars): â€œNever has there been a more beautiful vista than this!â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat040070.ast [187]` (40 chars): â€œWhat I wish for... is your everything.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat040070.ast [188]` (80 chars): â€œYour vestal flesh, your noble heart, your exalted soul... I would have it all.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat040080.ast [26]` (47 chars): â€œWell, have you ever been intimate with a man?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat040090.ast [66]` (57 chars): â€œ...Might I be permitted to take on this responsibility?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat040100.ast [192]` (170 chars): Then, in order to erase their memory from the collective consciousness, fictional artifacts known as the Three Sacred Treasures are to be added to the Imperial Chronicle. | `{"font", size=53}`
+- `hat050010.ast [213]` (199 chars): â€œOur paramount priority moving forward will be the establishment of a just and democratic political order, where each and every citizen will be able to participate as equals in their own governance.â€ | `{"font", size=47}`
+- `hat050010.ast [215]` (174 chars): â€œAt present, we are sparing no effort to capture the\\ninsurrection's ringleader, Miyaguni Akari; her co-conspirator, Tokita Soujin; and the Exalt-Priestess, Shiinoha Kotone.â€ | `{"font", size=53}`
+- `hat050010.ast [240]` (136 chars): â€œAnd on top of that, even if we were to be attacked, there are all manners of Artifacts enshrined here which we can use in our defense.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050010.ast [242]` (178 chars): â€œPrecisely! Inner Iseya was built from the very start to serve as an impenetrable keep, secured by magicks, where the Imperial Family might turn to for refuge in times of peril!â€ | `{"font", size=53}`
+- `hat050020.ast [66]` (154 chars): â€œA warrior is a mere blade of their lord. And if anything, I think it'd be better to be an object if it means not having to have any extraneous thoughts.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050020.ast [67]` (60 chars): â€œA warrior is their lord's blade metaphorically, all right?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050020.ast [87]` (58 chars): â€œYou're saying that the Founding Empress came back as me?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050020.ast [89]` (178 chars): â€œWhen the two of us first met this spring, I felt this... awakening inside of me? I don't know how to describe it, but it felt like the fates themselves had brought us together.â€ | `{"font", size=53}`
+- `hat050020.ast [96]` (24 chars): â€œWhat an honor this is!â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050020.ast [108]` (185 chars): The Artifacts known to all Imperials as the Three Sacred Treasures are nothing more than a pure fabrication added to the Imperial Chronicles by Mitsurugi and the second Exalt-Priestess. | `{"font", size=49}`
+- `hat050020.ast [175]` (210 chars): â€œI mean, there are definitely some things I can't explain, like how my tears are flower petals, or how I can activate spellblades... but isn't it a bit of a stretch to believe I'm someone else's reincarnation?â€ | `{"font", size=47}`
+- `hat050020.ast [190]` (99 chars): It stabs into my heart time and again, each time seemingly an admonition to remember what happened. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050020.ast [199]` (195 chars): But because as soon as I reveal the truth of their relationship to another, I feel like the lingering memories of that dream, still burning bright within my breast, will surely lose their luster. | `{"font", size=51}`
+- `hat050020.ast [228]` (22 chars): â”€That is your purpose. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050030.ast [53]` (64 chars): â€œRiiight, as I seem to recall, you were very familiar with him.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050030.ast [65]` (64 chars): â€œDo not use lethal force. I want them brought back to me alive.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050030.ast [121]` (47 chars): â€œDidn't I already say that everyone else died?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050040.ast [38]` (80 chars): â€œDo you mean to say that it really was you who leapt in to save me at the end?!â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050040.ast [41]` (86 chars): â€œDoes that mean we both saw the same dream? Or rather, we both shared the same dream?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050040.ast [159]` (52 chars): I can't explain it except to say that my body knows. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050040.ast [191]` (93 chars): Those familiar words straight from his lips, attesting that our relationship is nothing more. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050050.ast [66]` (61 chars): â€œU-Umm... I would not call it difficult per se... however...â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050050.ast [135]` (16 chars): â€œSo they say...â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050060.ast [71]` (84 chars): â€œThere surely must have been some significance to a title like 'Mitsurugi's bride.'â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050060.ast [192]` (184 chars): Both now and two thousand years in the past, a single girl with endlessly amaranthine eyes and the weight of the world on her shoulders cast aside her tears for the sake of her Empire. | `{"font", size=51}`
+- `hat050060.ast [194]` (43 chars): â€œWhose promise are you really thinking of?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050060.ast [269]` (48 chars): Ah, how long has it been since I last felt this? | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050070.ast [64]` (32 chars): His is not any mortal existence. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050070.ast [111]` (87 chars): â€œWhy do you kill?! Why must you kill?! Why will you not begone and leave us in peace?!â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050070.ast [117]` (145 chars): â€œIt's gotta be all the more extravagant, all the more beautiful, all the more gruesome... All the better to see you suffer, Mitsurugi, old chap.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050080.ast [42]` (95 chars): â€œI cannot begin to even imagine... just how much he has suffered... how much he will suffer...â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050080.ast [181]` (166 chars): The priestesses outside join their voices to the concord, and the overwhelming resonance of the invocations encircling me threatens to swallow my consciousness whole. | `{"font", size=53}`
+- `hat050100.ast [73]` (60 chars): It was her magicks which reduced Father to... that puppet... | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050100.ast [79]` (16 chars): â€œGive him back!â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050100.ast [159]` (35 chars): â€œI'll be back for you soon enough.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050110.ast [120]` (61 chars): â€œIt is all too easy to say that you will lay down your life.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050110.ast [134]` (51 chars): â€œ...The persimmons were awfully delicious, though.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050120.ast [88]` (190 chars): The regrets of her fallen comrades, the hopes of the Imperial people, the future of the Empireâ”€it's only natural that she would lose her composure, carrying all that weight on her shoulders. | `{"font", size=49}`
+- `hat050120.ast [92]` (75 chars): Shiinoha Kotone may not look the part, but she is still\\nMitsurugi's bride. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050130.ast [5]` (36 chars): But then, why would he tell me that? | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050130.ast [88]` (112 chars): Well, for someone like Isuzu who was never not first, I suppose that would qualify as not even worth mentioning. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050130.ast [116]` (221 chars): â€œAnd so the Founding Empress, in all her infinite compassion for the people, remade the system of magicks such that any priestess could perform miraclesâ”€Wait, why am I lecturing the Exalt-Priestess of all people on this?â€ | `{"font", size=41}`
+- `hat050140.ast [54]` (70 chars): â€œIt doesn't cost you anything either way. So what's holding you back?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050140.ast [55]` (67 chars): She's right. I am hesitating, even in the face of my lord's orders. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050140.ast [60]` (53 chars): She's right. It wouldn't cost me anything either way. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050140.ast [84]` (36 chars): â€œI told youâ”€I know nothing of love.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050150.ast [146]` (60 chars): Eventually, with great difficulty, managed to learn from me. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050150.ast [379]` (71 chars): â€œThough I suppose you're not wrong to call it a position of privilege.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050150.ast [433]` (28 chars): And so, I will protect them. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050150.ast [463]` (48 chars): That I might protect all that is precious to me. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050160.ast [91]` (69 chars): â€œThat's right. What the Exalt-Priestess sealed away was... my power.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050160.ast [104]` (52 chars): â€œMiyaguni-san... Or rather, Your Imperial Highness.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050160.ast [123]` (31 chars): He who murdered Himi-no-Mikoto. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050160.ast [181]` (54 chars): â€œOr rather, that's the reason I created the Republic.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050160.ast [202]` (34 chars): â€œYou will answer for your crimes.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050160.ast [203]` (59 chars): â€œI vow it... on my life, I will see you breathe your last!â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050160.ast [254]` (19 chars): I am Tokita Soujin. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050160.ast [277]` (72 chars): â€œ'I want Soujin to love me as me, as Miyaguni Akari.' Isn't that right?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050160.ast [300]` (77 chars): â€œBut that is one of my favorite pastimes after all, so please do forgive me.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050200.ast [49]` (28 chars): Thank Oomikami, she's alive. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050210.ast [93]` (36 chars): â€œThey're what...?! Not on my watch!â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050210.ast [121]` (60 chars): â€œWe are a married couple, are we not? Whatever is the harm?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050210.ast [165]` (73 chars): â€œDon't you think that's what priestesses have always existed to protect?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat050210.ast [294]` (157 chars): People freely come and go, and after decades of immigration and cultural exchange, there no longer remains any distinction between Republicans and Imperials. | `{"font", size=53}`
+- `hat060010.ast [53]` (179 chars): Following the events of Operation Bellflower, Governor-General Warren hasn't made any public appearances, with Elsa assuming his role as the face of the Republican administration. | `{"font", size=51}`
+- `hat060010.ast [62]` (22 chars): â€œShe is alive, right?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060010.ast [127]` (195 chars): So long as Okonogi was able to convince Warren that it would be more expedient for the Republic to leave everything in his hands, he would be able to preserve the Empire's political institutions. | `{"font", size=49}`
+- `hat060010.ast [132]` (191 chars): We heard this from Okonogi himself, but the manager corroborates that his purging of Imperial loyalists and his plunder of the Empire's wealth were all done as a means to gain Warren's trust. | `{"font", size=47}`
+- `hat060010.ast [148]` (45 chars): It sure wasn't easy getting my hands on this. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060010.ast [149]` (47 chars): Now then, let's wreak a little havoc, shall we? | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060010.ast [153]` (53 chars): All of Tenkyo is encaged by a pattern of spellcrests. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060020.ast [70]` (19 chars): â€œNothing is amiss.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060020.ast [71]` (39 chars): â€œEverything's going according to plan.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060030.ast [73]` (22 chars): What we need is power. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060030.ast [109]` (37 chars): â€œI simply had to try out my new toy.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060030.ast [274]` (178 chars): â€œTokita still chose Miyaguni as his lord despite having lost his memories, and Miyaguni was made aware of my power laying dormant inside her when she came into contact with him.â€ | `{"font", size=51}`
+- `hat060030.ast [305]` (220 chars): â€œBut the same will of creation that brought forth 'one who cuts down all calamity befalling the Empire' necessarily must give rise to 'one who brings untold calamity upon the Empire.' That is the Law of Karmic Antinomy.â€ | `{"font", size=43}`
+- `hat060030.ast [317]` (84 chars): â€œRather, it would be more accurate to say that he is incapable of being eradicated.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060040.ast [12]` (179 chars): The one silver lining is that whether due to a physical condition or just pure luck, there are some like me who managed to retain their sanity at the cost of a splitting headache. | `{"font", size=51}`
+- `hat060040.ast [25]` (26 chars): Because they have magicks. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060040.ast [32]` (19 chars): â€œNothing is amiss.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060040.ast [33]` (39 chars): â€œEverything's going according to plan.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060040.ast [77]` (51 chars): â€œYou ordered Rochel to build an Artifact for that?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060040.ast [81]` (86 chars): â€œIn the coming age, rather than waging war, I will make war in the most literal senseâ€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060040.ast [127]` (63 chars): â€œWe warriors need to be desperate about how we live our lives.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060040.ast [133]` (113 chars): I know what I'm fighting to protect. I'm fighting to protect the last and final modicum of virtue left within me. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060040.ast [137]` (21 chars): â€œI will stop Rochel.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060040.ast [220]` (109 chars): She might have contented herself with hollow complaints to her superiors, but no longer will I stand idly by. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060040.ast [283]` (32 chars): That I was born to be a warrior. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060040.ast [289]` (142 chars): Simply, inexorably, I will continue to fight until my life burns out, just as a beast of prey will continue to hunt until the end of its days. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060040.ast [291]` (19 chars): That is all I need. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060050.ast [184]` (75 chars): How can it be that a mere tool such as I am the only one so shaken by this? | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060050.ast [246]` (190 chars): For this single, fleeting moment, it is not mine Empress who smiles at me, but Himi-no-Mikoto, the kind, sensitive girl whose love for peach blossoms and the Imperial people knows no bounds. | `{"font", size=47}`
+- `hat060060.ast [159]` (57 chars): â€œWe were technically on the student council, weren't we?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060070.ast [274]` (53 chars): Am I truly capable of making someone smile like this? | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060070.ast [291]` (21 chars): â€œI will protect you.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060070.ast [324]` (53 chars): I will protect Akari to the very end, no matter what. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060080.ast [69]` (200 chars): Considering what I know now from Soujin-sama's account of the Empire's founding, this parable is clearly an allegory for the war between Hi no Kuni and Ko no Kuni expressed as a conflict between gods. | `{"font", size=43}`
+- `hat060080.ast [169]` (170 chars): One by one, some with determined intent, others trembling with excitement, others still tongue-tied in nervousness, each warrior steps forward to name themselves in turn. | `{"font", size=53}`
+- `hat060090.ast [66]` (178 chars): â€œBefore I met her, I just killed according to my instincts, but as soon as she asked me to render unto her the most beautiful vista known to this world, I knew what I had to do.â€ | `{"font", size=53}`
+- `hat060090.ast [75]` (76 chars): â€œDon't tell me the two of you went and killed Himi-no-Mikoto and Mitsurugi?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060090.ast [81]` (57 chars): â€œYet you just had to go and put your own feelings first.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060090.ast [164]` (108 chars): Right now, I choose to fight in order to protect Akari, wielding a blade irrevocably tainted by my passions. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060100.ast [82]` (25 chars): â€œOh, that is news to me.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060100.ast [182]` (65 chars): As though it is trying to tear apart the vessel that is her body. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060100.ast [255]` (21 chars): â€œI will protect you.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060100.ast [264]` (26 chars): I will protect you, Akari. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060100.ast [284]` (162 chars): Only as a humanâ”€capable of giving all of myself over to the dominion of sincere, innocent emotionâ”€ am I able to attain the domain of â€œheart and blade in concord.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060100.ast [287]` (54 chars): With heart and blade in concord, my heart is my blade. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060110.ast [99]` (20 chars): Kuronushi-no-Ookami. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060110.ast [167]` (30 chars): Yet she does not, cannot move. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060110.ast [180]` (78 chars): â€œThat's right, dear. It is unfair that you're the only one who has to suffer.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060110.ast [185]` (50 chars): â€œThat's right. What they've done is unforgivable.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060120.ast [65]` (54 chars): He is drawing near from beyond the portal of darkness. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060120.ast [77]` (50 chars): â€œOh, how beautiful! How beautiful! How beautiful!â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060120.ast [78]` (90 chars): Even as Kahaku laughs, His infernal eye glowers with remorseless cold down upon the worldâ”€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060120.ast [124]` (24 chars): â”€Dare you to defy a god? | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060120.ast [235]` (26 chars): That priestess taught her? | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060120.ast [332]` (24 chars): But of my own free will. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060120.ast [360]` (36 chars): â€œEvery last one, without exception!â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060120.ast [391]` (182 chars): In contrast to my unmoving heart of stone, Akari was always tempestuous, passionate beyond measure, capable of countless expressions as rich and vibrant as the seasons of the Empire. | `{"font", size=49}`
+- `hat060130.ast [97]` (62 chars): Then, without a moment's delay, she begins talking about that. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060130.ast [98]` (44 chars): That, of course, being Akari-sama's lineage. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060130.ast [105]` (151 chars): Elsa-sama, acting as the vice governor-general, immediately proceeds to grant the Empire full independence and propose a lasting peace with Akari-sama. | `{"font", size=53}`
+- `hat060130.ast [126]` (175 chars): She reformed the Imperial Police and Okonogi's former Forbidden Guard into a new organization in order to quell any unrest between Republican soldiers and the Imperial people. | `{"font", size=51}`
+- `hat060130.ast [149]` (198 chars): As the newly-appointed Republican governor-general, Elsa-sama also serves as the Republic's ambassador to the Empire, working day and night to establish friendly relations between our two countries. | `{"font", size=47}`
+- `hat060130.ast [157]` (194 chars): It is said that the images of the Republican Army's downfall in Tenkyo, broadcast worldwide in real time, granted courage to all those downtrodden peoples living under the thumb of the Republic. | `{"font", size=47}`
+- `hat060130.ast [279]` (43 chars): Oh... All this time, I was looking for him. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060140.ast [44]` (58 chars): My child's tears of Persica hath traveled far to reach me. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060140.ast [47]` (22 chars): O Kuronushi-no-Ookami, | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060140.ast [48]` (42 chars): I repent for having long defiled Thy land. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060140.ast [49]` (73 chars): The covenant Thou hast made with my subject, I shall now fulfill in full. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060140.ast [52]` (126 chars): His divine light bathes the world, and\\nKuronushi-no-Ookami's joyous voice echoes out across the endless fields of black snow. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060140.ast [78]` (30 chars): Our child, still inside Akari. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060140.ast [105]` (36 chars): Someone has pinioned Kahaku's limbs. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060140.ast [129]` (107 chars): I'll be just like herâ”€someone who cast aside her feelings and discarded her tears to become a true Empress. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat060140.ast [144]` (58 chars): Illuminated by the rising sun, he is standing right there. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat510010.ast [70]` (87 chars): â€œHmm...? I've suspected it for a while now, but you two really are like that, are you?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat520010.ast [8]` (181 chars): Whether it's conferring with foreign ambassadors, bestowing honors upon distinguished individuals, or presiding over sacred ceremonies and rituals, she hardly even has time to rest. | `{"font", size=51}`
+- `hat520010.ast [29]` (184 chars): â€œYour dinner with the Republican ambassador has been cancelled on her own account, and all the preparations for the awards ceremony the day after tomorrow have already been completed.â€ | `{"font", size=49}`
+- `hat520010.ast [154]` (40 chars): â€œYour wish is my command, Your Majesty.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat520010.ast [156]` (174 chars): From that day forward, our impromptu tryst having been witnessed by several servants, the rumor mill in the court returned to whisperings of what a lovey-dovey couple we are. | `{"font", size=53}`
+- `hat530010.ast [97]` (60 chars): â€œBut I certainly have no intentions of hanging up my blade.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat540010.ast [179]` (27 chars): â€œThis is my special place.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat540010.ast [285]` (100 chars): Yet at the same time, I could swear I saw her smiling mischievously at me from behind Akari's back.  | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat560010.ast [1]` (63 chars): â€œStarting today, I shall be the one to take care of Onii-sama.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat560010.ast [12]` (169 chars): With each passing day under Empress Hisui's reign, the Empire moves closer and closer towards peace, but it seems that war is about to break out around me at any moment. | `{"font", size=53}`
+- `hat560010.ast [16]` (122 chars): â€œWhy, when his amnesia left him feeling all alone and anxious, I was the one who was there by his side aaaall night long.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat560010.ast [31]` (176 chars): â€œEvery single one of my 'Unforgettable Moments with\\nOnii-Sama'â”€ninety-nine of them and counting, for your informationâ”€makes your little night look like nothing by comparison.â€ | `{"font", size=45}`
+- `hat560010.ast [47]` (27 chars): â€œ'Sorry I'm late, Kanami.'â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat560010.ast [52]` (72 chars): â€œWhat say you to this level of quality?! I daresay it's tip-top indeed!â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat560010.ast [57]` (97 chars): â€œI hope that makes it perfectly clear. I shall be the one to take care of Onii-sama from now on.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat560010.ast [165]` (24 chars): Kanami is... in my room? | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat570010.ast [183]` (176 chars): Lacking all traces of Empress Hisui's majestic mien, her flushed face instead resembles only the concupiscent countenance of a maiden pining after the object of her affections. | `{"font", size=51}`
+- `hat580010.ast [152]` (78 chars): But I fell in love with her all the sameâ”€my Empress... my sister... my Kanami. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat590010.ast [18]` (32 chars): â€œThat's a little bit too close.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat610010.ast [35]` (30 chars): â€œCan't you do anything right?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat610010.ast [42]` (31 chars): â€œSay no to handwritten no-tes!â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}` ; `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat610010.ast [97]` (38 chars): â€œSeriously? Never? That's impossible.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat610010.ast [181]` (45 chars): â€œWhy is it always you?! Every! Single! Time!â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat620010.ast [25]` (28 chars): â€œIsn't that right, darling?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat630010.ast [192]` (74 chars): After a kiss like that, there's no way I could quell my arousal so easily. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat640010.ast [139]` (49 chars): â€œYeah, I didn't mean it like that... whoa there!â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat660010.ast [210]` (166 chars): Despite the sacrifice of the countless warriors who gave up their lives, the sole emotion that still lives on inside her from that battlefield is undoubtedly elation. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat690010.ast [71]` (51 chars): â€œMight you two not be getting a wee bit too close?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat710010.ast [8]` (17 chars): â”€In her swimsuit. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat710010.ast [48]` (35 chars): â€œYou were looking at me like that?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat730010.ast [95]` (139 chars): â€œElsa and my relationship is entirely different, and I would never confuse the two. You will always be the lord to whom I pledged my life.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat760010.ast [29]` (175 chars): And Shino, with her Imperial father and Republican mother, has been working tirelessly to network and build bridges between financiers and industrialists in our two countries. | `{"font", size=53}`
+- `hat760010.ast [96]` (50 chars): â€œI mean, yeah. She is still a student, after all.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat760010.ast [98]` (82 chars): The Kurushima Group is the conglomerate behind the\\nEmpire's economy and industry. | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat760010a.ast [9]` (176 chars): Shino spearheaded each round of negotiations, and whenever the Republicans tried to find fault with her proposals, Elsa was there to support her with a precise counterargument. | `{"font", size=51}`
+- `hat760010a.ast [51]` (177 chars): â€œYou might not believe it, but I am still a girl, you know? Wanting to receive flowers, dreaming of a prince in shining armor who'll whisk me away, that's all part of the deal.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat760010a.ast [141]` (40 chars): â€œSure, anyone can tell themselves that.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat760010a.ast [168]` (180 chars): â€œIt's all one big load of crap, isn't it? The business world says it doesn't matter if you're a girl or a guy, but you've gotta work harder than any guy if you wanna get anywhere.â€ | `{"font", size=53}`
+- `hat760010b.ast [95]` (214 chars): â€œYou're a well-known warrior, plus you've got connections to all the\\nEmpire's movers and shakers; the governor-general, the Empress, the\\nwarriors' kingpin, the Exalt-Priestess, and our soon-to-be prime minister.â€ | `{"font", size=43}`
+- `hat760010b.ast [101]` (66 chars): â€œEven if it's for the sake of the Empire, are you okay with this?â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat760010b.ast [131]` (38 chars): Seriously, was Shino always this cute? | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat760010c.ast [14]` (106 chars): â€œI am the head of our Group, after all. You bet your ass I've got gold diggers lined up around the block.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat780010.ast [225]` (16 chars): â€œKogitsunemaru!â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat780010.ast [306]` (172 chars): I was fortunately able to clear my good name of any suspicions of perverse prepubescent paraphilia, and I proceeded to bring Akari up to speed about House Ina's spellblade. | `{"font", size=51}`
+- `hat780010.ast [412]` (28 chars): â€œI am the chairman, y'know.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat780010a.ast [248]` (69 chars): â€œEven if I were to tell you, Tokita-san, you would never understand.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat780010a.ast [455]` (20 chars): â€œI'm very lonely...â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+- `hat980010.ast [27]` (38 chars): â€œMy, what a fascinating conversation.â€ | `{"font", face="font/02.ttf", size=55, kerning=-3.5, hung=1}`
+
+All dialogue lines with ruby text
+--------------------------------
+
+- `hat010010.ast [5]` (73 chars): I kneel at the gravestone of my mother, Empress Suou, for the first time. | `{"ruby", text="Sappanwood"}`
+- `hat010010a.ast [14]` (68 chars): The head of the Imperial state is the newly-enthroned Empress Hisui. | `{"ruby", text="Jade"}`
+- `hat010010c.ast [35]` (39 chars): â€œHah! I nearly set off to Ne no Kuni.â€  | `{"ruby", text="the Nether Realm"}`
+- `hat010010c.ast [89]` (101 chars): House Inou's dojo is the Myougikan, House Maki's the Koubukan, and House Sarashina's the Shiseikan.   | `{"ruby", text="Shining Honor"}` ; `{"ruby", text="Flourishing Valor"}` ; `{"ruby", text="Aspiring Purpose"}`
+- `hat010020.ast [233]` (121 chars): Upon descending from Takamagahara, Himi-no-Mikoto quelled the savages with her magicks and her virtue, uniting the realm. | `{"ruby", text="The Divine Plains"}`
+- `hat010020b.ast [251]` (91 chars): â€œThere's this temple behind the palace called the Shireiden. I think they might be there.â€  | `{"ruby", text="Celestial Pavilion"}`
+- `hat010030b.ast [83]` (69 chars): â€œIts inscription is Sazanami. It contains the soul of one priestess.â€ | `{"ruby", text="Ripple"}`
+- `hat010040d.ast [53]` (128 chars): â€œIts inscription is Hana Akari. It was produced approximately ten and five centuries ago with the lives of thirty priestesses. â€ | `{"ruby", text="Floral Splendor"}`
+- `hat010040d.ast [62]` (113 chars): â€œAccording to the Artifact Registry, Hana Akari was commissioned for the purpose of Empress Hiiragi's campaigns.â€ | `{"ruby", text="Holly"}`
+- `hat010050d.ast [142]` (24 chars): The spellblade Yoizuki.  | `{"ruby", text="Evening Moon"}`
+- `hat010050d.ast [234]` (18 chars): â€œ...Hatsushimo...â€ | `{"ruby", text="First Frost"}`
+- `hat020040.ast [188]` (30 chars): Its inscription is Shiranui.   | `{"ruby", text="Nameless Flame"}`
+- `hat020080.ast [88]` (109 chars): â€œRegarding the Ame no Mikagami and the  Yasakani no Magatama, we know little more than what the legends say.â€ | `{"ruby", text="Elysian Looking-Glass"}` ; `{"ruby", text="Jewel of August Majesty"}`
+- `hat020080.ast [89]` (97 chars): â€œBut as for the Ame no Mitsurugi, there are somewhat detailed accounts in the histories of yore.â€ | `{"ruby", text="Exalted Divine Blade"}`
+- `hat020080.ast [105]` (121 chars): â€œThere's a temple deep in the palace called the Shireiden for the Emperor's private use only. They're probably in there.â€ | `{"ruby", text="Celestial Pavilion"}`
+- `hat020140.ast [53]` (30 chars): It's the legendary Shiranui.   | `{"ruby", text="Nameless Flame"}`
+- `hat020150.ast [248]` (98 chars): In turn, Maki raises aloft the spellblade handed down through generations of House Maki, Kurogane. | `{"ruby", text="Ebon Iron"}`
+- `hat020210.ast [205]` (92 chars): In turn, Maki raises the spellblade handed down through generations of House Maki, Kurogane. | `{"ruby", text="Ebon Iron"}`
+- `hat030180.ast [47]` (85 chars): Her faithful spellblade, Kasumi, allows its wielder to meld away into the background. | `{"ruby", text="Haze"}`
+- `hat040020.ast [2]` (50 chars): The mightiest among them was known as Ko no Kuni.  | `{"ruby", text="the Outland Realm"}`
+- `hat040020.ast [9]` (74 chars): The leader of this confederacy was the rulerof Hi no Kuni, Himi-no-Mikoto. | `{"ruby", text="the Rising Sun Realm"}`
+- `hat050140.ast [355]` (125 chars): Even the spellblade shimmering faintly at his hip,  Hyakutan, appears more possessed with the breath of life than its master. | `{"ruby", text="Sandalwood"}`
+- `hat050150.ast [30]` (61 chars): A legendary implement of destruction, the  Ame no Mitsurugi.  | `{"ruby", text="Exalted Divine Blade"}`
+- `hat050150.ast [200]` (74 chars): â€œBehold the essence of magicks, the Guardian Barrier,Ama no Mihashira!â€    | `{"ruby", text="The Pillar of the Empyrean"}`
+- `hat060070.ast [310]` (24 chars): â€œTsukisome-no-Himemiko.â€ | `{"ruby", text="The Princess of Persica"}`
+- `hat060090.ast [96]` (85 chars): The spellblade Kakuriyoâ”€the very essence of the unremitting black snow made manifest. | `{"ruby", text="Abaddon"}`
+- `hat060130.ast [166]` (40 chars): Empress Touka, stands before her people. | `{"ruby", text="Peach Blossom"}`
+- `hat530010.ast [16]` (56 chars): She truly is living up to her title of Empress Touka.    | `{"ruby", text="Peach Blossom"}`
+- `hat780010.ast [139]` (77 chars): From the bound cloth at Koyuzu's side peeks out her spellblade Kogitsunemaru. | `{"ruby", text="Fledgling Fox"}`
+
+Italic text
+-----------
+
+- No explicit italic/italics tag or italic font style attribute was found.
